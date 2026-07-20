@@ -12,3 +12,6 @@ A beautiful text-mode web browser for the 3DS, ported from Lynx.
 
 <img width="629" height="722" alt="image" src="https://github.com/user-attachments/assets/70e66103-b6b4-4dbb-ad03-95ef8887beb7" />
 
+## AI Disclosure:
+
+Code was built with the assistance of Claude LLM. Everything else (Art and sound assets, etc) are my own, not AI. Lynx, and Open Sans are not mine.
