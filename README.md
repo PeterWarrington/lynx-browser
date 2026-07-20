@@ -14,4 +14,4 @@ A beautiful text-mode web browser for the 3DS, ported from Lynx.
 
 ## AI Disclosure:
 
-Code was built with the assistance of Claude LLM. Everything else (Art and sound assets, etc) are my own, not AI. Lynx, and Open Sans are not mine.
+Code was built with the assistance of Claude LLM. Everything else (Art, UI, and sound assets, etc) are my own, not AI. Lynx, and Open Sans are not mine.
