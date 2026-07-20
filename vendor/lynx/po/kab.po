@@ -1,0 +1,6261 @@
+# Kabyle translation of the Lynx browser message catalog
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the lynx package.
+# ZiriSut <zirisut@proton.me>, 2025.
+# Athmane MOKRAOUI <butterflyoffire@protonmail.com>, 2025, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lynx 2.9.0-dev8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-31 10:04-0400\n"
+"PO-Revision-Date: 2026-02-07 14:51+0000\n"
+"Last-Translator: Athmane MOKRAOUI <butterflyoffire@protonmail.com>\n"
+"Language-Team: Kabyle <kab-l10n@lists.fedoraproject.org>\n"
+"Language: kab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Weblate 5.15.2\n"
+
+#. ******************************************************************
+#. * The following definitions are for status line prompts, messages, or
+#. * warnings issued by Lynx during program execution.  You can modify
+#. * them to make them more appropriate for your site.  We recommend that
+#. * you extend these definitions to other languages using the gettext
+#. * library.  There are also scattered uses of 'gettext()' throughout the
+#. * Lynx source, covering all but those messages which (a) are used for
+#. * debugging (CTRACE) or (b) are constants used in interaction with
+#. * other programs.
+#. *
+#. * See ABOUT-NLS and po/readme for details and location of contributed
+#. * translations.  When no translation is available, the English default is
+#. * used.
+#.
+#: LYMessages.c:28
+#, c-format
+msgid "Alert!: %s"
+msgstr "Alɣu: %s"
+
+#: LYMessages.c:29
+msgid "Welcome"
+msgstr "Ansuf"
+
+#: LYMessages.c:30
+msgid "Are you sure you want to quit?"
+msgstr "S tidet tebɣiḍ ad teffɣeḍ?"
+
+#: LYMessages.c:32
+msgid "Really exit from Lynx?"
+msgstr "D tidet, tuffɣa seg Lynx?"
+
+#: LYMessages.c:34
+msgid "Connection interrupted."
+msgstr "Tegzem tuqqna."
+
+#: LYMessages.c:35
+msgid "Data transfer interrupted."
+msgstr "Awelleh n yisefka, yerreẓ."
+
+#: LYMessages.c:36
+msgid "Cancelled!!!"
+msgstr "Yettwasefsex!"
+
+#: LYMessages.c:37
+msgid "Cancelling!"
+msgstr "Asefsex!"
+
+#: LYMessages.c:38
+msgid "Excellent!!!"
+msgstr "Gedha!"
+
+#: LYMessages.c:39
+msgid "OK"
+msgstr "Ih"
+
+#: LYMessages.c:40
+msgid "Done!"
+msgstr "Yemmed!"
+
+#: LYMessages.c:41
+msgid "Bad request!"
+msgstr "Yir assuter!"
+
+#: LYMessages.c:42
+msgid "previous"
+msgstr "agdil udfir"
+
+#: LYMessages.c:43
+msgid "next screen"
+msgstr "agdil uḍfir"
+
+#: LYMessages.c:44
+msgid "HELP!"
+msgstr "TALLALT!"
+
+#: LYMessages.c:45
+msgid ", help on "
+msgstr ", tallalt ɣef "
+
+#. #define HELP
+#: LYMessages.c:47
+msgid "Commands: Use arrow keys to move, '?' for help, 'q' to quit, '<-' to go back."
+msgstr "Anẓaden: Seqdec tiqeffalin n tnila i usenkez n '?' i tallalt, 'q' i tuffɣa, '<-' i tuɣalin ɣer deffir."
+
+#. #define MOREHELP
+#: LYMessages.c:49
+msgid "-- press space for more, use arrow keys to move, '?' for help, 'q' to quit."
+msgstr "-- sit ɣef tallunt i wugar, seqdec tiqeffalin n tnila i usenkez n '?' i tallalt, 'q' i tuffɣa, '<-' i tuɣalin ɣer deffir."
+
+#: LYMessages.c:50
+msgid "-- press space for next page --"
+msgstr "-- sit ɣef tallunt i usebter uḍfir --"
+
+#: LYMessages.c:51
+msgid "URL too long"
+msgstr "URL ɣezzif aṭas"
+
+#. Inactive input fields, messages used with -tna option - kw
+#. #define FORM_LINK_TEXT_ADV_MSG_INA
+#: LYMessages.c:57
+#, c-format
+msgid "(Textfield \"%s\"); Inactive.  Press <return> to activate."
+msgstr "(Urti n uḍris \"%s\"); d arurmid.  Sit ɣef <return> i urmad-is."
+
+#. #define FORM_LINK_TEXT_MESSAGE_INA
+#: LYMessages.c:59
+msgid "(Text entry field) Inactive.  Press <return> to activate."
+msgstr "(Urti n tira uḍris \"%s\") d arurmid.  Sit ɣef <return> i urmad-is."
+
+#. #define FORM_LINK_TEXTAREA_ADV_MSG_INA
+#: LYMessages.c:61
+#, c-format
+msgid "(Textarea \"%s\"); Inactive.  Press <return> to activate."
+msgstr "(Tamnaḍt n uḍris \"%s\"); d arurmid.  Sit ɣef <return> i urmad-is."
+
+#. #define FORM_LINK_TEXTAREA_MESSAGE_INA
+#: LYMessages.c:63
+msgid "(Textarea) Inactive.  Press <return> to activate."
+msgstr "(Tamnaḍt n uḍris) d arurmid.  Sit ɣef <return> i urmad-is."
+
+#. #define FORM_LINK_TEXTAREA_ADV_MSG_INA_E
+#: LYMessages.c:65
+#, c-format
+msgid "(Textarea \"%s\"); Inactive.  Press <return> to activate (%s for editor)."
+msgstr "(Tamnaḍt n uḍris \"%s\"); d arurmid.  Sit ɣef <return> i urmad-is (%s i umaẓrag)."
+
+#. #define FORM_LINK_TEXTAREA_MESSAGE_INA_E
+#: LYMessages.c:67
+#, c-format
+msgid "(Textarea) Inactive.  Press <return> to activate (%s for editor)."
+msgstr "(Tamnaḍt n uḍris) d arurmid.  Sit ɣef <return> i urmad-is (%s i umaẓrag)."
+
+#. #define FORM_LINK_TEXT_SUBMIT_MESSAGE_INA
+#: LYMessages.c:69
+msgid "(Form field) Inactive.  Use <return> to edit."
+msgstr "(Urti n tferkit) d arurmid.  Sit ɣef <return> i uẓrag."
+
+#. #define FORM_TEXT_SUBMIT_MESSAGE_INA_X
+#: LYMessages.c:71
+#, c-format
+msgid "(Form field) Inactive.  Use <return> to edit (%s to submit with no cache)."
+msgstr "(Urti n tferkit) d arurmid.  Sit ɣef <return> i uẓrag (%s i tuzna war takatut)."
+
+#. #define FORM_TEXT_RESUBMIT_MESSAGE_INA
+#: LYMessages.c:73
+msgid "(Form field) Inactive. Press <return> to edit, press <return> twice to submit."
+msgstr "(Urti n tferkit) d arurmid. Sit ɣef <return> i uẓrag, sit ɣef <return> sin yiberdan i tuzna."
+
+#. #define FORM_TEXT_SUBMIT_MAILTO_MSG_INA
+#: LYMessages.c:75
+msgid "(mailto form field) Inactive.  Press <return> to change."
+msgstr "(Urti n tferkit mailto) d arurmid.  Sit ɣef <return> i usenfel."
+
+#. #define FORM_LINK_PASSWORD_MESSAGE_INA
+#: LYMessages.c:77
+msgid "(Password entry field) Inactive.  Press <return> to activate."
+msgstr "(Urti n tira n wawal n uɛeddi) d arurmid.  Sit ɣef <return> i urmad-is."
+
+#. #define FORM_LINK_FILE_UNM_MSG
+#: LYMessages.c:80
+msgid "UNMODIFIABLE file entry field.  Use UP or DOWN arrows or tab to move off."
+msgstr "Urti n unekcum n ufaylu UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_FILE_MESSAGE
+#: LYMessages.c:82
+msgid "(File entry field) Enter filename.  Use UP or DOWN arrows or tab to move off."
+msgstr "(Urti n unekcum n ufaylu) Sekcem isem n ufaylu.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXT_ADV_MSG
+#. #define FORM_LINK_TEXT_MESSAGE
+#: LYMessages.c:84 LYMessages.c:86
+#, c-format
+msgid "(Textfield \"%s\"); Enter text.  Use UP or DOWN arrows or tab to move off."
+msgstr "(Urti n uḍris \"%s\"), sekcem aḍris.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXTAREA_ADV_MSG
+#: LYMessages.c:88
+#, c-format
+msgid "(Textarea \"%s\"); Enter text. Use UP/DOWN arrows or TAB to move off."
+msgstr "(Urti n uḍris \"%s\"); Sekcem aḍris. Seqec tineccabin 'ASAWEN/AKESSAR' neɣ 'TAB' i unkaz."
+
+#. #define FORM_LINK_TEXTAREA_MESSAGE
+#: LYMessages.c:90
+msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off."
+msgstr "(Urti n uḍris), sekcem aḍris. Seqdec tineccabin ASAWEN/AKESSAR neɣ TAB i unkaz."
+
+#. #define FORM_LINK_TEXTAREA_ADV_MSG_E
+#: LYMessages.c:92
+#, c-format
+msgid "(Textarea \"%s\"); Enter text. Use UP/DOWN arrows or TAB to move off (%s for editor)."
+msgstr "(Tamnaḍt n uḍris\"%s\" ), sekcem aḍris. Seqsec tineccabin ASAWEN/AKESSAR neɣ TAB i unkaz (%s i umaẓrag)."
+
+#. #define FORM_LINK_TEXTAREA_MESSAGE_E
+#: LYMessages.c:94
+#, c-format
+msgid "(Textarea) Enter text. Use UP/DOWN arrows or TAB to move off (%s for editor)."
+msgstr "(Tamnaḍt n uḍris) sekcem aḍris. Seqdec tineccabin ASAWEN/AKESSAR neɣ TAB i unkaz (%s i umaẓrag)."
+
+#. #define FORM_LINK_TEXT_UNM_MSG
+#: LYMessages.c:96
+msgid "UNMODIFIABLE form text field.  Use UP or DOWN arrows or tab to move off."
+msgstr "Urti n tferkit n uḍris UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXT_SUBMIT_MESSAGE
+#: LYMessages.c:98
+msgid "(Form field) Enter text.  Use <return> to submit."
+msgstr "(Urti n tferkit) Sekcem aḍris.  Sit ɣef <return> i uẓrag, sit ɣef <return> sin yiberdan i tuzna."
+
+#. #define FORM_LINK_TEXT_SUBMIT_MESSAGE_X
+#: LYMessages.c:100
+#, c-format
+msgid "(Form field) Enter text.  Use <return> to submit (%s for no cache)."
+msgstr "(Urti n tferkit) Sekcem aḍris.  Sit ɣef <return> i tuzna (%s i tuzna war takatut)."
+
+#. #define FORM_LINK_TEXT_RESUBMIT_MESSAGE
+#: LYMessages.c:102
+msgid "(Form field) Enter text.  Use <return> to submit, arrows or tab to move off."
+msgstr "(Urti n tferkit) Sekcem aḍris.  Seqec <return> i tuzna, tinelwa neɣ ' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXT_SUBMIT_UNM_MSG
+#: LYMessages.c:104
+msgid "UNMODIFIABLE form field.  Use UP or DOWN arrows or tab to move off."
+msgstr "Urti n tferkit UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXT_SUBMIT_MAILTO_MSG
+#: LYMessages.c:106
+msgid "(mailto form field) Enter text.  Use <return> to submit, arrows to move off."
+msgstr "(Urti n tferkit mailto) Sekcem aḍris.  Seqec <return> i tuzna, tinelwa neɣ ' 'tab' i unkaz."
+
+#. #define FORM_LINK_TEXT_SUBMIT_MAILTO_DIS_MSG
+#: LYMessages.c:108
+msgid "(mailto form field) Mail is disallowed so you cannot submit."
+msgstr "(urti n tferkit mailto) Imayl, ur yettwasireg ara. Ɣef waya ur tezmireḍ ara ad tazneḍ."
+
+#. #define FORM_LINK_PASSWORD_MESSAGE
+#: LYMessages.c:110
+msgid "(Password entry field) Enter text.  Use UP or DOWN arrows or tab to move off."
+msgstr "(Urti n unekcum n wawal n uɛeddi) Sekcem aḍris.  Seqec tineccabin 'ASAWEN', 'AKESSAR' 'tab' i unkaz."
+
+#. #define FORM_LINK_PASSWORD_UNM_MSG
+#: LYMessages.c:112
+msgid "UNMODIFIABLE form password.  Use UP or DOWN arrows or tab to move off."
+msgstr "Awal n uɛeddi n tferkit UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_CHECKBOX_ADV_MSG
+#: LYMessages.c:114
+#, c-format
+msgid "(Checkbox \"%s\");   Use right-arrow or <return> to toggle."
+msgstr "(Tabewwaḍt n ṛṛcem \"%s\");   Seqdec tanila tayeffust neɣ <return> i uneggez."
+
+#. #define FORM_LINK_CHECKBOX_MESSAGE
+#: LYMessages.c:116
+msgid "(Checkbox Field)   Use right-arrow or <return> to toggle."
+msgstr "(Tabewwaḍt n ṛṛcem);   Seqdec tanila tayeffust neɣ <return> i uneggez."
+
+#. #define FORM_LINK_CHECKBOX_UNM_MSG
+#: LYMessages.c:118
+msgid "UNMODIFIABLE form checkbox.  Use UP or DOWN arrows or tab to move off."
+msgstr "Tabewwaḍt n ṛṛcem n tferkit UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_RADIO_ADV_MSG
+#: LYMessages.c:120
+#, c-format
+msgid "(Radio Button \"%s\");   Use right-arrow or <return> to toggle."
+msgstr "(Taqeffalt n ṛṛadyu \"%s\");   Seqdec tanila tayeffust neɣ <return> i uneggez."
+
+#. #define FORM_LINK_RADIO_MESSAGE
+#: LYMessages.c:122
+msgid "(Radio Button)   Use right-arrow or <return> to toggle."
+msgstr "(Taqeffalt n ṛṛadyu);   Seqdec tanila tayeffust neɣ <return> i uneggez."
+
+#. #define FORM_LINK_RADIO_UNM_MSG
+#: LYMessages.c:124
+msgid "UNMODIFIABLE form radio button.  Use UP or DOWN arrows or tab to move off."
+msgstr "Taqeffalt n ṛṛadyu n tferkit UR YETTWASENFALAY ARA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_SUBMIT_PREFIX
+#: LYMessages.c:126
+msgid "Submit ('x' for no cache) to "
+msgstr "Azen ('x' i war takatut) ɣer "
+
+#. #define FORM_LINK_RESUBMIT_PREFIX
+#: LYMessages.c:128
+msgid "Submit to "
+msgstr "Azen ɣer "
+
+#. #define FORM_LINK_SUBMIT_MESSAGE
+#: LYMessages.c:130
+msgid "(Form submit button) Use right-arrow or <return> to submit ('x' for no cache)."
+msgstr "(Taqeffalt n tuzna n tferkit) Seqdec tanila tayeffust neɣ <return> i tuzna ('x' i war takatut)."
+
+#. #define FORM_LINK_RESUBMIT_MESSAGE
+#: LYMessages.c:132
+msgid "(Form submit button) Use right-arrow or <return> to submit."
+msgstr "(Taqeffalt n tuzna n tferkit) Seqdec tanila tayeffust neɣ <return> i tuzna."
+
+#. #define FORM_LINK_SUBMIT_DIS_MSG
+#: LYMessages.c:134
+msgid "DISABLED form submit button.  Use UP or DOWN arrows or tab to move off."
+msgstr "Taqeffalt n tuzna n tferkit TENSA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_SUBMIT_MAILTO_PREFIX
+#: LYMessages.c:136
+msgid "Submit mailto form to "
+msgstr "Azen tiferkit mailto ɣer "
+
+#. #define FORM_LINK_SUBMIT_MAILTO_MSG
+#: LYMessages.c:138
+msgid "(mailto form submit button) Use right-arrow or <return> to submit."
+msgstr "(Taqeffalt n tuzna n tferkit mailto) Seqdec tanila tayeffust neɣ <return> i tuzna."
+
+#. #define FORM_LINK_SUBMIT_MAILTO_DIS_MSG
+#: LYMessages.c:140
+msgid "(mailto form submit button) Mail is disallowed so you cannot submit."
+msgstr "(taqeffalt n tuzna n tferkit mailto) Imayl, ur yettwasireg ara. Ɣef waya ur tezmireḍ ara ad tazneḍ."
+
+#. #define FORM_LINK_RESET_MESSAGE
+#: LYMessages.c:142
+msgid "(Form reset button)   Use right-arrow or <return> to reset form to defaults."
+msgstr "(Taqeffalt n uwennez n tferkit)   Seqdec tanila tayeffust neɣ <return> i uwennez n tferkit ɣer yimezwar."
+
+#. #define FORM_LINK_RESET_DIS_MSG
+#: LYMessages.c:144
+msgid "DISABLED form reset button.  Use UP or DOWN arrows or tab to move off."
+msgstr "Taqeffalt n uwennez n tferkit TENSA.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_BUTTON_MESSAGE
+#: LYMessages.c:146
+msgid "(Script button)   Use UP or DOWN arrows or tab to move off."
+msgstr "(Taqeffalt n usekript)   Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_BUTTON_ADV_MSG
+#: LYMessages.c:148
+#, c-format
+msgid "(Script button \"%s\");   Use UP or DOWN arrows or tab to move off."
+msgstr "(Taqeffalt n usekript \"%s\");   Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_BUTTON_DIS_MSG
+#: LYMessages.c:150
+msgid "DISABLED Script button.  Use UP or DOWN arrows or tab to move off."
+msgstr "Taqeffalt n usekript, tensa.  Seqec tineccabin 'ASAWEN', 'AKESSAR' neɣ 'tab' i unkaz."
+
+#. #define FORM_LINK_OPTION_LIST_ADV_MSG
+#: LYMessages.c:152
+#, c-format
+msgid "(Option list \"%s\"); Hit return to select option."
+msgstr "(Tabdart n textiṛiyin \"%s\"); Sit ɣef return i ufran n textiṛt."
+
+#. #define FORM_LINK_OPTION_LIST_MESSAGE
+#: LYMessages.c:154
+msgid "(Option list) Hit return and use arrow keys and return to select option."
+msgstr "(Tabdart n textiṛiyin) Sit ɣef return syen seqdec tiqeffalin n tnilwin i ufran n textiṛt."
+
+#. #define CHOICE_LIST_ADV_MSG
+#: LYMessages.c:156
+#, c-format
+msgid "(Choice entry \"%s\"); Use arrow keys and return to select option."
+msgstr "(Tabdart n textiṛiyin \"%s\") Sit ɣef return syen seqdec tiqeffalin n tnilwin i ufran n textiṛt."
+
+#. #define CHOICE_LIST_MESSAGE
+#: LYMessages.c:158
+msgid "(Choice list) Hit return and use arrow keys and return to select option."
+msgstr "(Tabdart n ufran) Sit ɣef return syen seqdec tiqeffalin n tnilwin i ufran n textiṛt."
+
+#. #define MOUSE_CHOICE_MESSAGE
+#: LYMessages.c:160
+msgid "Left mouse button or return to select, arrow keys to scroll."
+msgstr "Taqeffalt tazelmaḍt n tɣerdayt neɣ <entrée> i ufran, tineccabin i udrurem."
+
+#. #define FORM_LINK_OPTION_LIST_UNM_MSG
+#: LYMessages.c:162
+msgid "UNMODIFIABLE option list.  Use return or arrow keys to review or leave."
+msgstr "Tabdart n ufran UR TETTWASNEFLAY ARA. Sit ɣef return neɣ ɣef tqeffalin n tnilwin i usenqed neɣ i tuffɣa."
+
+#. #define CHOICE_LIST_UNM_MSG
+#: LYMessages.c:164
+msgid "UNMODIFIABLE choice list.  Use return or arrow keys to review or leave."
+msgstr "Tabdart n ufran UR TETTWASNEFLAY ARA. Sit ɣef return neɣ ɣef tqeffalin n tnilwin i usenqed neɣ i tuffɣa."
+
+#: LYMessages.c:165
+msgid "Submitting form..."
+msgstr "Tuzna n tferkit..."
+
+#: LYMessages.c:166
+msgid "Resetting form..."
+msgstr "Awennez seg..."
+
+#. #define RELOADING_FORM
+#: LYMessages.c:168
+msgid "Reloading document.  Any form entries will be lost!"
+msgstr "Allus n usali n yisemli. Inekcam n tferkit, ad ruḥen!"
+
+#. #define LINK_NOT_IN_FORM
+#: LYMessages.c:170
+msgid "The current link is not in a FORM"
+msgstr "Aseɣwen amiran ulac-it deg tferkit"
+
+#: LYMessages.c:171
+#, c-format
+msgid "Warning: Cannot transcode form data to charset %s!"
+msgstr "D awezɣi asettengel n yisefka n tferkit deg tegrumma n yisekkilen %s!"
+
+#. #define NORMAL_LINK_MESSAGE
+#: LYMessages.c:174
+msgid "(NORMAL LINK)   Use right-arrow or <return> to activate."
+msgstr "(ASEƔWEN AMAGNU);   Seqdec tanila tayeffust neɣ <return> i uneggez."
+
+#: LYMessages.c:175
+msgid "The resource requested is not available at this time."
+msgstr "Aɣbalu i yettwassran ulac-it akka tura."
+
+#: LYMessages.c:176
+msgid "Enter Lynx keystroke command: "
+msgstr "Sekcem anẓad Lynx s unasiw: "
+
+#: LYMessages.c:177
+msgid "Looking up "
+msgstr "Anadi "
+
+#: LYMessages.c:178
+#, c-format
+msgid "Getting %s"
+msgstr "Awway n %s"
+
+#: LYMessages.c:179
+#, c-format
+msgid "Skipping %s"
+msgstr "Azgal n %s"
+
+#: LYMessages.c:180
+#, c-format
+msgid "Using %s"
+msgstr "S useqdec n %s"
+
+#: LYMessages.c:181
+#, c-format
+msgid "Illegal URL: %s"
+msgstr "URL aruzrif: %s"
+
+#: LYMessages.c:182
+#, c-format
+msgid "Badly formed address %s"
+msgstr "Yir amsal n tansa %s"
+
+#: LYMessages.c:183
+#, c-format
+msgid "URL: %s"
+msgstr "URL: %s"
+
+#: LYMessages.c:184
+msgid "Unable to access WWW file!!!"
+msgstr "Yegguma ad yekcem ɣer ufayu WWW!!!"
+
+#: LYMessages.c:185
+#, c-format
+msgid "This is a searchable index.  Use %s to search."
+msgstr "Amatar-a yella unadi deg-s.  Seqdec %s i unadi."
+
+#. #define WWW_INDEX_MORE_MESSAGE
+#: LYMessages.c:187
+#, c-format
+msgid "--More--  This is a searchable index.  Use %s to search."
+msgstr "--Ugar--  Amatar-a yella unadi deg-s.  Seqdec %s i unadi."
+
+#: LYMessages.c:188
+msgid "You have entered an invalid link number."
+msgstr "Teskecmeḍ uṭṭun n useɣwen arameɣtu."
+
+#. #define SOURCE_HELP
+#: LYMessages.c:190
+msgid "Currently viewing document source.  Press '\\' to return to rendered version."
+msgstr "La tessenqadeḍ aɣbalu n yisemli.  Sit ɣef '\\' i lqem afelaḍris."
+
+#. #define NOVICE_LINE_ONE
+#: LYMessages.c:192
+msgid "  Arrow keys: Up and Down to move.  Right to follow a link; Left to go back.  \n"
+msgstr "  Tiqeffalin n tnilwa: Asawen d Ukessar i unkaz.  Ayeffus i uḍfar n useɣwen; Azelmaḍ i tuɣalin ɣer deffir.  \n"
+
+#. #define NOVICE_LINE_TWO
+#: LYMessages.c:194
+msgid " H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list \n"
+msgstr " H)Tallalt O)Tixtiṛiyin P)Siggez G)Ddu M)Agdil agejdan Q)Ffeɣ /=nadi [sfeḍ]=tabdart n wezray \n"
+
+#. #define NOVICE_LINE_TWO_A
+#: LYMessages.c:196
+msgid "  O)ther cmds  H)elp  K)eymap  G)oto  P)rint  M)ain screen  o)ptions  Q)uit  \n"
+msgstr "  O)Tiyaḍ am  H)Tallalt  K)Anasiw  G)Ddu  P)Siggez  M)Agdil agejdan  o)tixtiṛiyin  Q)Ffeɣ  \n"
+
+#. #define NOVICE_LINE_TWO_B
+#: LYMessages.c:198
+msgid "  O)ther cmds  B)ack  E)dit  D)ownload ^R)eload ^W)ipe screen  search doc: / \n"
+msgstr "  O)Tiyaḍ am B)Tuɣalin ɣer deffir E)Ẓreg D)Sader ^R)Ales azdem ^W)Sfeḍ agdil </> nadi doc: / \n"
+
+#. #define NOVICE_LINE_TWO_C
+#: LYMessages.c:200
+msgid "O)ther cmds  C)omment  History: <backspace>  Bookmarks: V)iew, A)dd, R)emove \n"
+msgstr "O)Tiyaḍ am  C)iwenniten <tuɣalin>=azray | Ticraḍ : V)senqed, A)rnu, R)kkes \n"
+
+#. #define FORM_NOVICELINE_ONE
+#: LYMessages.c:202
+msgid "            Enter text into the field by typing on the keyboard              "
+msgstr "            Sekcem aḍris deg wurti s tira ɣef unasiw              "
+
+#. #define FORM_NOVICELINE_TWO
+#: LYMessages.c:204
+msgid "    Ctrl-U to delete all text in field, [Backspace] to delete a character    "
+msgstr "    Ctrl-U i tukksa akk n uḍris deg wurti, [Imendeffir] i tukksa n usekkil    "
+
+#. #define FORM_NOVICELINE_TWO_DELBL
+#: LYMessages.c:206
+msgid "      Ctrl-U to delete text in field, [Backspace] to delete a character    "
+msgstr "      Ctrl-U i tukksa n uḍris deg wurti, [Imendeffir] i tukksa n usekkil    "
+
+#. #define FORM_NOVICELINE_TWO_VAR
+#: LYMessages.c:208
+#, c-format
+msgid "    %s to delete all text in field, [Backspace] to delete a character    "
+msgstr "    %s i tukksa akk n uḍris deg wurti, [Imendeffir] i tukksa n usekkil    "
+
+#. #define FORM_NOVICELINE_TWO_DELBL_VAR
+#: LYMessages.c:210
+#, c-format
+msgid "      %s to delete text in field, [Backspace] to delete a character    "
+msgstr "      %s i tukksa n uḍris deg wurti, [Imendeffir] i tukksa n usekkil    "
+
+#. mailto
+#: LYMessages.c:213
+msgid "Malformed mailto form submission!  Cancelled!"
+msgstr "Yir amsal n tuzna n tferkit mailto!  Yettwasefsex!"
+
+#: LYMessages.c:214
+msgid "Warning!  Control codes in mail address replaced by ?"
+msgstr "Alɣu!  Tingalin n uneggafdeg tansa n yimayl tettwasmelsi s ?"
+
+#: LYMessages.c:215
+msgid "Mail disallowed!  Cannot submit."
+msgstr "Yekkes usireg n yimayl!  Ur yezmir ara ad yazen."
+
+#: LYMessages.c:216
+msgid "Mailto form submission failed!"
+msgstr "Urti n tuzna n tferkit mailto!"
+
+#: LYMessages.c:217
+msgid "Mailto form submission Cancelled!!!"
+msgstr "Yir amsal n tuzna n tferkit mailto Yettwasefsex!!!"
+
+#: LYMessages.c:218
+msgid "Sending form content..."
+msgstr "Tuzna n ugbur n tferkit..."
+
+#: LYMessages.c:219
+msgid "No email address is present in mailto URL!"
+msgstr "Ulac tansa n yimayl i yellan deg URL mailto!"
+
+#. #define MAILTO_URL_TEMPOPEN_FAILED
+#: LYMessages.c:221
+msgid "Unable to open temporary file for mailto URL!"
+msgstr "D awezɣi alday n ufaylu uɛḍil i URL mailto!"
+
+#. #define INC_ORIG_MSG_PROMPT
+#: LYMessages.c:223
+msgid "Do you wish to include the original message?"
+msgstr "Tebɣiḍ ad tsedduḍ izen aɣbalu?"
+
+#. #define INC_PREPARSED_MSG_PROMPT
+#: LYMessages.c:225
+msgid "Do you wish to include the preparsed source?"
+msgstr "Tebɣiḍ ad tsedduḍ aɣbalu n uslaḍ uzwir?"
+
+#. #define SPAWNING_EDITOR_FOR_MAIL
+#: LYMessages.c:227
+msgid "Spawning your selected editor to edit mail message"
+msgstr "Askar n umaẓrag i yettwafernen i uẓrag n yizen n yimayl"
+
+#. #define ERROR_SPAWNING_EDITOR
+#: LYMessages.c:229
+msgid "Error spawning editor, check your editor definition in the options menu"
+msgstr "Tuccḍa deg uskar n umaẓrag, senqed asesteb n umaẓrag deg wumuɣ n textiṛiyin"
+
+#: LYMessages.c:230
+msgid "Send this comment?"
+msgstr "Azen awennit-a?"
+
+#: LYMessages.c:231
+msgid "Send this message?"
+msgstr "Azen izen-a?"
+
+#: LYMessages.c:232
+msgid "Sending your message..."
+msgstr "Tuzna n yizen-ik⋅im..."
+
+#: LYMessages.c:233
+msgid "Sending your comment:"
+msgstr "Tuzna n uwennit-ik×im:"
+
+#. textarea
+#: LYMessages.c:236
+msgid "Not in a TEXTAREA; cannot use external editor."
+msgstr "Mačči deg TEMNAḌT N UḌRIS; ur yezmir ara ad isseqdec amaẓrag yeffɣen."
+
+#: LYMessages.c:237
+msgid "Not in a TEXTAREA; cannot use command."
+msgstr "Mačči deg TEMNAḌT N UḌRIS; ur yezmir ara ad isseqdec anzaḍ."
+
+#: LYMessages.c:239
+msgid "file: ACTIONs are disallowed!"
+msgstr "afaylu: TIGAWIN, ur ttwasirgent ara!"
+
+#. #define FILE_SERVED_LINKS_DISALLOWED
+#: LYMessages.c:241
+msgid "file: URLs via served links are disallowed!"
+msgstr "afaylu: URLs s yiseɣwan yettwaszeryen, ur ttwasirgen ara!"
+
+#: LYMessages.c:242
+msgid "Access to local files denied."
+msgstr "Anekcum ɣer yifuyla idiganen, yettwagdel."
+
+#: LYMessages.c:243
+msgid "file: URLs via bookmarks are disallowed!"
+msgstr "afaylu: URLs, ur ttwasirgen ara!"
+
+#. #define SPECIAL_VIA_EXTERNAL_DISALLOWED
+#: LYMessages.c:245
+msgid "This special URL is not allowed in external documents!"
+msgstr "URL-a uzzig ur yettwasireg deg yisemliyen yeffɣen!"
+
+#: LYMessages.c:246
+msgid "Press <return> to return to Lynx."
+msgstr "Sit ɣef <return> i tuɣalin ɣer Lynx."
+
+#. #define SPAWNING_MSG
+#: LYMessages.c:249
+msgid "Spawning DCL subprocess.  Use 'logout' to return to Lynx.\n"
+msgstr "Askar n ukala arnaw DCL.  Seqdec 'logout' i tuɣalin ɣer Lynx.\n"
+
+#. #define SPAWNING_MSG
+#: LYMessages.c:253
+msgid "Type EXIT to return to Lynx.\n"
+msgstr "Sit ɣef FFEƔ i tuɣalin ɣer Lynx.\n"
+
+#. #define SPAWNING_MSG
+#: LYMessages.c:256
+msgid "Spawning your default shell.  Use 'exit' to return to Lynx.\n"
+msgstr "Askar n shell amezwar.  Seqdec 'exit' i tuɣalin ɣer Lynx.\n"
+
+#: LYMessages.c:259
+msgid "Spawning is currently disabled."
+msgstr "Asenker yensa melmi kan."
+
+#: LYMessages.c:260
+msgid "The 'd'ownload command is currently disabled."
+msgstr "Anzaḍ i 'd'yettwasadren, tensa melmi kan."
+
+#: LYMessages.c:261
+msgid "You cannot download an input field."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ urti n unekcam."
+
+#: LYMessages.c:262
+msgid "Form has a mailto action!  Cannot download."
+msgstr "Tiferkit ɣur-s tigawt mailto!   Ur yezmir ara ad d-isader."
+
+#: LYMessages.c:263
+msgid "You cannot download a mailto: link."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ mailto: aseɣwen."
+
+#: LYMessages.c:264
+msgid "You cannot download cookies."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ inagan n tuqqna."
+
+#: LYMessages.c:265
+msgid "You cannot download a printing option."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ taxtiṛt n usiggez."
+
+#: LYMessages.c:266
+msgid "You cannot download an upload option."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ taxtiṛt n usali."
+
+#: LYMessages.c:267
+msgid "You cannot download an permit option."
+msgstr "Ur tezmireḍ ara ad d-tsadreḍ taxtiṛt n usireg."
+
+#: LYMessages.c:268
+msgid "This special URL cannot be downloaded!"
+msgstr "URL-a uzzig ur yettwasarag ara!"
+
+#: LYMessages.c:269
+msgid "Nothing to download."
+msgstr "Ulac ayen ara tsadreḍ."
+
+#: LYMessages.c:270
+msgid "Trace ON!"
+msgstr "Adriz YERMED!"
+
+#: LYMessages.c:271
+msgid "Trace OFF!"
+msgstr "Adriz YENSA!"
+
+#. #define CLICKABLE_IMAGES_ON
+#: LYMessages.c:273
+msgid "Links will be included for all images!  Reloading..."
+msgstr "Iseɣwan ad ttwarnun i tugniwin s umata! Allus n usali..."
+
+#. #define CLICKABLE_IMAGES_OFF
+#: LYMessages.c:275
+msgid "Standard image handling restored!  Reloading..."
+msgstr "Asesfer n tugna talugant, yettwarr-d!  Allus n uzdam…"
+
+#. #define PSEUDO_INLINE_ALTS_ON
+#: LYMessages.c:277
+msgid "Pseudo_ALTs will be inserted for inlines without ALT strings!  Reloading..."
+msgstr "Meffeismawen _ALT ad ttwarren i tugniwin war izriren ALT!  Allus n uzdam…"
+
+#. #define PSEUDO_INLINE_ALTS_OFF
+#: LYMessages.c:279
+msgid "Inlines without an ALT string specified will be ignored!  Reloading..."
+msgstr "Tugniwin ara yeddun war amyerr azrir ALT, ad ttwanfent!  Allus n uzdam…"
+
+#: LYMessages.c:280
+msgid "Raw 8-bit or CJK mode toggled OFF!  Reloading..."
+msgstr "Askar Raw 8-bit neɣ CJK yensa!  Allus n uzdam..."
+
+#: LYMessages.c:281
+msgid "Raw 8-bit or CJK mode toggled ON!  Reloading..."
+msgstr "Askar Raw 8-bit neɣ CJK yermed!  Allus n uzdam..."
+
+#. #define HEAD_D_L_OR_CANCEL
+#: LYMessages.c:283
+msgid "Send HEAD request for D)ocument or L)ink, or C)ancel? (d,l,c): "
+msgstr "Azen assuter n UQERRU i D)yisemli neɣ L)aseɣwen, neɣ C)sefsex? (d,c): "
+
+#. #define HEAD_D_OR_CANCEL
+#: LYMessages.c:285
+msgid "Send HEAD request for D)ocument, or C)ancel? (d,c): "
+msgstr "Azen assuter n UQERRU i D)yisemli, neɣ C)sefsex? (d,c): "
+
+#: LYMessages.c:286
+msgid "Sorry, the document is not an http URL."
+msgstr "Nesḥassef, isemli mačči d URL http."
+
+#: LYMessages.c:287
+msgid "Sorry, the link is not an http URL."
+msgstr "Nesḥassef, aseɣwen mačči d URL http."
+
+#: LYMessages.c:288
+msgid "Sorry, the ACTION for this form is disabled."
+msgstr "Nesḥassaf, tensa TIGAWT i tferkit-a."
+
+#. #define FORM_ACTION_NOT_HTTP_URL
+#: LYMessages.c:290
+msgid "Sorry, the ACTION for this form is not an http URL."
+msgstr "Nesḥassef, TIGAWT i tferkit-a mačči d URL http."
+
+#: LYMessages.c:291
+msgid "Not an http URL or form ACTION!"
+msgstr "Mačči d URL http, mačči d tiferkit TIGAWT !"
+
+#: LYMessages.c:292
+msgid "This special URL cannot be a form ACTION!"
+msgstr "URL-a uzzig ur yezmir ara ad yili d tiferkit TIGAWT!"
+
+#: LYMessages.c:293
+msgid "URL is not in starting realm!"
+msgstr "URL ulac-it deg amyellel n usenkar!"
+
+#: LYMessages.c:294
+msgid "News posting is disabled!"
+msgstr "Tuzna n yisalan, yensa!"
+
+#: LYMessages.c:295
+msgid "File management support is disabled!"
+msgstr "Tallalt n usefrek n yifuyla, tensa!"
+
+#: LYMessages.c:296
+msgid "No jump file is currently available."
+msgstr "Ulac afaylu n unegzum i yellan akka tura."
+
+#: LYMessages.c:297
+msgid "Jump to (use '?' for list): "
+msgstr "Neggez ɣer (seqdec '?' i tebdart): "
+
+#: LYMessages.c:298
+msgid "Jumping to a shortcut URL is disallowed!"
+msgstr "Tuɣalin ɣer URL n unegzum, ur yettwasireg ara!"
+
+#: LYMessages.c:299
+msgid "Random URL is disallowed!  Use a shortcut."
+msgstr "URL agacuran ur yettwasireg ara!  Seqdec anegzum."
+
+#: LYMessages.c:300
+msgid "No random URLs have been used thus far."
+msgstr "Ulac URLs igacuranen yettwaseqdacen akka ar tura."
+
+#: LYMessages.c:301
+msgid "Bookmark features are currently disabled."
+msgstr "Timahilin n tecraḍ, nsant akka tura."
+
+#: LYMessages.c:302
+msgid "Execution via bookmarks is disabled."
+msgstr "Aselkem seg tecraḍ, yensa."
+
+#. #define BOOKMARK_FILE_NOT_DEFINED
+#: LYMessages.c:304
+#, c-format
+msgid "Bookmark file is not defined. Use %s to see options."
+msgstr "Afaylu n tecraḍ, ur yettusbadu ara. Seqdec %s akken ad twaliḍ tixtiṛiyin."
+
+#. #define NO_TEMP_FOR_HOTLIST
+#: LYMessages.c:306
+msgid "Unable to open tempfile for X Mosaic hotlist conversion."
+msgstr "D awezɣi alday n ufaylu uɛḍil i uselket n yismenyaf X Mosaic."
+
+#: LYMessages.c:307
+msgid "ERROR - unable to open bookmark file."
+msgstr "TUCCḌA - awezɣi alday n ufaylu n tecraḍ."
+
+#. #define BOOKMARK_OPEN_FAILED_FOR_DEL
+#: LYMessages.c:309
+msgid "Unable to open bookmark file for deletion of link."
+msgstr "D awezɣi alday n ufaylu n tecraḍ i tukksa n useɣwen."
+
+#. #define BOOKSCRA_OPEN_FAILED_FOR_DEL
+#: LYMessages.c:311
+msgid "Unable to open scratch file for deletion of link."
+msgstr "D awezɣi alday n ufaylu scratch i tukksa n useɣwen."
+
+#: LYMessages.c:313
+msgid "Error renaming scratch file."
+msgstr "Tuccḍa deg usenfel n yisem n ufaylu scratch."
+
+#: LYMessages.c:315
+msgid "Error renaming temporary file."
+msgstr "Tuccḍa deg usenfel n yisem n ufayli uɛḍil."
+
+#. #define BOOKTEMP_COPY_FAIL
+#: LYMessages.c:317
+msgid "Unable to copy temporary file for deletion of link."
+msgstr "D awezɣi anɣal n ufaylu uɛḍil i tukksa n useɣwen."
+
+#. #define BOOKTEMP_REOPEN_FAIL_FOR_DEL
+#: LYMessages.c:319
+msgid "Unable to reopen temporary file for deletion of link."
+msgstr "D awezɣi allus n ulday n ufaylu uɛḍil i tukksa n useɣwen."
+
+#. #define BOOKMARK_LINK_NOT_ONE_LINE
+#: LYMessages.c:322
+msgid "Link is not by itself all on one line in bookmark file."
+msgstr "Aseɣwen ur yettili ara kan ɣef yiwen yizirig deg ufaylu n tecraḍ."
+
+#: LYMessages.c:323
+msgid "Bookmark deletion failed."
+msgstr "Tecceḍ tukksa n tecreḍt."
+
+#. #define BOOKMARKS_NOT_TRAVERSED
+#: LYMessages.c:325
+msgid "Bookmark files cannot be traversed (only http URLs)."
+msgstr "Ifuyla n tecraḍ, d awezɣi anekcum ɣur-sen (slid URLs http)."
+
+#. #define BOOKMARKS_NOT_OPEN
+#: LYMessages.c:327
+msgid "Unable to open bookmark file, use 'a' to save a link first"
+msgstr "D awezɣi alday n ufaylu n tecraḍ, seqdec 'a' i usekles n useɣwen qbel"
+
+#: LYMessages.c:328
+msgid "There are no links in this bookmark file!"
+msgstr "Ulac iseɣwan deg ufaylu-a n tecraḍ!"
+
+#. #define CACHE_D_OR_CANCEL
+#: LYMessages.c:330
+msgid "D)elete cached document or C)ancel? (d,c): "
+msgstr "D)kkes isemli yellan deg tkatut neɣ sefsex? (d,c): "
+
+#. #define BOOK_D_L_OR_CANCEL
+#: LYMessages.c:332
+msgid "Save D)ocument or L)ink to bookmark file or C)ancel? (d,l,c): "
+msgstr "Sekles D)isemli neɣ L)aseɣwen deg ufaylu n tecraḍ neɣ C)sefsex? (d,c): "
+
+#: LYMessages.c:333
+msgid "Save D)ocument to bookmark file or C)ancel? (d,c): "
+msgstr "Sekles D)isemli deg ufaylu n tecraḍ neɣ C)sefsex? (d,c): "
+
+#: LYMessages.c:334
+msgid "Save L)ink to bookmark file or C)ancel? (l,c): "
+msgstr "Sekles L)aseɣwen deg ufaylu n tecraḍ neɣ C)sefsex? (d,c): "
+
+#. #define NOBOOK_POST_FORM
+#: LYMessages.c:336
+msgid "Documents from forms with POST content cannot be saved as bookmarks."
+msgstr "Isemliyen seg tferkiyin s ugbur n TSUFFAƔ, ur yezmir ara ad yettwasekles d ticraḍ."
+
+#: LYMessages.c:337
+msgid "Cannot save form fields/links"
+msgstr "Ur yettmir ara ad issekles urtan/iseɣwan n tferkit"
+
+#. #define NOBOOK_HSML
+#: LYMessages.c:339
+msgid "History, showinfo, menu and list files cannot be saved as bookmarks."
+msgstr "Azray, talɣut, umuɣ akked yismenyifen ur zmiren ara ad ttwaskelsen d ticraḍ."
+
+#. #define CONFIRM_BOOKMARK_DELETE
+#: LYMessages.c:341
+msgid "Do you really want to delete this link from your bookmark file?"
+msgstr "D tidet tebɣiḍ ad tekkseḍ aseɣwen-a seg ufayl-k⋅m n tecraḍ?"
+
+#: LYMessages.c:342
+msgid "Malformed address."
+msgstr "Yir amsal n tansa."
+
+#. #define HISTORICAL_ON_MINIMAL_OFF
+#: LYMessages.c:344
+msgid "Historical comment parsing ON (Minimal is overridden)!"
+msgstr "Aslaḍ azrayan YETTWARMED (Aslaḍ abruyan, yettwasefsex)!"
+
+#. #define HISTORICAL_OFF_MINIMAL_ON
+#: LYMessages.c:346
+msgid "Historical comment parsing OFF (Minimal is in effect)!"
+msgstr "Asaḍ azrayan YENSA (Aslaḍ abruyan, iteddu)!"
+
+#. #define HISTORICAL_ON_VALID_OFF
+#: LYMessages.c:348
+msgid "Historical comment parsing ON (Valid is overridden)!"
+msgstr "Aslaḍ azrayan YETTWARMED (Aslaḍ n usentem, yettwasefsex)!"
+
+#. #define HISTORICAL_OFF_VALID_ON
+#: LYMessages.c:350
+msgid "Historical comment parsing OFF (Valid is in effect)!"
+msgstr "Aslaḍ azrayan YENSA (Aslaḍ n usentem, iteddu)!"
+
+#. #define MINIMAL_ON_IN_EFFECT
+#: LYMessages.c:352
+msgid "Minimal comment parsing ON (and in effect)!"
+msgstr "Aslaḍ abruyan YETTWARMED (la iteddu)!"
+
+#. #define MINIMAL_OFF_VALID_ON
+#: LYMessages.c:354
+msgid "Minimal comment parsing OFF (Valid is in effect)!"
+msgstr "Aslaḍ abruyan YENSA (aslaḍ n usentem la iteddu)!"
+
+#. #define MINIMAL_ON_BUT_HISTORICAL
+#: LYMessages.c:356
+msgid "Minimal comment parsing ON (but Historical is in effect)!"
+msgstr "Aslaḍ abruyan YETTWARMED (Aslaḍ azrayan, iteddu)!"
+
+#. #define MINIMAL_OFF_HISTORICAL_ON
+#: LYMessages.c:358
+msgid "Minimal comment parsing OFF (Historical is in effect)!"
+msgstr "Aslaḍ abruyan YENSA (Aslaḍ azrayan, iteddu)!"
+
+#: LYMessages.c:359
+msgid "Soft double-quote parsing ON!"
+msgstr "Aslaḍ n tuccar tusligin, YETTWARMED!"
+
+#: LYMessages.c:360
+msgid "Soft double-quote parsing OFF!"
+msgstr "Aslaḍ n tuccar tusligin, YENSA!"
+
+#: LYMessages.c:361
+msgid "Now using TagSoup parsing of HTML."
+msgstr "Aslaḍ HTML s useqdec n TagSoup."
+
+#: LYMessages.c:362
+msgid "Now using SortaSGML parsing of HTML!"
+msgstr "Aslaḍ HTML s useqdec n SortaSGML!"
+
+#: LYMessages.c:363
+msgid "You are already at the end of this document."
+msgstr "Aqla-k⋅kem yakan deg taggara n yisemli-a."
+
+#: LYMessages.c:364
+msgid "You are already at the beginning of this document."
+msgstr "Aqla-k⋅kem yakan deg tazwara n yisemli-a."
+
+#: LYMessages.c:365
+#, c-format
+msgid "You are already at page %d of this document."
+msgstr "Aqla-k⋅kem yakan deg usebter wis %d n yisemli-a."
+
+#: LYMessages.c:366
+#, c-format
+msgid "Link number %d already is current."
+msgstr "Amḍan n yiseɣwan %d yella yakan."
+
+#: LYMessages.c:367
+msgid "You are already at the first document"
+msgstr "Telliḍ yakan deg yisemli amezwaru"
+
+#: LYMessages.c:368
+msgid "There are no links above this line of the document."
+msgstr "Ulac iseɣwan nnig yizirig-a n yisemli."
+
+#: LYMessages.c:369
+msgid "There are no links below this line of the document."
+msgstr "Ulac iseɣwan ddaw yizirig-a n yisemli."
+
+#. #define MAXLEN_REACHED_DEL_OR_MOV
+#: LYMessages.c:371
+msgid "Maximum length reached!  Delete text or move off field."
+msgstr "Teɣzi tafellayt, tewweḍ!  Kkes aḍris neɣ ffeɣ seg wurti."
+
+#. #define NOT_ON_SUBMIT_OR_LINK
+#: LYMessages.c:373
+msgid "You are not on a form submission button or normal link."
+msgstr "Mačči ɣef tqeffalt n tuzna n ufaylu neɣ ɣef useɣwen amagnu ay telliḍ."
+
+#. #define NEED_CHECKED_RADIO_BUTTON
+#: LYMessages.c:375
+msgid "One radio button must be checked at all times!"
+msgstr "Yiwet seg tqeffalin n ṛṛadyu ilaq ad tettwasenqad sya ɣer da!"
+
+#: LYMessages.c:376
+msgid "No submit button for this form, submit single text field?"
+msgstr "Ulac taqeffalt n tuzna i tferkit-a, azen urti n uḍris asuf?"
+
+#: LYMessages.c:377
+msgid "Do you want to go back to the previous document?"
+msgstr "Tebɣiḍ ad tuɣaleḍ ɣer yisemli udfir?"
+
+#: LYMessages.c:378
+msgid "Use arrows or tab to move off of field."
+msgstr "Seqdec tineccabin neɣ tab i tuffɣa seg wurti."
+
+#. #define ENTER_TEXT_ARROWS_OR_TAB
+#: LYMessages.c:380
+msgid "Enter text.  Use arrows or tab to move off of field."
+msgstr "Sekcem aḍris.  Seqdec tineccabin neɣ tab i tuffɣa seg wurti."
+
+#: LYMessages.c:381
+msgid "** Bad HTML!!  No form action defined. **"
+msgstr "** Yir HTML!!  Ulac tigawt n tferkit i yettusbadun. **"
+
+#: LYMessages.c:382
+msgid "Bad HTML!!  Unable to create popup window!"
+msgstr "Yir HTML!!  D aweẓɣi timerna n usfaylu udhim!"
+
+#: LYMessages.c:383
+msgid "Unable to create popup window!"
+msgstr "D aweẓɣi timerna n usfaylu udhim!"
+
+#: LYMessages.c:384
+msgid "Goto a random URL is disallowed!"
+msgstr "Tiddin ɣer URL agacuran, ur yettwasireg ara!"
+
+#: LYMessages.c:385
+msgid "Goto a non-http URL is disallowed!"
+msgstr "Anekcum ɣer URL ur nelli hhtp, ur yettwasireg ara!"
+
+#: LYMessages.c:386
+#, c-format
+msgid "You are not allowed to goto \"%s\" URLs"
+msgstr "Ur tettwasirgeḍ ara ad tedduḍ ɣ€r URLs \"%s\""
+
+#: LYMessages.c:387
+msgid "URL to open: "
+msgstr "URL i ulday: "
+
+#: LYMessages.c:388
+msgid "Edit the current Goto URL: "
+msgstr "Ẓreg URL n Goto amiran: "
+
+#: LYMessages.c:389
+msgid "Edit the previous Goto URL: "
+msgstr "Ẓreg tiddin ɣer URL udfir: "
+
+#: LYMessages.c:390
+msgid "Edit a previous Goto URL: "
+msgstr "Ẓreg URL n Goto udfir: "
+
+#: LYMessages.c:391
+msgid "Current document has POST data."
+msgstr "Isemli amiran deg-s isefka POST."
+
+#: LYMessages.c:392
+msgid "Edit this document's URL: "
+msgstr "Ẓreg URL n yisemli-a: "
+
+#: LYMessages.c:393
+msgid "Edit the current link's URL: "
+msgstr "Ẓreg iseɣwan n URL amiran: "
+
+#: LYMessages.c:394
+msgid "Edit the form's submit-URL: "
+msgstr "Ẓreg URL n tuzna n tferkit: "
+
+#: LYMessages.c:395
+msgid "You cannot edit File Management URLs"
+msgstr "Ur tezmireḍ ara ad tẓergeḍ URLs n usefrek n yifuyla"
+
+#: LYMessages.c:396
+msgid "Enter a database query: "
+msgstr "Sekcem tuttra n taffa n yisefka: "
+
+#: LYMessages.c:397
+msgid "Enter a whereis query: "
+msgstr "Sekcem awal i tnadiḍ: "
+
+#: LYMessages.c:398
+msgid "Edit the current query: "
+msgstr "Ẓreg tuttra tamirant: "
+
+#: LYMessages.c:399
+msgid "Edit the previous query: "
+msgstr "Ẓreg tuttra yezrin: "
+
+#: LYMessages.c:400
+msgid "Edit a previous query: "
+msgstr "Ẓreg tuttra tudfirt: "
+
+#. #define USE_C_R_TO_RESUB_CUR_QUERY
+#: LYMessages.c:402
+msgid "Use Control-R to resubmit the current query."
+msgstr "Seqdec Ctrl-R i wallus n tuzna n tuttra-a."
+
+#: LYMessages.c:403
+msgid "Edit the current shortcut: "
+msgstr "Ẓreg anegzum amiran: "
+
+#: LYMessages.c:404
+msgid "Edit the previous shortcut: "
+msgstr "Ẓreg anegzum uzwir: "
+
+#: LYMessages.c:405
+msgid "Edit a previous shortcut: "
+msgstr "Ẓreg anegzum uzwir: "
+
+#: LYMessages.c:406
+#, c-format
+msgid "Key '%c' is not mapped to a jump file!"
+msgstr "Taqlteffa <%c> ur yettwasesteb ara i wakken ad yemṣada d unegzum!"
+
+#: LYMessages.c:407
+msgid "Cannot locate jump file!"
+msgstr "Ur yezmir ara ad isideg afaylu n unegzum!"
+
+#: LYMessages.c:408
+msgid "Cannot open jump file!"
+msgstr "Ur yezmir ara ad yeldi afaylu n unegzum!"
+
+#: LYMessages.c:409
+msgid "Error reading jump file!"
+msgstr "Tuccḍa deg tɣuri n ufaylu n unegzum!"
+
+#: LYMessages.c:410
+msgid "Out of memory reading jump file!"
+msgstr "Drus n tkatut i tɣuri n uafaylu n unegzum!"
+
+#: LYMessages.c:411
+msgid "Out of memory reading jump table!"
+msgstr "Tafelwit n ungaz n tɣuri beṛṛa n tkatut!"
+
+#: LYMessages.c:412
+msgid "No index is currently available."
+msgstr "Ulac amatar i yellan akka tura."
+
+#. #define CONFIRM_MAIN_SCREEN
+#: LYMessages.c:414
+msgid "Do you really want to go to the Main screen?"
+msgstr "D tidet tebɣiḍ ad tedduḍ ɣer ugdil agejdan?"
+
+#: LYMessages.c:415
+msgid "You are already at main screen!"
+msgstr "Aqla-k⋅kem yakan deg ugdil agejdan!"
+
+#. #define NOT_ISINDEX
+#: LYMessages.c:417
+msgid "Not a searchable indexed document -- press '/' to search for a text string"
+msgstr "Mačči d isemli yettwasmitren ideg tzemreḍ ad tqelbeḍ -- sit ɣef '/' i unadi ɣef uzriri n uḍriḍ"
+
+#. #define NO_OWNER
+#: LYMessages.c:419
+msgid "No owner is defined for this file so you cannot send a comment"
+msgstr "Ur yettusbadu ara bab n ufaylu-a, ɣef waya ulamek i tuzneḍ awennit"
+
+#: LYMessages.c:420
+#, c-format
+msgid "No owner is defined. Use %s?"
+msgstr "Ur yettusbadu ara bab-is. Seqdec %s?"
+
+#: LYMessages.c:421
+msgid "Do you wish to send a comment?"
+msgstr "Tebɣiḍ ad tazneḍ awennit?"
+
+#: LYMessages.c:422
+msgid "Mail is disallowed so you cannot send a comment"
+msgstr "Ur yettusbadu ara yimayl, ɣef waya ulamek i tuzneḍ awennit"
+
+#: LYMessages.c:423
+msgid "The 'e'dit command is currently disabled."
+msgstr "Anzaḍ 'e'ẓreg tensa akka tura."
+
+#: LYMessages.c:424
+msgid "External editing is currently disabled."
+msgstr "Aẓrag azɣaray, yensa akka tura."
+
+#: LYMessages.c:425
+msgid "System error - failure to get status."
+msgstr "Tuccḍa n unagraw - yecceḍ wawway n waddad."
+
+#: LYMessages.c:426
+msgid "No editor is defined!"
+msgstr "Ulac amaẓrag i yettusbadun!"
+
+#: LYMessages.c:427
+msgid "The 'p'rint command is currently disabled."
+msgstr "Anzaḍ 'p'siggez tensa akka tura."
+
+#: LYMessages.c:428
+msgid "Document has no Toolbar links or Banner."
+msgstr "Isemli ur yesɛi iseɣwan deg ufeggag n yifecka, ur yesɛi aɣerrac."
+
+#: LYMessages.c:429
+msgid "Unable to open traversal file."
+msgstr "D awezɣi alday n ufaylu n usezger."
+
+#: LYMessages.c:430
+msgid "Unable to open traversal found file."
+msgstr "D awezɣi alday n ufaylu n usezger i yettwafen."
+
+#: LYMessages.c:431
+msgid "Unable to open reject file."
+msgstr "D awezɣi alday n ufaylu i yettwagedlen."
+
+#: LYMessages.c:432
+msgid "Unable to open traversal errors output file"
+msgstr "D awezɣi alday n ufaylu n usuffeɣ n tuccdiwin n usezger"
+
+#: LYMessages.c:433
+msgid "TRAVERSAL WAS INTERRUPTED"
+msgstr "ASEZGER YETTWAGZEM"
+
+#: LYMessages.c:434
+msgid "Follow link (or goto link or page) number: "
+msgstr "Ḍfer uṭṭun n useɣwen (neɣ aseɣwen goto neɣ asebter): "
+
+#: LYMessages.c:435
+msgid "Select option (or page) number: "
+msgstr "Fren uṭṭun n textiṛt (neɣ asebter): "
+
+#: LYMessages.c:436
+#, c-format
+msgid "Option number %d already is current."
+msgstr "Uṭṭun n textiṛt %d, iteddu yakan."
+
+#. #define ALREADY_AT_OPTION_END
+#: LYMessages.c:438
+msgid "You are already at the end of this option list."
+msgstr "Aqla-k⋅kem yakan deg taggara n tebdart-a n textiṛiyin."
+
+#. #define ALREADY_AT_OPTION_BEGIN
+#: LYMessages.c:440
+msgid "You are already at the beginning of this option list."
+msgstr "Aqla-k⋅kem yakan deg tazwara n tebdart-a n textiṛiyin."
+
+#. #define ALREADY_AT_OPTION_PAGE
+#: LYMessages.c:442
+#, c-format
+msgid "You are already at page %d of this option list."
+msgstr "Aqla-k⋅kem yakan deg %d n tebdart-a n textiṛiyin."
+
+#: LYMessages.c:443
+msgid "You have entered an invalid option number."
+msgstr "Teskecmeḍ uṭṭun n textiṛt tarameɣtut."
+
+#: LYMessages.c:444
+msgid "** Bad HTML!!  Use -trace to diagnose. **"
+msgstr "** Yir HTML!!  Seqdec -adriz i unined. **"
+
+#: LYMessages.c:445
+msgid "Give name of file to save in"
+msgstr "Mudd isem n ufaylu i usekles deg"
+
+#: LYMessages.c:446
+msgid "Can't save data to file -- please run WWW locally"
+msgstr "Ur yezmir ara ad issekles isefka deg ufaylu -- ttxil-k⋅m selkem WWW s wudem adigan"
+
+#: LYMessages.c:447
+msgid "Can't open temporary file!"
+msgstr "Ur yezmir ara ad d-yeldi afayli uɛḍil!"
+
+#: LYMessages.c:448
+msgid "Can't open output file!  Cancelling!"
+msgstr "Yegguma ad yeldi afaylu n usuffeɣ!  Asefsex!"
+
+#: LYMessages.c:449
+msgid "Execution is disabled."
+msgstr "Aselkem, yensa."
+
+#. #define EXECUTION_DISABLED_FOR_FILE
+#: LYMessages.c:451
+#, c-format
+msgid "Execution is not enabled for this file.  See the Options menu (use %s)."
+msgstr "Aselkem, ur yettwarmad ara i ufaylu-a.  Seqdec umuɣ n textiṛiyin (seqdec %s)."
+
+#. #define EXECUTION_NOT_COMPILED
+#: LYMessages.c:453
+msgid "Execution capabilities are not compiled into this version."
+msgstr "Tizemmar n uselkem ur ttwasefsunt ara deg lqem-a."
+
+#: LYMessages.c:454
+msgid "This file cannot be displayed on this terminal."
+msgstr "Afaylu-a ur yezmir ara ad yettwaskan ɣef yixef-a."
+
+#. #define CANNOT_DISPLAY_FILE_D_OR_C
+#: LYMessages.c:456
+msgid "This file cannot be displayed on this terminal:  D)ownload, or C)ancel"
+msgstr "Afaylu-a ulamek i yettwaskan ɣef yixef-a: D)sader, neɣ C)sefsex"
+
+#: LYMessages.c:457
+#, c-format
+msgid "%s  D)ownload, or C)ancel"
+msgstr "%s  D)sader, or C)sefsex"
+
+#: LYMessages.c:458
+msgid "Cancelling file."
+msgstr "Asefsax n ufaylu."
+
+#: LYMessages.c:459
+msgid "Retrieving file.  - PLEASE WAIT -"
+msgstr "Tiririt n ufaylu.  - TTXIL-K⋅M RǦU -"
+
+#: LYMessages.c:460
+msgid "Enter a filename: "
+msgstr "Sekcem isem n ufaylu: "
+
+#: LYMessages.c:461
+msgid "Edit the previous filename: "
+msgstr "Ẓreg isem n ufaylu udfir: "
+
+#: LYMessages.c:462
+msgid "Edit a previous filename: "
+msgstr "Ẓreg isem n ufaylu yezrin: "
+
+#: LYMessages.c:463
+msgid "Enter a new filename: "
+msgstr "Sekcem isem n ufaylu amaynut: "
+
+#: LYMessages.c:464
+msgid "File name may not begin with a dot."
+msgstr "Isem n ufaylu yezmer ur ibeddu ara s dot."
+
+#: LYMessages.c:466
+msgid "File exists.  Create higher version?"
+msgstr "Yella ufaylu-a.  Rnu lqem ɛlayen?"
+
+#: LYMessages.c:468
+msgid "File exists.  Overwrite?"
+msgstr "Yella ufaylu-a.  Sfeɛjeq?"
+
+#: LYMessages.c:470
+msgid "Cannot write to file."
+msgstr "Ur yezmir ara ad yaru ɣef ufaylu."
+
+#: LYMessages.c:471
+msgid "ERROR! - download command is misconfigured."
+msgstr "TUCCḌA - ur yettwasesteb ara usader n wanẓad akken iwata."
+
+#: LYMessages.c:472
+msgid "Unable to download file."
+msgstr "D awezɣi asader n ufaylu."
+
+#: LYMessages.c:473
+msgid "Reading directory..."
+msgstr "Taɣuri n ukaram…"
+
+#: LYMessages.c:474
+msgid "Building directory listing..."
+msgstr "Lebni n tebdarin n yikaramen..."
+
+#: LYMessages.c:475
+msgid "Saving..."
+msgstr "Asekles…"
+
+#: LYMessages.c:476
+#, c-format
+msgid "Could not edit file '%s'."
+msgstr "Yegguma ad iẓreg afaylu '%s'."
+
+#: LYMessages.c:477
+msgid "Unable to access document!"
+msgstr "D awezɣi anekcum ɣer yisemli!"
+
+#: LYMessages.c:478
+msgid "Could not access file."
+msgstr "Yegguma ad yekcem ɣer ufaylu."
+
+#: LYMessages.c:479
+msgid "Could not access directory."
+msgstr "Ur yezmir ara ad yekcem ɣer ukaram."
+
+#: LYMessages.c:480
+msgid "Could not load data."
+msgstr "D awezɣi asali n yisefka."
+
+#. #define CANNOT_EDIT_REMOTE_FILES
+#: LYMessages.c:482
+msgid "Lynx cannot currently (e)dit remote WWW files."
+msgstr "Lynx ur yezmir ara akka tura ad (e)yeẓreg ifuyla WWW iqburen."
+
+#. #define CANNOT_EDIT_FIELD
+#: LYMessages.c:484
+msgid "This field cannot be (e)dited with an external editor."
+msgstr "Urti-a ur yezmir ara ad (e)yeẓreg amaẓrag yeffɣen."
+
+#: LYMessages.c:485
+msgid "Bad rule"
+msgstr "Yir alugan"
+
+#: LYMessages.c:486
+msgid "Insufficient operands:"
+msgstr "Amḍan n yimhilen drus:"
+
+#: LYMessages.c:487
+msgid "You are not authorized to edit this file."
+msgstr "Ur tesɛiḍ ara tisirag ad tẓergeḍ afaylu-a."
+
+#: LYMessages.c:488
+msgid "Title: "
+msgstr "Azwel: "
+
+#: LYMessages.c:489
+msgid "Subject: "
+msgstr "Asentel: "
+
+#: LYMessages.c:490
+msgid "Username: "
+msgstr "Isem n useqdac: "
+
+#: LYMessages.c:491
+msgid "Password: "
+msgstr "Awal n uɛeddi: "
+
+#: LYMessages.c:492
+msgid "lynx: Username and Password required!!!"
+msgstr "lynx: Isem n useqdac akked wawal n uɛeddi ttwasran!!!"
+
+#: LYMessages.c:493
+msgid "lynx: Password required!!!"
+msgstr "lynx: Aawal n uɛeddi ttwasran!!!"
+
+#: LYMessages.c:494
+msgid "Clear all authorization info for this session?"
+msgstr "Sfeḍ akk talɣut n usireg i tɣimit-a?"
+
+#: LYMessages.c:495
+msgid "Authorization info cleared."
+msgstr "Talɣut n usireg tettwasfeḍ."
+
+#: LYMessages.c:496
+msgid "Authorization failed.  Retry?"
+msgstr "Yecceḍ usireg.  Ɛreḍ tikkelt niḍen?"
+
+#: LYMessages.c:497
+msgid "cgi support has been disabled."
+msgstr "tallalt cgi, tensa."
+
+#. #define CGI_NOT_COMPILED
+#: LYMessages.c:499
+msgid "Lynxcgi capabilities are not compiled into this version."
+msgstr "Tizemmar n Lynxcgi ur ttwasefsunt ara deg lqem-a."
+
+#: LYMessages.c:500
+#, c-format
+msgid "Sorry, no known way of converting %s to %s."
+msgstr "Nesḥassef, ulab abrid ussin n uselket n %s ɣer %s."
+
+#: LYMessages.c:501
+msgid "Unable to set up connection."
+msgstr "D awezɣi asbadu n tuqqna."
+
+#: LYMessages.c:502
+msgid "Unable to make connection"
+msgstr "D awezɣi ad tettwag tuqqna"
+
+#. #define MALFORMED_EXEC_REQUEST
+#: LYMessages.c:504
+msgid "Executable link rejected due to malformed request."
+msgstr "Aseɣwen yettwaselkamayen, yettwagdel seg yir amsal n ussuter."
+
+#. #define BADCHAR_IN_EXEC_LINK
+#: LYMessages.c:506
+#, c-format
+msgid "Executable link rejected due to `%c' character."
+msgstr "Aseɣwen yettwaselkamayen, yettwagdel ssebba n usekkil '%c'."
+
+#. #define RELPATH_IN_EXEC_LINK
+#: LYMessages.c:508
+msgid "Executable link rejected due to relative path string ('../')."
+msgstr "Aseɣwen yettwaselkamayen, yettwagdel ssebba n uzrir n ubrid amassaɣ ('../')."
+
+#. #define BADLOCPATH_IN_EXEC_LINK
+#: LYMessages.c:510
+msgid "Executable link rejected due to location or path."
+msgstr "Aseɣwen yettwaselkamayen, yettwagdel ssebba n yideg neɣ n ubrid."
+
+#: LYMessages.c:511
+msgid "Mail access is disabled!"
+msgstr "Anekcum s yimayl, yensa!"
+
+#. #define ACCESS_ONLY_LOCALHOST
+#: LYMessages.c:513
+msgid "Only files and servers on the local host can be accessed."
+msgstr "Slid ifuyla akked yiqeddacen i yellan ɣef usenneftaɣ adigan i wuɣur yella unekcum."
+
+#: LYMessages.c:514
+msgid "Telnet access is disabled!"
+msgstr "Anekcum Telnet, yensa!"
+
+#. #define TELNET_PORT_SPECS_DISABLED
+#: LYMessages.c:516
+msgid "Telnet port specifications are disabled."
+msgstr "Isefra n tewwurt n Telnet, nsan."
+
+#: LYMessages.c:517
+msgid "USENET news access is disabled!"
+msgstr "Anekcum ɣer yisalan USENET, nsan!"
+
+#: LYMessages.c:518
+msgid "Rlogin access is disabled!"
+msgstr "Anekcum Rlogin, yensa!"
+
+#: LYMessages.c:519
+msgid "Ftp access is disabled!"
+msgstr "Anekcum ɣer Ftp, yensa!"
+
+#: LYMessages.c:520
+msgid "There are no references from this document."
+msgstr "Ulac timsisɣal seg yisemli-a."
+
+#: LYMessages.c:521
+msgid "There are only hidden links from this document."
+msgstr "Ala iseɣwan i yeffren i yellan seg yisemli-a."
+
+#: LYMessages.c:523
+msgid "Unable to open command file."
+msgstr "D awezɣi alday n ufaylu n tladna."
+
+#: LYMessages.c:525
+msgid "News Post Cancelled!!!"
+msgstr "Tisuffaɣ timaynutin ttwasefsaxen!!!"
+
+#. #define SPAWNING_EDITOR_FOR_NEWS
+#: LYMessages.c:527
+msgid "Spawning your selected editor to edit news message"
+msgstr "Askar n umaẓrag i tferneḍ i uẓrag n yiznan"
+
+#: LYMessages.c:528
+msgid "Post this message?"
+msgstr "Suffeɣ izen-a?"
+
+#: LYMessages.c:529
+#, c-format
+msgid "Append '%s'?"
+msgstr "Seddu '%s'?"
+
+#: LYMessages.c:530
+msgid "Posting to newsgroup(s)..."
+msgstr "Tuzna n yizen (isalan)..."
+
+#: LYMessages.c:532
+msgid "*** You have unread mail. ***"
+msgstr "*** Tesɛiḍ imayl ur yettwaɣran ara. ***"
+
+#: LYMessages.c:534
+msgid "*** You have mail. ***"
+msgstr "*** Tesɛiḍ imayl. ***"
+
+#: LYMessages.c:536
+msgid "*** You have new mail. ***"
+msgstr "*** Tesɛiḍ imayl amaynut. ***"
+
+#: LYMessages.c:537
+msgid "File insert cancelled!!!"
+msgstr "Taguri n ufaylu, tettwasefsex!!!"
+
+#: LYMessages.c:538
+msgid "Not enough memory for file!"
+msgstr "Ulac ddeqs n tkatut i ufaylu!"
+
+#: LYMessages.c:539
+msgid "Can't open file for reading."
+msgstr "Ur yezmir ara ad d-yeldi afayli i tɣuri."
+
+#: LYMessages.c:540
+msgid "File does not exist."
+msgstr "Ulac afaylu-a."
+
+#: LYMessages.c:541
+msgid "File does not exist - reenter or cancel:"
+msgstr "Ulac afaylu-a - ales anekcum neɣ sefsex:"
+
+#: LYMessages.c:542
+msgid "File is not readable."
+msgstr "Afaylu ur yettwaɣray ara."
+
+#: LYMessages.c:543
+msgid "File is not readable - reenter or cancel:"
+msgstr "Afaylu-a ur yettwaɣray ara - ales anekcum neɣ sefsex:"
+
+#: LYMessages.c:544
+msgid "Nothing to insert - file is 0-length."
+msgstr "Ulac ayen ara yettwagren - afaylu ɣur-s 0-teɣzi."
+
+#: LYMessages.c:545
+msgid "Save request cancelled!!!"
+msgstr "Asekles n ussuter yettwasefsex!!!"
+
+#: LYMessages.c:546
+msgid "Mail request cancelled!!!"
+msgstr "Assuter n yimayl, yetwasefsax!!!"
+
+#. #define CONFIRM_MAIL_SOURCE_PREPARSED
+#: LYMessages.c:548
+msgid "Viewing preparsed source.  Are you sure you want to mail it?"
+msgstr "Asenqed n uɣbalu s uslaḍ uzwir.  D tidet tebɣiḍ ad t-tazneḍ s yimayl?"
+
+#: LYMessages.c:549
+msgid "Please wait..."
+msgstr "Ttxil-k rǧu…"
+
+#: LYMessages.c:550
+msgid "Mailing file.  Please wait..."
+msgstr "Afaylu n yimaylen.  Ttxil-k⋅m rǧu..."
+
+#: LYMessages.c:551
+msgid "ERROR - Unable to mail file"
+msgstr "TUCCḌA - D awezɣi tuzna n ufaylu"
+
+#. #define CONFIRM_LONG_SCREEN_PRINT
+#: LYMessages.c:553
+#, c-format
+msgid "File is %d screens long.  Are you sure you want to print?"
+msgstr "Afaylu yeggenses %d yigdilen.  D tidet tebɣiḍ ad t-tesiggzeḍ?"
+
+#: LYMessages.c:554
+msgid "Print request cancelled!!!"
+msgstr "Assuter n usiggez, yettwasefsex!!!"
+
+#: LYMessages.c:555
+msgid "Press <return> to begin: "
+msgstr "Sit ɣef <return> i wakken ad tebduḍ: "
+
+#: LYMessages.c:556
+msgid "Press <return> to finish: "
+msgstr "Sit ɣef <return> i wakken ad tfakkeḍ: "
+
+#. #define CONFIRM_LONG_PAGE_PRINT
+#: LYMessages.c:558
+#, c-format
+msgid "File is %d pages long.  Are you sure you want to print?"
+msgstr "Afaylu yeggenses %d yisebtar.  D tidet tebɣiḍ ad t-tesiggzeḍ?"
+
+#. #define CHECK_PRINTER
+#: LYMessages.c:560
+msgid "Be sure your printer is on-line.  Press <return> to start printing:"
+msgstr "Wali ma yella tasaggazt-ik⋅im termed.  Sit ɣef <return> i uskar n usiggez:"
+
+#: LYMessages.c:561
+msgid "ERROR - Unable to allocate file space!!!"
+msgstr "TUCCḌA - D awezɣi aḥerri n tallunt i ufaylu!!!"
+
+#: LYMessages.c:562
+msgid "Unable to open tempfile"
+msgstr "Awezɣi alday n ufaylu uɛḍil"
+
+#: LYMessages.c:563
+msgid "Unable to open print options file"
+msgstr "Yegguma ad yeldi ufayu n textiṛiyin n usiggez"
+
+#: LYMessages.c:564
+msgid "Printing file.  Please wait..."
+msgstr "Asiggez n ufaylu.  Ttxil-k⋅m rǧu..."
+
+#: LYMessages.c:565
+msgid "Please enter a valid internet mail address: "
+msgstr "Ttxil-k⋅m sekcem tansa n yimayl n internet tameɣtut: "
+
+#: LYMessages.c:566
+msgid "ERROR! - printer is misconfigured!"
+msgstr "TUCCḌA - ur tettwasesteb ara tsaggazt akken iwata!"
+
+#: LYMessages.c:567
+msgid "Image map from POST response not available!"
+msgstr "Tafelwit n tugniwin seg tririt n UCEGGEƐ, ulac-itt!"
+
+#: LYMessages.c:568
+msgid "Misdirected client-side image MAP request!"
+msgstr "Yir unil n ussuter n MAP seg tama n umsaɣ!"
+
+#: LYMessages.c:569
+msgid "Client-side image MAP is not accessible!"
+msgstr "D awezɣi anekcum ɣer MAP seg tama n umsaɣ!"
+
+#: LYMessages.c:570
+msgid "No client-side image MAPs are available!"
+msgstr "Ulac Maps seg tama n umsaɣ i yellan!"
+
+#: LYMessages.c:571
+msgid "Client-side image MAP is not available!"
+msgstr "MAP seg tama n umsaɣ, ulac-it!"
+
+#. #define OPTION_SCREEN_NEEDS_24
+#: LYMessages.c:574
+msgid "Screen height must be at least 24 lines for the Options menu!"
+msgstr "Teɣzi n ugdil ilaq ad tili 24 n yizirigen i wumuɣ n Textiṛiyin!"
+
+#. #define OPTION_SCREEN_NEEDS_23
+#: LYMessages.c:576
+msgid "Screen height must be at least 23 lines for the Options menu!"
+msgstr "Teɣzi n ugdil ilaq ad tili ma drus 23 n yizirigen i wumuɣ n Textiṛiyin!"
+
+#. #define OPTION_SCREEN_NEEDS_22
+#: LYMessages.c:578
+msgid "Screen height must be at least 22 lines for the Options menu!"
+msgstr "Teɣzi n ugdil ilaq ad tili ma drus 22 n yizirigen i wumuɣ n Textiṛiyin!"
+
+#: LYMessages.c:580
+msgid "That key requires Advanced User mode."
+msgstr "Taqeffalt-a tesra askar n useqdac leqqayen."
+
+#: LYMessages.c:581
+#, c-format
+msgid "Content-type: %s"
+msgstr "Anaw-agbur: %s"
+
+#: LYMessages.c:582
+msgid "Command: "
+msgstr "Anezḍay: "
+
+#: LYMessages.c:583
+msgid "Unknown or ambiguous command"
+msgstr "Anzaḍ d arussin neɣ d udrig"
+
+#: LYMessages.c:584
+msgid " Version "
+msgstr " Lqem "
+
+#: LYMessages.c:585
+msgid " first"
+msgstr " amezwaru"
+
+#: LYMessages.c:586
+msgid ", guessing..."
+msgstr ", ad nwali..."
+
+#: LYMessages.c:587
+msgid "Permissions for "
+msgstr "Tisirag i "
+
+#: LYMessages.c:588
+msgid "Select "
+msgstr "Fren "
+
+#: LYMessages.c:589
+msgid "capital letter"
+msgstr "asekkil ameqqran"
+
+#: LYMessages.c:590
+msgid " of option line,"
+msgstr " n yizirig n textiṛiyin,"
+
+#: LYMessages.c:591
+msgid " to save,"
+msgstr " i usekles,"
+
+#: LYMessages.c:592
+msgid " to "
+msgstr " ɣer "
+
+#: LYMessages.c:593
+msgid " or "
+msgstr " neɣ "
+
+#: LYMessages.c:594
+msgid " index"
+msgstr " amatar"
+
+#: LYMessages.c:595
+msgid " to return to Lynx."
+msgstr " i tuɣalin ɣer Lynx."
+
+#: LYMessages.c:596
+msgid "Accept Changes"
+msgstr "Qbel isenfal"
+
+#: LYMessages.c:597
+msgid "Reset Changes"
+msgstr "Wennez isenfal"
+
+#: LYMessages.c:598
+msgid "Left Arrow cancels changes"
+msgstr "Tanila tazelmaḍt tessefsax isenfal"
+
+#: LYMessages.c:599
+msgid "Save options to disk"
+msgstr "Sekles tixtiṛiyin deg uḍebsi"
+
+#: LYMessages.c:600
+msgid "Hit RETURN to accept entered data."
+msgstr "Sit ɣef RETURN i isefka i ikecmen."
+
+#. #define ACCEPT_DATA_OR_DEFAULT
+#: LYMessages.c:602
+msgid "Hit RETURN to accept entered data.  Delete data to invoke the default."
+msgstr "Sit ɣef RETURN i uqbal n yisefka i yettwaskecmen i uḥway n umezwar."
+
+#: LYMessages.c:603
+msgid "Value accepted!"
+msgstr "Yettwaqbal wazal!"
+
+#. #define VALUE_ACCEPTED_WARNING_X
+#: LYMessages.c:605
+msgid "Value accepted! -- WARNING: Lynx is configured for XWINDOWS!"
+msgstr "Yettwaqbal wazal! -- ALƔU: Lynx ur yettwasesteb ara i XWINDOWS!"
+
+#. #define VALUE_ACCEPTED_WARNING_NONX
+#: LYMessages.c:607
+msgid "Value accepted! -- WARNING: Lynx is NOT configured for XWINDOWS!"
+msgstr "Yettwaqbal wazal! -- ALƔU: Lynx UR yettwasesteb ARA i XWINDOWS!"
+
+#: LYMessages.c:608
+msgid "You are not allowed to change which editor to use!"
+msgstr "Ur tesɛiḍ ara tasiregt ad tesnefleḍ anwa amaẓrag ara yettwasqedcen!"
+
+#: LYMessages.c:609
+msgid "Failed to set DISPLAY variable!"
+msgstr "D awezɣi aṣeggem n umutti DISPLAY!"
+
+#: LYMessages.c:610
+msgid "Failed to clear DISPLAY variable!"
+msgstr "Yecceḍ usfaḍ n umutti DISPLAY!"
+
+#. #define BOOKMARK_CHANGE_DISALLOWED
+#: LYMessages.c:612
+msgid "You are not allowed to change the bookmark file!"
+msgstr "Ur tesɛiḍ ara tisirag ad tẓergeḍ afaylu n tecraḍ!"
+
+#: LYMessages.c:613
+msgid "Terminal does not support color"
+msgstr "Ixef, ur yessefrak ara initen"
+
+#: LYMessages.c:614
+#, c-format
+msgid "Your '%s' terminal does not support color."
+msgstr "Ixef-ik⋅im '%s', ur yessefrak ara initen."
+
+#: LYMessages.c:615
+msgid "Access to dot files is disabled!"
+msgstr "Anekcum ɣer yifuyla dot, yensa!"
+
+#. #define UA_NO_LYNX_WARNING
+#: LYMessages.c:617
+msgid "User-Agent string does not contain \"Lynx\" or \"L_y_n_x\""
+msgstr "Azrir User-Agent ur yegbir ara \"Lynx\" neɣ \"L_y_n_x\""
+
+#. #define UA_PLEASE_USE_LYNX
+#: LYMessages.c:619
+msgid "Use \"L_y_n_x\" or \"Lynx\" in User-Agent, or it looks like intentional deception!"
+msgstr "Seqdec \"L_y_n_x\" neɣ \"Lynx\" deg wurti USER-Agent, neɣ ad d-iban d tuccḍa i yettwaɛemmden!"
+
+#. #define UA_CHANGE_DISABLED
+#: LYMessages.c:621
+msgid "Changing of the User-Agent string is disabled!"
+msgstr "Asenfel n uzrir n User-Agent, yensa!"
+
+#. #define CHANGE_OF_SETTING_DISALLOWED
+#: LYMessages.c:623
+msgid "You are not allowed to change this setting."
+msgstr "Ur tesɛiḍ ara tasiregt ad tesnefleḍ aɣewwar-a."
+
+#: LYMessages.c:624
+msgid "Saving Options..."
+msgstr "Asekles n textiṛiyin..."
+
+#: LYMessages.c:625
+msgid "Options saved!"
+msgstr "Ttwaskelsent textiṛiyin!"
+
+#: LYMessages.c:626
+msgid "Unable to save Options!"
+msgstr "D awezɣi asekles n textiṛiyin!"
+
+#: LYMessages.c:627
+msgid " 'r' to return to Lynx "
+msgstr " 'r' i tuɣalin ɣer Lynx "
+
+#: LYMessages.c:628
+msgid " '>' to save, or 'r' to return to Lynx "
+msgstr " '>' i usekles, 'r' i tuɣalin ɣer Lynx "
+
+#. #define ANY_KEY_CHANGE_RET_ACCEPT
+#: LYMessages.c:630
+msgid "Hit any key to change value; RETURN to accept."
+msgstr "Sit ɣef kra n tqeffalt i usenfel n wazal; RETURUN i uqbal."
+
+#: LYMessages.c:631
+msgid "Error uncompressing temporary file!"
+msgstr "Tuccḍa deg usefruri n ufaylu uɛḍil!"
+
+#: LYMessages.c:632
+msgid "Unsupported URL scheme!"
+msgstr "Azenziɣ n URL ur yettwasefraken ara!"
+
+#: LYMessages.c:633
+msgid "Unsupported data: URL!  Use SHOWINFO, for now."
+msgstr "Isefka ur yettwasefraken ara: URL!  Seqdec SHOWINFO, akka tura."
+
+#: LYMessages.c:634
+#, c-format
+msgid "Redirection limit of %d URL's reached."
+msgstr "Talast n wallus n tnila n %d n URL, yewweḍ."
+
+#: LYMessages.c:635
+msgid "Illegal redirection URL received from server!"
+msgstr "Allus n tnila n URL aruzrif yettwarmes-d seg uqeddac!"
+
+#. #define SERVER_ASKED_FOR_REDIRECTION
+#: LYMessages.c:637
+#, c-format
+msgid "Server asked for %d redirection of POST content to"
+msgstr "Aqeddac yessuter allus n uwelleh n %d n ugbur POST ɣer"
+
+#: LYMessages.c:640
+msgid "P)roceed, use G)ET or C)ancel "
+msgstr "P)kemmel, seqdec G)AWI neɣ C)sefsex "
+
+#: LYMessages.c:641
+msgid "P)roceed, or C)ancel "
+msgstr "P)kemmel, or C)sefsex "
+
+#. #define ADVANCED_POST_GET_REDIRECT
+#: LYMessages.c:643
+msgid "Redirection of POST content.  P)roceed, see U)RL, use G)ET or C)ancel"
+msgstr "Allus n uwelleh n ugbur.  P)kemmel, wali U)RL, seqdec G)AWI neɣ C)sefsex"
+
+#. #define ADVANCED_POST_REDIRECT
+#: LYMessages.c:645
+msgid "Redirection of POST content.  P)roceed, see U)RL, or C)ancel"
+msgstr "Allus n uwelleh n ugbur POST.  P)kemmel, wali U)RL, neɣ C)sefsex"
+
+#. #define CONFIRM_POST_RESUBMISSION
+#: LYMessages.c:647
+msgid "Document from Form with POST content.  Resubmit?"
+msgstr "Isemli seg tferkit s ugbur POST.  Ales tuzna?"
+
+#. #define CONFIRM_POST_RESUBMISSION_TO
+#: LYMessages.c:649
+#, c-format
+msgid "Resubmit POST content to %s ?"
+msgstr "Ales tuzna n ugbur POST ɣer %s?"
+
+#. #define CONFIRM_POST_LIST_RELOAD
+#: LYMessages.c:651
+#, c-format
+msgid "List from document with POST data.  Reload %s ?"
+msgstr "Isemli n tferkit n tebdart s yisefka POST.  Ales azdam n %s ?"
+
+#. #define CONFIRM_POST_DOC_HEAD
+#: LYMessages.c:653
+msgid "Document from POST action, HEAD may not be understood.  Proceed?"
+msgstr "Tigawt n POST n tferkit n yisemli, AQERRU yezmer ur yettwafhamay ara.  Kemmel?"
+
+#. #define CONFIRM_POST_LINK_HEAD
+#: LYMessages.c:655
+msgid "Form submit action is POST, HEAD may not be understood.  Proceed?"
+msgstr "Tigawt n tuzna n tferkit d POST, AQERRU yezmer ur yettwafhamay ara.  Kemmel?"
+
+#: LYMessages.c:656
+msgid "Proceed without a username and password?"
+msgstr "Kemmel war isem n useqdac akked wawal n uɛeddi?"
+
+#: LYMessages.c:657
+#, c-format
+msgid "Proceed (%s)?"
+msgstr "Kemmel (%s)?"
+
+#: LYMessages.c:658
+msgid "Cannot POST to this host."
+msgstr "Ur yezmir ara ad YAZEN ɣer usenneftaɣ-a."
+
+#: LYMessages.c:659
+msgid "POST not supported for this URL - ignoring POST data!"
+msgstr "POST ur yettwasefrak ara i URL-a - azgal n yisefka POST!"
+
+#: LYMessages.c:660
+msgid "Discarding POST data..."
+msgstr "Asefsex n yisefka POST..."
+
+#: LYMessages.c:661
+msgid "Document will not be reloaded!"
+msgstr "Isemli, ur d-yettwazdam ara i tikkelt niḍen!"
+
+#: LYMessages.c:662
+msgid "Location: "
+msgstr "Adig: "
+
+#: LYMessages.c:663
+#, c-format
+msgid "'%s' not found!"
+msgstr "'%s' ur yettwaf ara!"
+
+#: LYMessages.c:664
+msgid "Default Bookmark File"
+msgstr "Afaylu n tecraḍ amezwar"
+
+#: LYMessages.c:665
+msgid "Screen too small! (8x35 min)"
+msgstr "Agdil meẓẓiy aṭæs! (8x35 min)"
+
+#: LYMessages.c:666
+msgid "Select destination or ^G to Cancel: "
+msgstr "Fren tanila neɣ ^G i usefsex: "
+
+#. #define MULTIBOOKMARKS_SELECT
+#: LYMessages.c:668
+msgid "Select subbookmark, '=' for menu, or ^G to cancel: "
+msgstr "Fren ticreḍt tarnawt, '=' i wumuɣ, neɣ Ĝ i usefsex: "
+
+#. #define MULTIBOOKMARKS_SELF
+#: LYMessages.c:670
+msgid "Reproduce L)ink in this bookmark file or C)ancel? (l,c): "
+msgstr "Nɣel L)aseɣwen deg ufaylu n tecraḍ neɣ C)sefsex? (l,c): "
+
+#: LYMessages.c:671
+msgid "Multiple bookmark support is not available."
+msgstr "Ulac talallat n tecraḍ tisgutin."
+
+#: LYMessages.c:672
+#, c-format
+msgid " Select Bookmark (screen %d of %d)"
+msgstr " Fren ticreḍt (agdil %d n %d)"
+
+#: LYMessages.c:673
+msgid "       Select Bookmark"
+msgstr "       Fren n tecraḍ"
+
+#. #define MULTIBOOKMARKS_EHEAD_MASK
+#: LYMessages.c:675
+#, c-format
+msgid "Editing Bookmark DESCRIPTION and FILEPATH (%d of 2)"
+msgstr "Aẓrag n UGLAM akked UBRID N UFAYLU n tecreḍt (%d n 2)"
+
+#. #define MULTIBOOKMARKS_EHEAD
+#: LYMessages.c:677
+msgid "         Editing Bookmark DESCRIPTION and FILEPATH"
+msgstr "         Aẓrag n UGLAM akked UBRID N UFAYLU n tecreḍt"
+
+#: LYMessages.c:678
+msgid "Letter: "
+msgstr "Asekkil: "
+
+#. #define USE_PATH_OFF_HOME
+#: LYMessages.c:681
+msgid "Use a filepath off your login directory in SHELL syntax!"
+msgstr "Seqdec abrid n ufaylu beṛṛa n ukaram-ik udmawan deg tseddast SHELL!"
+
+#: LYMessages.c:683
+msgid "Use a filepath off your home directory!"
+msgstr "Seqdec abrid n ufaylu beṛṛa n ukaram-ik⋅im agejdan!"
+
+#. #define MAXLINKS_REACHED
+#: LYMessages.c:686
+msgid "Maximum links per page exceeded!  Use half-page or two-line scrolling."
+msgstr "Amḍan afellay n yiseɣwan i usebter, iɛedda!  Seqdec adrurem s uzgen n usebter neɣ yizirig uslig."
+
+#: LYMessages.c:687
+msgid "No previously visited links available!"
+msgstr "Ulac iseɣwan i yellan wuɣur terziḍ uqbel!"
+
+#: LYMessages.c:688
+msgid "Memory exhausted!  Program aborted!"
+msgstr "Drus n tkatut!  Ahil, yettwasefsex!"
+
+#: LYMessages.c:689
+msgid "Memory exhausted!  Aborting..."
+msgstr "Drus n tkatut!  Aasefsax..."
+
+#: LYMessages.c:690
+msgid "Not enough memory!"
+msgstr "Ulac ddeqs n tkatut!"
+
+#: LYMessages.c:691
+msgid "Directory/File Manager not available"
+msgstr "Ulac amsefrak n yikaramen/yifuyla"
+
+#: LYMessages.c:692
+msgid "Location URL is not absolute."
+msgstr "URL n wadig mačči d amagdez."
+
+#: LYMessages.c:693
+msgid "Refresh URL is not absolute."
+msgstr "URL i usnirem mačči d amagdez."
+
+#. #define SENDING_MESSAGE_WITH_BODY_TO
+#: LYMessages.c:695
+msgid ""
+"You are sending a message with body to:\n"
+"  "
+msgstr ""
+"Aql-ak⋅kem tuzneḍ izen s tfekka ɣer:\n"
+"  "
+
+#: LYMessages.c:696
+msgid ""
+"You are sending a comment to:\n"
+"  "
+msgstr ""
+"Aql-ak⋅kem tettazneḍ awennit ɣer:\n"
+"  "
+
+#: LYMessages.c:697
+msgid ""
+"\n"
+" With copy to:\n"
+"  "
+msgstr ""
+"\n"
+" S unɣal ɣer:\n"
+"  "
+
+#: LYMessages.c:698
+msgid ""
+"\n"
+" With copies to:\n"
+"  "
+msgstr ""
+"\n"
+" S yinɣalen ɣer:\n"
+"  "
+
+#. #define CTRL_G_TO_CANCEL_SEND
+#: LYMessages.c:700
+msgid ""
+"\n"
+"\n"
+"Use Ctrl-G to cancel if you do not want to send a message\n"
+msgstr ""
+"\n"
+"\n"
+"Seqdec Ctrl-G i usefsex ma yella ur tebɣiḍ ara ad tazneḍ izen\n"
+
+#. #define ENTER_NAME_OR_BLANK
+#: LYMessages.c:702
+msgid ""
+"\n"
+" Please enter your name, or leave it blank to remain anonymous\n"
+msgstr ""
+"\n"
+" Ttxil-k⋅m, sekcem isem-ik⋅im neɣ eǧǧ-it akken ad yili d udrig\n"
+
+#. #define ENTER_MAIL_ADDRESS_OR_OTHER
+#: LYMessages.c:704
+msgid ""
+"\n"
+" Please enter a mail address or some other\n"
+msgstr ""
+"\n"
+" Ttxil-k⋅m, sekcem tansa n yimayl neɣ kra niḍen\n"
+
+#. #define MEANS_TO_CONTACT_FOR_RESPONSE
+#: LYMessages.c:706
+msgid " means to contact you, if you desire a response.\n"
+msgstr " anamek-is i unermes-ik⋅im, ma yella tebɣiḍ tiririt.\n"
+
+#: LYMessages.c:707
+msgid ""
+"\n"
+" Please enter a subject line.\n"
+msgstr ""
+"\n"
+" Ttxil-k⋅m, sekcem izirig n usentel.\n"
+
+#. #define ENTER_ADDRESS_FOR_CC
+#: LYMessages.c:709
+msgid ""
+"\n"
+" Enter a mail address for a CC of your message.\n"
+msgstr ""
+"\n"
+" Sekcem tansa n yimayl i CC n yizen-ik⋅im.\n"
+
+#: LYMessages.c:710
+msgid " (Leave blank if you don't want a copy.)\n"
+msgstr " (Eǧǧ-it akken, ma yella ur tesriḍ ara anɣal.)\n"
+
+#: LYMessages.c:711
+msgid ""
+"\n"
+" Please review the message body:\n"
+"\n"
+msgstr ""
+"\n"
+" Ttxil-k⋅m senqed tafekka n yizen:\n"
+"\n"
+
+#: LYMessages.c:712
+msgid ""
+"\n"
+"Press RETURN to continue: "
+msgstr ""
+"\n"
+"Sit ɣef 'RETURN' i wakken ad tkemmleḍ: "
+
+#: LYMessages.c:713
+msgid ""
+"\n"
+"Press RETURN to clean up: "
+msgstr ""
+"\n"
+"Sit ɣef 'RETURN' i usfaḍ: "
+
+#: LYMessages.c:714
+msgid " Use Control-U to erase the default.\n"
+msgstr " Seqdec <Ctrl-U> i usfaḍ n wazal amezwer.\n"
+
+#: LYMessages.c:715
+msgid ""
+"\n"
+" Please enter your message below."
+msgstr ""
+"\n"
+" Ttxil-k⋅m sekcem izen-ik⋅im ddaw."
+
+#. #define ENTER_PERIOD_WHEN_DONE_A
+#: LYMessages.c:717 src/LYNews.c:360
+msgid ""
+"\n"
+" When you are done, press enter and put a single period (.)"
+msgstr ""
+"\n"
+" Mi ara tfakkeḍ, sit ɣef Enter syen err tanzagt tasuft (.)"
+
+#. #define ENTER_PERIOD_WHEN_DONE_B
+#: LYMessages.c:719 src/LYNews.c:361
+msgid ""
+"\n"
+" on a line and press enter again."
+msgstr ""
+"\n"
+" ɣef yizirig syen sit ɣef Enter i tikkelt niḍen."
+
+#. Cookies messages
+#. #define ADVANCED_COOKIE_CONFIRMATION
+#: LYMessages.c:723
+#, c-format
+msgid "%s cookie: %.*s=%.*s  Allow? (Y/N/Always/neVer)"
+msgstr "%s anagi n tuqqna: %.*s=%.*s  Sireg? (Y/N/Ayal ass/Vurǧin)"
+
+#. #define INVALID_COOKIE_DOMAIN_CONFIRMATION
+#: LYMessages.c:725
+#, c-format
+msgid "Accept invalid cookie domain=%s for '%s'?"
+msgstr "Qbel anagi n tuqqna arameɣtu taɣult=%s i '%s'?"
+
+#. #define INVALID_COOKIE_PATH_CONFIRMATION
+#: LYMessages.c:727
+#, c-format
+msgid "Accept invalid cookie path=%s as a prefix of '%s'?"
+msgstr "Qbel anagi n tuqqna arameɣtu abrid=%s i '%s'?"
+
+#: LYMessages.c:728
+msgid "Allowing this cookie."
+msgstr "Asireg n unagi-a n tuqqna."
+
+#: LYMessages.c:729
+msgid "Rejecting this cookie."
+msgstr "Agdal n unagi-a n tuqqna."
+
+#: LYMessages.c:730
+msgid "The Cookie Jar is empty."
+msgstr "Anagi n tuqqna Jar d ilem."
+
+#: LYMessages.c:731
+msgid "The Cache Jar is empty."
+msgstr "Takatut n Jar d tilemt."
+
+#. #define ACTIVATE_TO_GOBBLE
+#: LYMessages.c:733
+msgid "Activate links to gobble up cookies or entire domains,"
+msgstr "Rmed iseɣwan i wakken ad tesgerweḍ inagan n tuqqna akked taɣulin tummidin,"
+
+#: LYMessages.c:734
+msgid "or to change a domain's 'allow' setting."
+msgstr "neɣ i usenfel n uɣewwar n 'sireg' n taɣult."
+
+#: LYMessages.c:735
+msgid "(Cookies never allowed.)"
+msgstr "(Inagan n tuqqna ur ttwasirgen ara.)"
+
+#: LYMessages.c:736
+msgid "(Cookies always allowed.)"
+msgstr "(Inagan n tuqqna, zgan ttwasirgen.)"
+
+#: LYMessages.c:737
+msgid "(Cookies allowed via prompt.)"
+msgstr "(Ttwasirgen yinagan n tuqqna s uneftaɣ.)"
+
+#: LYMessages.c:738
+msgid "(Persistent Cookies.)"
+msgstr "(Inagan n tuqqna yezgan.)"
+
+#: LYMessages.c:739
+msgid "(No title.)"
+msgstr "(Ulac azwel.)"
+
+#: LYMessages.c:740
+msgid "(No name.)"
+msgstr "(Uac isem.)"
+
+#: LYMessages.c:741
+msgid "(No value.)"
+msgstr "(Ulac azal.)"
+
+#: LYMessages.c:742 src/LYOptions.c:2482
+msgid "None"
+msgstr "Ulac"
+
+#: LYMessages.c:743
+msgid "(End of session.)"
+msgstr "(Taggara n tɣimit.)"
+
+#: LYMessages.c:744
+msgid "Delete this cookie?"
+msgstr "Kkes anagi-a?"
+
+#: LYMessages.c:745
+msgid "The cookie has been eaten!"
+msgstr "Anagi yemmečč!"
+
+#: LYMessages.c:746
+msgid "Delete this empty domain?"
+msgstr "Kkes taɣult-a tilemt?"
+
+#: LYMessages.c:747
+msgid "The domain has been eaten!"
+msgstr "Taɣult, temmečč!"
+
+#. #define DELETE_COOKIES_SET_ALLOW_OR_CANCEL
+#: LYMessages.c:749
+msgid "D)elete domain's cookies, set allow A)lways/P)rompt/neV)er, or C)ancel? "
+msgstr "D)kkes inagan n tuqqna n taɣult, sbadu sireg A)yal tikkelt/P)ssuter/V)urǧin, neɣ C)sefsex? "
+
+#. #define DELETE_DOMAIN_SET_ALLOW_OR_CANCEL
+#: LYMessages.c:751
+msgid "D)elete domain, set allow A)lways/P)rompt/neV)er, or C)ancel? "
+msgstr "D)kkes taɣult, sbadu sireg A)yal tikkelt/P)ssuter/V)urǧin, neɣ C)sefsex? "
+
+#: LYMessages.c:752
+msgid "All cookies in the domain have been eaten!"
+msgstr "Akk inagan n tuqqna deg taɣult, mmeččen!"
+
+#: LYMessages.c:753
+#, c-format
+msgid "'A'lways allowing from domain '%s'."
+msgstr "'A'yezga yettwasireg seg taɣult '%s'."
+
+#: LYMessages.c:754
+#, c-format
+msgid "ne'V'er allowing from domain '%s'."
+msgstr "urǧin'V' yettwasireg seg taɣult '%s'."
+
+#: LYMessages.c:755
+#, c-format
+msgid "'P'rompting to allow from domain '%s'."
+msgstr "'P' aneftaɣ i usireg seg taɣult '%s'."
+
+#: LYMessages.c:756
+msgid "Delete all cookies in this domain?"
+msgstr "Kkes aakk inagan n tuqqna seg taɣult-a?"
+
+#: LYMessages.c:757
+msgid "All of the cookies in the jar have been eaten!"
+msgstr "Akk inagan n tuqqna deg jar, mmeččen!"
+
+#: LYMessages.c:759
+msgid "Port 19 not permitted in URLs."
+msgstr "Tawwurt 19, ur tettwasireg ara deg URLs."
+
+#: LYMessages.c:760
+msgid "Port 25 not permitted in URLs."
+msgstr "Tawwurt 25, ur tettwasireg ara deg URLs."
+
+#: LYMessages.c:761
+#, c-format
+msgid "Port %lu not permitted in URLs."
+msgstr "Tawwurt %lu, ur tettwasireg ara deg URLs."
+
+#: LYMessages.c:762
+msgid "URL has a bad port field."
+msgstr "URL ɣur-s yir urti n tewwurt."
+
+#: LYMessages.c:763
+msgid "Maximum nesting of HTML elements exceeded."
+msgstr "Aseddegiri afellay n yiferdisen HTML, yewweḍ."
+
+#: LYMessages.c:764
+msgid "Bad partial reference!  Stripping lead dots."
+msgstr "Yir timsisɣelt tabruyant!  Kkes agazen."
+
+#: LYMessages.c:765
+msgid "Trace Log open failed.  Trace off!"
+msgstr "Alday n uɣmis n udraz, yecceḍ. Adraz, yensa!"
+
+#: LYMessages.c:766
+msgid "Lynx Trace Log"
+msgstr "Aɣmis n udraz Lynx"
+
+#: LYMessages.c:767
+msgid "No trace log has been started for this session."
+msgstr "Ulac aɣmis n udraz i yekkren i tɣimit-a."
+
+#. #define MAX_TEMPCOUNT_REACHED
+#: LYMessages.c:769
+msgid "The maximum temporary file count has been reached!"
+msgstr "Amḍan afrllay n yifuyla uɛḍilen, yewweḍ!"
+
+#. #define FORM_VALUE_TOO_LONG
+#: LYMessages.c:771
+msgid "Form field value exceeds buffer length!  Trim the tail."
+msgstr "Azal n wurti n tferkit iɛedda !  Sewzel taggara."
+
+#. #define FORM_TAIL_COMBINED_WITH_HEAD
+#: LYMessages.c:773
+msgid "Modified tail combined with head of form field value."
+msgstr "Asenfel n teɣzi icudd ɣer uqerru n wazal n wurti n tferkit."
+
+#. HTFile.c
+#: LYMessages.c:776
+msgid "Directory"
+msgstr "Akaram"
+
+#: LYMessages.c:777
+msgid "Directory browsing is not allowed."
+msgstr "Tunigin deg ukaram, ur tettwasireg ara."
+
+#: LYMessages.c:778
+msgid "Selective access is not enabled for this directory"
+msgstr "Anekcum i yettwafernen, ur yettwarmed ara i ukaram-a"
+
+#: LYMessages.c:779
+msgid "Multiformat: directory scan failed."
+msgstr "Amazal asgutan: urti n uḍummu n ukaram."
+
+#: LYMessages.c:780
+msgid "This directory is not readable."
+msgstr "Akaram-a ur yettwaɣray ara."
+
+#: LYMessages.c:781
+msgid "Can't access requested file."
+msgstr "Ur yezmir ara ad yekcem afaylu n yissutar."
+
+#: LYMessages.c:782
+msgid "Could not find suitable representation for transmission."
+msgstr "D awezɣi tifin n tgensest yerzan tuzzna."
+
+#: LYMessages.c:783
+msgid "Could not open file for decompression!"
+msgstr "Yegguma ad yeldi ufaylu n usefruri!"
+
+#: LYMessages.c:784
+msgid "Files:"
+msgstr "Ifuyla:"
+
+#: LYMessages.c:785
+msgid "Subdirectories:"
+msgstr "Ikaramen irnawen:"
+
+#: LYMessages.c:786
+msgid " directory"
+msgstr " akaram"
+
+#: LYMessages.c:787
+msgid "Up to "
+msgstr "Alamma d "
+
+#: LYMessages.c:788
+msgid "Current directory is "
+msgstr "Akaram amiran d "
+
+#. HTFTP.c
+#: LYMessages.c:791
+msgid "Symbolic Link"
+msgstr "Aseɣwen azamal"
+
+#. HTGopher.c
+#: LYMessages.c:794
+msgid "No response from server!"
+msgstr "Ulac tiririt seg uqeddac!"
+
+#: LYMessages.c:795
+msgid "CSO index"
+msgstr "Amatar CSO"
+
+#: LYMessages.c:796
+msgid ""
+"\n"
+"This is a searchable index of a CSO database.\n"
+msgstr ""
+"\n"
+"Wagi d amatar ideg tzemreḍ ad tnadiḍ taffa n yisefka CSO.\n"
+
+#: LYMessages.c:797
+msgid "CSO Search Results"
+msgstr "Igmaḍ n unadi CSO"
+
+#: LYMessages.c:798
+#, c-format
+msgid "Seek fail on %s\n"
+msgstr "Tuccḍa n uselfu ɣef %s\n"
+
+#: LYMessages.c:799
+msgid ""
+"\n"
+"Press the 's' key and enter search keywords.\n"
+msgstr ""
+"\n"
+"Sit ɣef tqeffalt 's' syen sekcem awalen n unadi.\n"
+
+#: LYMessages.c:800
+msgid ""
+"\n"
+"This is a searchable Gopher index.\n"
+msgstr ""
+"\n"
+"Wagi d amatar ideg tzemreḍ ad tnadiḍ Gopher.\n"
+
+#: LYMessages.c:801
+msgid "Gopher index"
+msgstr "Amatar Gopher"
+
+#: LYMessages.c:802
+msgid "Gopher Menu"
+msgstr "Umuɣ n Gopher"
+
+#: LYMessages.c:803
+msgid " Search Results"
+msgstr " Igmad n unadi"
+
+#: LYMessages.c:804
+msgid "Sending CSO/PH request."
+msgstr "Tuzna n tuttra CSO/PH."
+
+#: LYMessages.c:805
+msgid "Sending Gopher request."
+msgstr "Tuzna n tuttra n Gopher."
+
+#: LYMessages.c:806
+msgid "CSO/PH request sent; waiting for response."
+msgstr "Assuter CSO/PH yettwazen; araǧu n tririt."
+
+#: LYMessages.c:807
+msgid "Gopher request sent; waiting for response."
+msgstr "Assuter n Gopher yettwazen; araǧu n tririt."
+
+#: LYMessages.c:808
+msgid ""
+"\n"
+"Please enter search keywords.\n"
+msgstr ""
+"\n"
+"Ttxil-k×m sekcem awalen n tsura i unadi.\n"
+
+#: LYMessages.c:809
+msgid ""
+"\n"
+"The keywords that you enter will allow you to search on a"
+msgstr ""
+"\n"
+"Awalen yufraren i teskecmeḍ ad ak⋅kem-ǧǧen ad tnadiḍ ɣef"
+
+#: LYMessages.c:810
+msgid " person's name in the database.\n"
+msgstr " isem n umdan deg taffa n yisefka.\n"
+
+#. HTNews.c
+#: LYMessages.c:813
+msgid "Connection closed ???"
+msgstr "Temdel tuqqna ???"
+
+#: LYMessages.c:814
+msgid "Cannot open temporary file for news POST."
+msgstr "Yegguma ad yeldi ufaylu uɛḍil i yisalan POST."
+
+#: LYMessages.c:815
+msgid "This client does not contain support for posting to news with SSL."
+msgstr "Amsaɣ-a ur yegbir ara tallat i tuzna n yisalan s SSL."
+
+#. HTStyle.c
+#: LYMessages.c:818
+#, c-format
+msgid "Style %d `%s' SGML:%s.  Font %s %.1f point.\n"
+msgstr "Aɣanib %d `%s' SGML:%s.  Tasefsit %s %.1f point.\n"
+
+#: LYMessages.c:820
+#, c-format
+msgid "\tAlign=%d, %d tabs. (%.0f before, %.0f after)\n"
+msgstr "\tAlign=%d, %d tirigliwin. (%.0f send, %.0f seld)\n"
+
+#: LYMessages.c:821
+#, c-format
+msgid "\t\tTab kind=%d at %.0f\n"
+msgstr "\t\tAnaw n trigla=%d deg %.0f\n"
+
+#. HTTP.c
+#: LYMessages.c:824
+msgid "Can't proceed without a username and password."
+msgstr "D awezɣi akemmel war isem n useqdac akked wawal n uɛeddi."
+
+#: LYMessages.c:825
+msgid "Can't retry with authorization!  Contact the server's WebMaster."
+msgstr "D awezɣi allus n uneɛruḍ s usireg!  Nermes WebMaster n uqedac."
+
+#: LYMessages.c:826
+msgid "Can't retry with proxy authorization!  Contact the server's WebMaster."
+msgstr "D awezɣi allus n uneɛruḍ s usireg n upṛuksi!  Nermes WebMaster n uqedac."
+
+#: LYMessages.c:827
+msgid "Retrying with proxy authorization information."
+msgstr "Allus n uneɛruḍ s taɣult n usireg n upṛuksi."
+
+#: LYMessages.c:828
+#, c-format
+msgid "SSL error:%s-Continue?"
+msgstr "Tuccḍa SSL: %s-Kemmel?"
+
+#. HTWAIS.c
+#: LYMessages.c:831
+msgid "HTWAIS: Return message too large."
+msgstr "HTWAIS: Iizen n tuɣalin ɣezzif aṭas."
+
+#: LYMessages.c:832
+msgid "Enter WAIS query: "
+msgstr "Sekcem tuttra n WAIS: "
+
+#. Miscellaneous status
+#: LYMessages.c:835
+msgid "Retrying as HTTP0 request."
+msgstr "Ales aneɛruḍ d assuter HTTPO."
+
+#: LYMessages.c:836
+#, c-format
+msgid "Transferred %d bytes"
+msgstr "Ttuwellhen %d yibiten"
+
+#: LYMessages.c:837
+msgid "Data transfer complete"
+msgstr "Awelleh n yisefka, yemmed"
+
+#: LYMessages.c:838
+#, c-format
+msgid "Error processing line %d of %s\n"
+msgstr "Tuccḍa deg usesfer n yizirig %d n %s\n"
+
+#. Lynx internal page titles
+#: LYMessages.c:841
+msgid "Address List Page"
+msgstr "Asebter n tebdart n tansiwin"
+
+#: LYMessages.c:842
+msgid "Bookmark file"
+msgstr "Afaylu n tecraḍ"
+
+#: LYMessages.c:843
+msgid "Configuration Definitions"
+msgstr "Tibadutin n usesteb"
+
+#: LYMessages.c:844
+msgid "Cookie Jar"
+msgstr "Jar n unagi n tuqqna"
+
+#: LYMessages.c:845
+msgid "Current Edit-Key Map"
+msgstr "Asesteb n tqeffalin n uẓrag"
+
+#: LYMessages.c:846
+msgid "Current Key Map"
+msgstr "Tafelwit n tsura tamirant"
+
+#: LYMessages.c:847
+msgid "File Management Options"
+msgstr "Tixtiṛiyin n usefrek n yifuyla"
+
+#: LYMessages.c:848
+msgid "Download Options"
+msgstr "Sader tixtiṛiyin"
+
+#: LYMessages.c:849
+msgid "History Page"
+msgstr "Asebter n uzray"
+
+#: LYMessages.c:850
+msgid "Cache Jar"
+msgstr "Jar n tkatut"
+
+#: LYMessages.c:851
+msgid "List Page"
+msgstr "Asebter n tebdart"
+
+#: LYMessages.c:852
+msgid "Lynx.cfg Information"
+msgstr "Talɣut n Lynx.cfg"
+
+#: LYMessages.c:853
+msgid "Converted Mosaic Hotlist"
+msgstr "Tabdart n yineftaɣen Mosaic i yettwaslrkten"
+
+#: LYMessages.c:854
+msgid "Options Menu"
+msgstr "Umuɣ n Textiṛiyin"
+
+#: LYMessages.c:855
+msgid "File Permission Options"
+msgstr "Tixtiṛiyin n tsirag n yifuyla"
+
+#: LYMessages.c:856
+msgid "Printing Options"
+msgstr "Tixtiṛiyin n usiggez"
+
+#: LYMessages.c:857
+msgid "Information about the current document"
+msgstr "Talɣut ɣef yisemli-a"
+
+#: LYMessages.c:858
+msgid "Your recent statusline messages"
+msgstr "Izirig-ik⋅im n waddad n yiznan imaynuten"
+
+#: LYMessages.c:859
+msgid "Upload Options"
+msgstr "Sali tixtiṛiyin"
+
+#: LYMessages.c:860
+msgid "Visited Links Page"
+msgstr "Asebter n yiseɣwan wuɣur terziḍ"
+
+#. CONFIG_DEF_TITLE subtitles
+#: LYMessages.c:863
+msgid "See also"
+msgstr "Wali daɣen"
+
+#: LYMessages.c:864
+msgid "your"
+msgstr "inrk⋅inem"
+
+#: LYMessages.c:865
+msgid "for runtime options"
+msgstr "i textiṛiyin n uselkem"
+
+#: LYMessages.c:866
+msgid "compile time options"
+msgstr "tixtiṛiyin n usefsu"
+
+#: LYMessages.c:867
+msgid "color-style configuration"
+msgstr "asesteb ɣer uɣanib n yiniten"
+
+#: LYMessages.c:868
+msgid "latest release"
+msgstr "lqem akk aneggaru"
+
+#: LYMessages.c:869
+msgid "pre-release version"
+msgstr "lqem uzwir"
+
+#: LYMessages.c:870
+msgid "development version"
+msgstr "lqem n tneflit"
+
+#. #define AUTOCONF_CONFIG_CACHE
+#: LYMessages.c:872
+msgid ""
+"The following data were derived during the automatic configuration/build\n"
+"process of this copy of Lynx.  When reporting a bug, please include a copy\n"
+"of this page."
+msgstr ""
+"Isefka-a ttwasnulfan-d ɣef teɣzi n usesteb/lebni awurman\n"
+"seg ukala n unɣal-a n Lynx.  Mi ara d-temleḍ abug, ttxil-k⋅m seddu-d anɣal\n"
+"n usebter-a."
+
+#. #define AUTOCONF_LYNXCFG_H
+#: LYMessages.c:876
+msgid ""
+"The following data were used as automatically-configured compile-time\n"
+"definitions when this copy of Lynx was built."
+msgstr ""
+"Isefka-a ttwasqedcen am textiṛiyin n yisefsuyen s wudem awurman\n"
+"yettusbadu lawan n usefsu n lqem-a n Lynx."
+
+#. #define DIRED_NOVICELINE
+#: LYMessages.c:881
+msgid "  C)reate  D)ownload  E)dit  F)ull menu  M)odify  R)emove  T)ag  U)pload     \n"
+msgstr "  C)rnu  D)sader  E)ẓreg  F)umuɣ  M)senfel  R)kkes  T)bzem  U)sali     \n"
+
+#: LYMessages.c:882
+msgid "Failed to obtain status of current link!"
+msgstr "D awezɣi awway n waddad n useɣwen amiran!"
+
+#. #define INVALID_PERMIT_URL
+#: LYMessages.c:885
+msgid "Special URL only valid from current File Permission menu!"
+msgstr "URL uzzik d ameɣtu kan seg wumuɣ n tsirag n yifuyla imiranen!"
+
+#: LYMessages.c:889
+msgid "External support is currently disabled."
+msgstr "Tallalt tazɣarayt, yensa akka tura."
+
+#. new with 2.8.4dev.21
+#: LYMessages.c:893
+msgid "Changing working-directory is currently disabled."
+msgstr "Asali n ukaram n umahil yensa akka tura."
+
+#: LYMessages.c:894
+msgid "Linewrap OFF!"
+msgstr "Linewrap, YENSA!"
+
+#: LYMessages.c:895
+msgid "Linewrap ON!"
+msgstr "Linewrap, YERMED!"
+
+#: LYMessages.c:896
+msgid "Parsing nested-tables toggled OFF!  Reloading..."
+msgstr "Aslaḍ n tfelwiyin tiseddigirin YENSA!  Allus n usali..."
+
+#: LYMessages.c:897
+msgid "Parsing nested-tables toggled ON!  Reloading..."
+msgstr "Aslaḍ n tfelwiyin tiseddigirin YERMED!  Allus n usali..."
+
+#: LYMessages.c:898
+msgid "Shifting is disabled while line-wrap is in effect"
+msgstr "Asekḥer yensa mi ara yettwarmeḍ tuɣalin ɣer yizirig"
+
+#: LYMessages.c:899
+msgid "Trace not supported"
+msgstr "Adraz ur yettwasefrak ara"
+
+#: LYMessages.c:819
+#, c-format
+msgid "\tIndents: first=%.0f others=%.0f, Height=%.1f Desc=%.1f\n"
+msgstr "\tInekcam: amezwaru=%.0f wiyaḍ=%.0f, Teɣzi=%.1f Desc=%.1f\n"
+
+#: WWW/Library/Implementation/HTAABrow.c:575
+#, c-format
+msgid "username for realm %s changed from %s to %s"
+msgstr "isem n useqdac n umesbadu %s yettwasenfel seg %s ɣer %s"
+
+#: WWW/Library/Implementation/HTAABrow.c:591
+#, c-format
+msgid "password for realm %s user %s changed"
+msgstr "awal n uɛeddi yettwasenfel i umesbadu %s i useqdac %s"
+
+#: WWW/Library/Implementation/HTAABrow.c:703
+#, c-format
+msgid "Username for '%s' at %s '%s%s':"
+msgstr "Isem n useqdac i '%s' deg %s '%s%s':"
+
+#: WWW/Library/Implementation/HTAABrow.c:976
+msgid "This client doesn't know how to compose proxy authorization information for scheme"
+msgstr "Amsaɣ-a ur yeẓri ara amek ad isuddes talɣut n usireg n upṛuksi i uzenziɣ"
+
+#: WWW/Library/Implementation/HTAABrow.c:1053
+msgid "This client doesn't know how to compose authorization information for scheme"
+msgstr "Amsaɣ-a ur yeẓri ara amek ad isuddes talɣut n usireg i uzenziɣ"
+
+#: WWW/Library/Implementation/HTAABrow.c:1162
+#, c-format
+msgid "Invalid header '%s%s%s%s%s'"
+msgstr "Aqerru '%s%s%s%s%s', d arameɣtu"
+
+#: WWW/Library/Implementation/HTAABrow.c:1266
+msgid "Proxy authorization required -- retrying"
+msgstr "Tettwasra tsiregt ɣer upṛuksi -- ɛreḍ tikkelt niḍen"
+
+#: WWW/Library/Implementation/HTAABrow.c:1322
+msgid "Access without authorization denied -- retrying"
+msgstr "Anekcum war asireg, yettwagdel -- ales tikkelt niḍen"
+
+#: WWW/Library/Implementation/HTAccess.c:698
+msgid "Access forbidden by rule"
+msgstr "Anekcum yettwagin s ulugan"
+
+#: WWW/Library/Implementation/HTAccess.c:800
+msgid "Document with POST content not found in cache.  Resubmit?"
+msgstr "Isemli s ugbur POST ur yettwaf ara deg tkatut.  Ales tuzna?"
+
+#: WWW/Library/Implementation/HTAccess.c:953
+msgid "Loading failed, use a previous copy."
+msgstr "Asali yecceḍ, seqdec anɣal udfir."
+
+#: WWW/Library/Implementation/HTAccess.c:1062 src/GridText.c:8939
+msgid "Loading incomplete."
+msgstr "Ur yemmid ara usali."
+
+#: WWW/Library/Implementation/HTAccess.c:1093
+#, c-format
+msgid "**** HTAccess: socket or file number returned by obsolete load routine!\n"
+msgstr "**** HTAccess: uṭṭun n socket neɣ afaylu yuɣal-d s tsekkirt n uzdam taqburt!\n"
+
+#: WWW/Library/Implementation/HTAccess.c:1095
+#, c-format
+msgid "**** HTAccess: Internal software error.  Please mail lynx-dev@nongnu.org!\n"
+msgstr "**** HTAccess: Tuccḍa n useɣẓan agensan.  Ttxil-k⋅m azen imayl ɣer lynx-dev@nongnu.org!\n"
+
+#: WWW/Library/Implementation/HTAccess.c:1096
+#, c-format
+msgid "**** HTAccess: Status returned was: %d\n"
+msgstr "**** HTAccess: Addad i d-yuɣalen d: %d\n"
+
+#.
+#. * hack: if we fail in HTAccess.c
+#. * avoid duplicating URL, oh.
+#.
+#: WWW/Library/Implementation/HTAccess.c:1102 src/LYMainLoop.c:8076
+msgid "Can't Access"
+msgstr "Ur yezmir ara ad yekcem"
+
+#: WWW/Library/Implementation/HTAccess.c:1110
+msgid "Unable to access document."
+msgstr "D awezɣi anekcum ɣer yisemli."
+
+#: WWW/Library/Implementation/HTFTP.c:870
+#, c-format
+msgid "Enter password for user %s@%s:"
+msgstr "Sekcem awal n uɛeddi i useqdac %s@%s:"
+
+#: WWW/Library/Implementation/HTFTP.c:898
+msgid "Unable to connect to FTP host."
+msgstr "D awezɣi tuqqna ɣer usenneftaɣ FTP."
+
+#: WWW/Library/Implementation/HTFTP.c:1137
+msgid "close master socket"
+msgstr "mdel socket agejdan"
+
+#: WWW/Library/Implementation/HTFTP.c:1195
+msgid "socket for master socket"
+msgstr "socket seg socket agejdan"
+
+#: WWW/Library/Implementation/HTFTP.c:2925
+msgid "Receiving FTP directory."
+msgstr "Armas n ukaram FTP."
+
+#: WWW/Library/Implementation/HTFTP.c:3063
+#, c-format
+msgid "Transferred %d bytes (%5d)"
+msgstr "Yettuwelleh %d yibiten (%5d)"
+
+#: WWW/Library/Implementation/HTFTP.c:3421
+msgid "connect for data"
+msgstr "tuqqna i umyibeddal n yisefka"
+
+#: WWW/Library/Implementation/HTFTP.c:4098
+msgid "Receiving FTP file."
+msgstr "Armas n ufaylu FTP."
+
+#: WWW/Library/Implementation/HTFinger.c:274
+msgid "Could not set up finger connection."
+msgstr "Yegguma ad yesbadu tuqqna n udsil umḍin."
+
+#: WWW/Library/Implementation/HTFinger.c:321
+msgid "Could not load data (no sitename in finger URL)"
+msgstr "Gguman ad d-alin yisefka (ulac isem n usmil deg URL n udsil umḍin)"
+
+#: WWW/Library/Implementation/HTFinger.c:325
+msgid "Invalid port number - will only use port 79!"
+msgstr "Uṭṭun n tewwurt d tarameɣtut - ad isseqdec kan tawwurt 79!"
+
+#: WWW/Library/Implementation/HTFinger.c:391
+msgid "Could not access finger host."
+msgstr "D awezɣi anekcum ɣer usenneftaɣ n udsil."
+
+#: WWW/Library/Implementation/HTFinger.c:399
+msgid "No response from finger server."
+msgstr "Ulac tiririt seg uqeddac n udsil."
+
+#: WWW/Library/Implementation/HTNews.c:439
+#, c-format
+msgid "Username for news host '%s':"
+msgstr "Isem n useqdac i usenneftaɣ n yisalan '%s':"
+
+#: WWW/Library/Implementation/HTNews.c:492
+msgid "Change username?"
+msgstr "Snifel isem n useqdac?"
+
+#: WWW/Library/Implementation/HTNews.c:496
+msgid "Username:"
+msgstr "Isem n useqdac:"
+
+#: WWW/Library/Implementation/HTNews.c:521
+#, c-format
+msgid "Password for news host '%s':"
+msgstr "Awal n uɛeddi i usenneftaɣ n yisalan '%s':"
+
+#: WWW/Library/Implementation/HTNews.c:604
+msgid "Change password?"
+msgstr "Snifel awal n uɛeddi?"
+
+#: WWW/Library/Implementation/HTNews.c:1725
+#, c-format
+msgid "No matches for: %s"
+msgstr "Ulac amṣada i: %s"
+
+#: WWW/Library/Implementation/HTNews.c:1775
+msgid ""
+"\n"
+"No articles in this group.\n"
+msgstr ""
+"\n"
+"Ulac imagraden deg ugraw-a.n\n"
+
+#: WWW/Library/Implementation/HTNews.c:1787
+msgid ""
+"\n"
+"No articles in this range.\n"
+msgstr ""
+"\n"
+"Ulac imagraden deg ugraw-a.\n"
+
+#.
+#. * Set window title.
+#.
+#: WWW/Library/Implementation/HTNews.c:1800
+#, c-format
+msgid "%s,  Articles %d-%d"
+msgstr "%s,  Imagraden %d-%d"
+
+#: WWW/Library/Implementation/HTNews.c:1823
+msgid "Earlier articles"
+msgstr "Imagraden iɛeddan"
+
+#: WWW/Library/Implementation/HTNews.c:1836
+#, c-format
+msgid ""
+"\n"
+"There are about %d articles currently available in %s, IDs as follows:\n"
+"\n"
+msgstr ""
+"\n"
+"Akka %d yimagraden i yellan akka tura deg %s, Isulay ha-ten-a:\n"
+"\n"
+
+#: WWW/Library/Implementation/HTNews.c:1898
+msgid "All available articles in "
+msgstr "Akk imagraden i yellan deg "
+
+#: WWW/Library/Implementation/HTNews.c:2112
+msgid "Later articles"
+msgstr "Imagraden imanuten"
+
+#: WWW/Library/Implementation/HTNews.c:2135
+msgid "Post to "
+msgstr "Suffeɣ deg "
+
+#: WWW/Library/Implementation/HTNews.c:2356
+msgid "This client does not contain support for SNEWS URLs."
+msgstr "Amsaɣ-a ur yegbir ara tallat i SNEWS URLs."
+
+#: WWW/Library/Implementation/HTNews.c:2565
+msgid "No target for raw text!"
+msgstr "Ulac asaḍas i uḍris amezwaru!"
+
+#: WWW/Library/Implementation/HTNews.c:2595
+msgid "Connecting to NewsHost ..."
+msgstr "Tuqqna ɣer usenneftaɣ n yisalan ..."
+
+#: WWW/Library/Implementation/HTNews.c:2647
+#, c-format
+msgid "Could not access %s."
+msgstr "Yegguma ad yekcem ɣer %s."
+
+#: WWW/Library/Implementation/HTNews.c:2753
+#, c-format
+msgid "Can't read news info.  News host %.20s responded: %.200s"
+msgstr "D awezɣi taɣuri n talɣut n yisalan.  Asenneftaɣ n yisalan yerra-d %.20s: %.200s"
+
+#: WWW/Library/Implementation/HTNews.c:2757
+#, c-format
+msgid "Can't read news info, empty response from host %s"
+msgstr "D awezɣi taɣuri n telɣut n yisalan, tiririt d tilemt sɣur usenneftaɣ %s"
+
+#.
+#. * List available newsgroups.  - FM
+#.
+#: WWW/Library/Implementation/HTNews.c:2961
+msgid "Reading list of available newsgroups."
+msgstr "Taɣuri n tebdart n yigrawen n yisalan, tella."
+
+#: WWW/Library/Implementation/HTNews.c:2982
+msgid "Reading list of articles in newsgroup."
+msgstr "Taɣuri n tebdart n yigrawen n yimagraden, tella."
+
+#.
+#. * Get an article from a news group.  - FM
+#.
+#: WWW/Library/Implementation/HTNews.c:2988
+msgid "Reading news article."
+msgstr "Taɣuri n yimagraden imaynuten."
+
+#: WWW/Library/Implementation/HTNews.c:3018
+msgid "Sorry, could not load requested news."
+msgstr "Nesḥassef, yegguma ad d-isali isalan i yettwassutren."
+
+#: WWW/Library/Implementation/HTTCP.c:1339
+msgid "Address has invalid port"
+msgstr "Tansa ɣur-s tawwurt tarameɣtut"
+
+#: WWW/Library/Implementation/HTTCP.c:1410
+msgid "Address length looks invalid"
+msgstr "Tehri n tansa tettban d tarameɣtut"
+
+#: WWW/Library/Implementation/HTTCP.c:1868
+msgid "SOCKS5: no hostname found."
+msgstr "SOCKS5: ulac asenneftaɣ i yettwafen."
+
+#: WWW/Library/Implementation/HTTCP.c:1874
+msgid "SOCKS5: hostname too long."
+msgstr "SOCKS5: asenneftaɣ ɣezzif aṭas."
+
+#: WWW/Library/Implementation/HTTCP.c:1892
+#, c-format
+msgid "(for %s at %s) SOCKS5"
+msgstr "(i %s deg %s) SOCKS5"
+
+#: WWW/Library/Implementation/HTTCP.c:1919
+#: WWW/Library/Implementation/HTTCP.c:1936
+#, c-format
+msgid "Unable to locate remote host %s."
+msgstr "D awezɣi asideg n usenneftaɣ anmeggag %s."
+
+#. Not HTProgress, so warning won't be overwritten immediately;
+#. * but not HTAlert, because typically there will be other
+#. * alerts from the callers.  - kw
+#.
+#: WWW/Library/Implementation/HTTCP.c:1933
+#: WWW/Library/Implementation/HTTelnet.c:115
+#, c-format
+msgid "Invalid hostname %s"
+msgstr "Asenneftaɣ %s d arameɣtu"
+
+#: WWW/Library/Implementation/HTTCP.c:1945
+#, c-format
+msgid "Making %s connection to %s"
+msgstr "Tuqqna n %s ɣer %s"
+
+#: WWW/Library/Implementation/HTTCP.c:1955
+msgid "socket failed."
+msgstr "yecceḍ socket."
+
+#: WWW/Library/Implementation/HTTCP.c:1969
+#, c-format
+msgid "socket failed: family %d addr %s port %s."
+msgstr "socket yecceḍ: tawacult %d tansa %s tawwurt %s."
+
+#: WWW/Library/Implementation/HTTCP.c:1992
+msgid "Could not make connection non-blocking."
+msgstr "Ur yezmir ara ad yeg tuqqna war asewḥel."
+
+#: WWW/Library/Implementation/HTTCP.c:2058
+msgid "Connection failed (too many retries)."
+msgstr "Tecceḍ tuqqna (aṭas n yineɛraḍ)."
+
+#: WWW/Library/Implementation/HTTCP.c:2253
+msgid "Could not restore socket to blocking."
+msgstr "D awezɣi tiririt n socket i usewḥel."
+
+#. RFC 1928: CONNECT request
+#: WWW/Library/Implementation/HTTCP.c:2285
+#, c-format
+msgid "SOCKS5: connecting to %s"
+msgstr "SOCKS5: tuqqna ɣer %s"
+
+#: WWW/Library/Implementation/HTTCP.c:2314
+msgid "SOCKS server failure"
+msgstr "Yecceḍ uqeddac SOCKS"
+
+#: WWW/Library/Implementation/HTTCP.c:2317
+msgid "connection not allowed by ruleset"
+msgstr "tuqqna ur tettusireg ara s tegrumma n yilugan"
+
+#: WWW/Library/Implementation/HTTCP.c:2320
+msgid "network unreachable"
+msgstr "d awezɣi awwaḍ ɣer uzeṭṭa"
+
+#: WWW/Library/Implementation/HTTCP.c:2323
+msgid "host unreachable"
+msgstr "d awezɣi awwaḍ ɣer usenneftaɣ"
+
+#: WWW/Library/Implementation/HTTCP.c:2326
+msgid "connection refused"
+msgstr "tuqqna tettwagdel"
+
+#: WWW/Library/Implementation/HTTCP.c:2329
+msgid "TTL expired"
+msgstr "TTL ifut"
+
+#: WWW/Library/Implementation/HTTCP.c:2332
+msgid "command not supported"
+msgstr "anẓad ur yettwasefrak ara"
+
+#: WWW/Library/Implementation/HTTCP.c:2335
+msgid "address type not supported"
+msgstr "anaw n tansa ur yettwasefrek ara"
+
+#: WWW/Library/Implementation/HTTCP.c:2338
+msgid "unknown SOCKS error code"
+msgstr "tangalt n tuccḍa tarussint n SOCKS"
+
+#: WWW/Library/Implementation/HTTCP.c:2383
+msgid "unexpected reply\n"
+msgstr "tiririt ur yettwarǧan ara\n"
+
+#: WWW/Library/Implementation/HTTCP.c:2460
+msgid "Socket read failed (too many tries)."
+msgstr "Tacceḍ tɣuri n Socket (aṭas n yineɛruḍen)."
+
+#: WWW/Library/Implementation/HTTP.c:165
+#, c-format
+msgid "SSL callback:%s, preverify_ok=%d, ssl_okay=%d"
+msgstr "Tuɣalin n usiwel SSL:%s, preverify_ok=%d, ssl_okay=%d"
+
+#: WWW/Library/Implementation/HTTP.c:668
+#, c-format
+msgid "User/password contains only punctuation: %s"
+msgstr "Isem n useqdac/awal n uɛeddi yegber kan asigez: %s"
+
+#: WWW/Library/Implementation/HTTP.c:672
+#, c-format
+msgid "User/password may be confused with hostname: '%s' (e.g, '%s')"
+msgstr "Isem n useqdac/awal n uɛeddi yezmer yexleḍ d yisem n usenneftaɣ: '%s' (am., '%s')"
+
+#: WWW/Library/Implementation/HTTP.c:733
+#, c-format
+msgid "Certificate issued by: %s"
+msgstr "Aselkin yettwamudd sɣur: %s"
+
+#: WWW/Library/Implementation/HTTP.c:922
+msgid "This client does not contain support for HTTPS URLs."
+msgstr "Amsaɣ-a ur yegbir ara tallat i HTTPS URLs."
+
+#: WWW/Library/Implementation/HTTP.c:947
+msgid "Unable to connect to remote host."
+msgstr "D awezɣi tuqqna ɣer usenneftaɣ anmeggag."
+
+#: WWW/Library/Implementation/HTTP.c:990
+msgid "Retrying connection without TLS."
+msgstr "Allus n tuqqna war TLS."
+
+#: WWW/Library/Implementation/HTTP.c:1042
+msgid "GnuTLS error when trying to verify certificate."
+msgstr "Tuccḍa n GnuTLS lawan n uneɛruḍ n usenqed n uselkin."
+
+#: WWW/Library/Implementation/HTTP.c:1055
+msgid "the certificate has no known issuer"
+msgstr "aselkin ulac ɣur-s amesgal ussin"
+
+#: WWW/Library/Implementation/HTTP.c:1057
+msgid "no issuer was found"
+msgstr "ulac amesgal i yettwafen"
+
+#: WWW/Library/Implementation/HTTP.c:1059
+msgid "issuer is not a CA"
+msgstr "amesgal mačči d CA"
+
+#: WWW/Library/Implementation/HTTP.c:1061
+msgid "the certificate has been revoked"
+msgstr "aselkin yettwaḥwi"
+
+#: WWW/Library/Implementation/HTTP.c:1063
+msgid "the certificate is not trusted"
+msgstr "aselkin ur yettwaman ara"
+
+#: WWW/Library/Implementation/HTTP.c:1138
+#, c-format
+msgid "Verified connection to %s (cert=%s)"
+msgstr "Tettwasenqed tuqqna ɣer %s (aselkin=%s)"
+
+#: WWW/Library/Implementation/HTTP.c:1188
+#: WWW/Library/Implementation/HTTP.c:1230
+#, c-format
+msgid "Verified connection to %s (subj=%s)"
+msgstr "Tettwasenqed tuqqna ɣer %s (asentel=%s)"
+
+#: WWW/Library/Implementation/HTTP.c:1260
+msgid "Can't find common name in certificate"
+msgstr "Yegguma ad yaf isem amaẓlay deg uselkin"
+
+#: WWW/Library/Implementation/HTTP.c:1263
+#, c-format
+msgid "SSL error:host(%s)!=cert(%s)-Continue?"
+msgstr "Tuccḍa SSL:asenneftaɣ(%s)!=aselkin(%s)-Kemel?"
+
+#: WWW/Library/Implementation/HTTP.c:1270
+msgid "SSL error"
+msgstr "Tuccḍa SSL"
+
+#: WWW/Library/Implementation/HTTP.c:1278
+#, c-format
+msgid "UNVERIFIED connection to %s (cert=%s)"
+msgstr "Ur tettwasenqed ara tuqqna ɣer %s (aselkin=%s)"
+
+#: WWW/Library/Implementation/HTTP.c:1287
+#, c-format
+msgid "Secure %d-bit %s (%s) HTTP connection"
+msgstr "Tuqqna n HTTP taɣellsant %d-ibiten %s (%s)"
+
+#: WWW/Library/Implementation/HTTP.c:1757
+msgid "Sending HTTP request."
+msgstr "Tuzna assuter HTTP."
+
+#: WWW/Library/Implementation/HTTP.c:1799
+msgid "Unexpected network write error; connection aborted."
+msgstr "Tuccḍa deg tira n uzeṭṭa ur yettwarǧan ara; tettwagzem tuqqna."
+
+#: WWW/Library/Implementation/HTTP.c:1805
+msgid "HTTP request sent; waiting for response."
+msgstr "Assuter HTTP yettwazen; rǧu tiririt."
+
+#: WWW/Library/Implementation/HTTP.c:1878
+#: WWW/Library/Implementation/HTTP.c:1888
+msgid "Unexpected network read error; connection aborted."
+msgstr "Tuccḍa deg tɣuri n uzeṭṭa ur yettwarǧan ara; tettwagzem tuqqna."
+
+#.
+#. * HTTP/1.1 Informational statuses.
+#. * 100 Continue.
+#. * 101 Switching Protocols.
+#. * > 101 is unknown.
+#. * We should never get these, and they have only the status
+#. * line and possibly other headers, so we'll deal with them by
+#. * showing the full header to the user as text/plain.  - FM
+#.
+#: WWW/Library/Implementation/HTTP.c:2091
+msgid "Got unexpected Informational Status."
+msgstr "Tuṭṭfa n waddad n talɣut ur yettwaruǧu ara."
+
+#.
+#. * Reset Content.  The server has fulfilled the request but
+#. * nothing is returned and we should reset any form
+#. * content.  We'll instruct the user to do that, and
+#. * restore the current document.  - FM
+#.
+#: WWW/Library/Implementation/HTTP.c:2125
+msgid "Request fulfilled.  Reset Content."
+msgstr "Assuter yemmed.  Wennez agbur."
+
+#. Not Modified
+#.
+#. * We didn't send an "If-Modified-Since" header, so this
+#. * status is inappropriate.  We'll deal with it by showing
+#. * the full header to the user as text/plain.  - FM
+#.
+#: WWW/Library/Implementation/HTTP.c:2242
+msgid "Got unexpected 304 Not Modified status."
+msgstr "Tuṭṭfa n waddad 304 war asenfel, ur yettwaruǧu ara."
+
+#: WWW/Library/Implementation/HTTP.c:2305
+msgid "Redirection of POST content requires user approval."
+msgstr "Abeddel n ugbur POST yesra asentem n useqdac."
+
+#: WWW/Library/Implementation/HTTP.c:2320
+msgid "Have POST content.  Treating Permanent Redirection as Temporary.\n"
+msgstr "Agbur POST.  Asesfer n wallus n uwelleh i lebda, d uɛḍil.\n"
+
+#: WWW/Library/Implementation/HTTP.c:2366
+msgid "Retrying with access authorization information."
+msgstr "Aneɛruḍ i tikkelt niḍen s talɣut n usireg n unekcum."
+
+#: WWW/Library/Implementation/HTTP.c:2378
+msgid "Show the 401 message body?"
+msgstr "Sken tafekka n yizen 401?"
+
+#: WWW/Library/Implementation/HTTP.c:2422
+msgid "Show the 407 message body?"
+msgstr "Sken tafekka n yizen 407?"
+
+#.
+#. * Bad or unknown server_status number.  Take a chance and hope
+#. * there is something to display.  - FM
+#.
+#: WWW/Library/Implementation/HTTP.c:2522
+msgid "Unknown status reply from server!"
+msgstr "Tiririt n waddad tarussint seg uqeddac!"
+
+#: WWW/Library/Implementation/HTTelnet.c:113
+#, c-format
+msgid "remote %s session:"
+msgstr "tiɣimit tanmeggagt %s:"
+
+#: WWW/Library/Implementation/HTWAIS.c:163
+msgid "Could not connect to WAIS server."
+msgstr "Yegguma ad iqqen ɣer uqeddac WAIS."
+
+#: WWW/Library/Implementation/HTWAIS.c:171
+msgid "Could not open WAIS connection for reading."
+msgstr "Yegguma ad yeldi tuqqna n WAIS i tɣuri."
+
+#: WWW/Library/Implementation/HTWAIS.c:193
+msgid "Diagnostic code is "
+msgstr "Tangalt n umninad d "
+
+#: WWW/Library/Implementation/HTWAIS.c:460
+msgid "Index "
+msgstr "Amatar "
+
+#: WWW/Library/Implementation/HTWAIS.c:464
+#, c-format
+msgid " contains the following %d item%s relevant to \""
+msgstr " yegber %d iferdisen%s yeqqnen ɣer \""
+
+#: WWW/Library/Implementation/HTWAIS.c:472
+msgid "The first figure after each entry is its relative score, "
+msgstr "Udem amezwaru seld yal anekcum, d agmuḍ-ines, "
+
+#: WWW/Library/Implementation/HTWAIS.c:473
+msgid "the second is the number of lines in the item."
+msgstr "wis sin d amḍan n yizirigen deg uferdis."
+
+#: WWW/Library/Implementation/HTWAIS.c:515
+msgid " (bad file name)"
+msgstr " (yir isem n ufaylu)"
+
+#: WWW/Library/Implementation/HTWAIS.c:541
+msgid "(bad doc id)"
+msgstr "(yir asulay n yisemli)"
+
+#: WWW/Library/Implementation/HTWAIS.c:557
+msgid "(Short Header record, can't display)"
+msgstr "(Asekles n uqerru ameẓẓyan, ur yezmir ara ad d-yesken)"
+
+#: WWW/Library/Implementation/HTWAIS.c:564
+msgid ""
+"\n"
+"Long Header record, can't display\n"
+msgstr ""
+"\n"
+"Asekles n uqerru aɣezzfan, ur yezmir ara ad d-yesken\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:571
+msgid ""
+"\n"
+"Text record\n"
+msgstr ""
+"\n"
+"Asekles n uḍris\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:580
+msgid ""
+"\n"
+"Headline record, can't display\n"
+msgstr ""
+"\n"
+"Asekles n uqerru, d awezɣi askan\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:588
+msgid ""
+"\n"
+"Code record, can't display\n"
+msgstr ""
+"\n"
+"Asekles n tengalt, ur yezmir ara ad yesken\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:692
+msgid "Syntax error in WAIS URL"
+msgstr "Tuccḍa deg tseddast deg WAIS URL"
+
+#: WWW/Library/Implementation/HTWAIS.c:764
+msgid " (WAIS Index)"
+msgstr " (Amatar WAIS)"
+
+#: WWW/Library/Implementation/HTWAIS.c:771
+msgid "WAIS Index: "
+msgstr "Amatar WAIS: "
+
+#: WWW/Library/Implementation/HTWAIS.c:777
+msgid "This is a link for searching the "
+msgstr "Wagi d aseɣwen i unadi n "
+
+#: WWW/Library/Implementation/HTWAIS.c:781
+msgid " WAIS Index.\n"
+msgstr " Amatar WAIS.\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:810
+msgid ""
+"\n"
+"Enter the 's'earch command and then specify search words.\n"
+msgstr ""
+"\n"
+"Sekcem anzaḍ 's'anadi syen fren awalen ara tnadiḍ.\n"
+
+#: WWW/Library/Implementation/HTWAIS.c:832
+msgid " (in "
+msgstr " (deg "
+
+#: WWW/Library/Implementation/HTWAIS.c:841
+msgid "WAIS Search of \""
+msgstr "Anadi WAIS n \""
+
+#: WWW/Library/Implementation/HTWAIS.c:845
+msgid "\" in: "
+msgstr "\" deg: "
+
+#: WWW/Library/Implementation/HTWAIS.c:860
+msgid "HTWAIS: Request too large."
+msgstr "HTWAIS: Assuter Hraw aṭas."
+
+#: WWW/Library/Implementation/HTWAIS.c:869
+msgid "Searching WAIS database..."
+msgstr "Anadi n taffa n yisefka WAIS..."
+
+#: WWW/Library/Implementation/HTWAIS.c:879
+msgid "Search interrupted."
+msgstr "Anadi, yettwagzem."
+
+#: WWW/Library/Implementation/HTWAIS.c:930
+msgid "Can't convert format of WAIS document"
+msgstr "D awezɣi aselket n umasal n yisemli WAIS"
+
+#: WWW/Library/Implementation/HTWAIS.c:974
+msgid "HTWAIS: Request too long."
+msgstr "HTWAIS: Assuter ɣezzif aṭas."
+
+#.
+#. * Actually do the transaction given by request_message.
+#.
+#: WWW/Library/Implementation/HTWAIS.c:988
+msgid "Fetching WAIS document..."
+msgstr "Awway n yisemli WAIS..."
+
+#. display_search_response(target, retrieval_response,
+#. wais_database, keywords);
+#: WWW/Library/Implementation/HTWAIS.c:1027
+msgid "No text was returned!\n"
+msgstr "Ulac aḍris i d-yuɣalen:\n"
+
+#: WWW/Library/Implementation/HTWSRC.c:302
+msgid " NOT GIVEN in source file; "
+msgstr " Ur D-YETTWAMMUD aradeg ufaylu aɣbalu; "
+
+#: WWW/Library/Implementation/HTWSRC.c:325
+msgid " WAIS source file"
+msgstr " Afaylu n uɣbalu WAIS"
+
+#: WWW/Library/Implementation/HTWSRC.c:332
+msgid " description"
+msgstr " aglam"
+
+#: WWW/Library/Implementation/HTWSRC.c:342
+msgid "Access links"
+msgstr "Anekcum ɣer yiseɣwan"
+
+#: WWW/Library/Implementation/HTWSRC.c:363
+msgid "Direct access"
+msgstr "Anekcum usrid"
+
+#. * Proxy will be used if defined, so let user know that - FM *
+#: WWW/Library/Implementation/HTWSRC.c:366
+msgid " (or via proxy server, if defined)"
+msgstr " (neɣ s uqeddac n upṛuksi, ma yella yettusbadu)"
+
+#: WWW/Library/Implementation/HTWSRC.c:381
+msgid "Maintainer"
+msgstr ""
+
+#: WWW/Library/Implementation/HTWSRC.c:389
+msgid "Host"
+msgstr "Asenneftaɣ"
+
+#: src/GridText.c:723
+msgid "Memory exhausted, display interrupted!"
+msgstr "Drus n tkatut, anegzum n uskan!"
+
+#: src/GridText.c:728
+msgid "Memory exhausted, will interrupt transfer!"
+msgstr "Drus n tkatut, awelleh ad yettwagzem!"
+
+#: src/GridText.c:1719
+#, c-format
+msgid " (l%d of %d)"
+msgstr " (l%d n %d)"
+
+#: src/GridText.c:1728
+#, c-format
+msgid " (p%d of %d)"
+msgstr " (p%d n %d)"
+
+#: src/GridText.c:3720
+msgid " *** MEMORY EXHAUSTED ***"
+msgstr " *** TEČČUR TKATUT ***"
+
+#: src/GridText.c:6220
+msgid "text entry field"
+msgstr "urti n usekcem n uḍris"
+
+#: src/GridText.c:6223
+msgid "password entry field"
+msgstr "urti n unekcum n wawal n uɛeddi"
+
+#: src/GridText.c:6226
+msgid "checkbox"
+msgstr "taxxamt n ṛṛcem"
+
+#: src/GridText.c:6229
+msgid "radio button"
+msgstr "taqeffalt n ṛṛadyu"
+
+#: src/GridText.c:6232
+msgid "submit button"
+msgstr "taqeffalt n tuzna"
+
+#: src/GridText.c:6235
+msgid "reset button"
+msgstr "taqeffalt n uwennez"
+
+#: src/GridText.c:6238
+msgid "script button"
+msgstr "taqeffalt n usekript"
+
+#: src/GridText.c:6241
+msgid "popup menu"
+msgstr "umuɣ n usfaylu udhim"
+
+#: src/GridText.c:6244
+msgid "hidden form field"
+msgstr "urti n tferkit yettwaffren"
+
+#: src/GridText.c:6247
+msgid "text entry area"
+msgstr "tamnaḍt n usekcem n uḍris"
+
+#: src/GridText.c:6250
+msgid "range entry field"
+msgstr "urti n usekcem n tagrumma"
+
+#: src/GridText.c:6253
+msgid "file entry field"
+msgstr "urti n ukcam n ufaylu"
+
+#: src/GridText.c:6256
+msgid "text-submit field"
+msgstr "urti n tuzna n yiḍrisen"
+
+#: src/GridText.c:6259
+msgid "image-submit button"
+msgstr "taqeffalt n tuzna n tugniwin"
+
+#: src/GridText.c:6262
+msgid "keygen field"
+msgstr "urti keygen"
+
+#: src/GridText.c:6265
+msgid "unknown form field"
+msgstr "urti n tferkit arussin"
+
+#: src/GridText.c:6285 src/GridText.c:6292 src/LYList.c:249
+msgid "unknown field or link"
+msgstr "urti neɣ aseɣwen arussin"
+
+#: src/GridText.c:10722
+msgid "Can't open file for uploading"
+msgstr "Yegguma ad d-yeldi ufaylu i usali"
+
+#: src/GridText.c:11910
+#, c-format
+msgid "Submitting %s"
+msgstr "Tuzna %s"
+
+#. ugliness has happened; inform user and do the best we can
+#: src/GridText.c:12980
+msgid "Hang Detect: TextAnchor struct corrupted - suggest aborting!"
+msgstr "Yettwaf wugur: Tamṣukt n TextAnchor terreẓ - Yettwanef usumer!"
+
+#. don't show previous state
+#: src/GridText.c:13139
+msgid "Wrap lines to fit displayed area?"
+msgstr "Gzem izirigen i wakken ad teččareḍ tamnaḍt?"
+
+#: src/GridText.c:13772
+msgid "Very long lines have been truncated!"
+msgstr "Izirigen meqqren aṭas, ttwagezmen!"
+
+#: src/HTAlert.c:164 src/LYShowInfo.c:389 src/LYShowInfo.c:393
+msgid "bytes"
+msgstr "ibiten"
+
+#.
+#. * If we know the total size of the file, we can compute
+#. * a percentage, and show a corresponding progress bar.
+#.
+#: src/HTAlert.c:328 src/HTAlert.c:354
+#, c-format
+msgid "Read %s of data"
+msgstr "Ɣeṛ %s n yisefka"
+
+#: src/HTAlert.c:351
+#, c-format
+msgid "Read %s of %s of data"
+msgstr "Ɣeṛ %s n %s n yisefka"
+
+#: src/HTAlert.c:360
+#, c-format
+msgid ", %s/sec"
+msgstr ", %s/tsn"
+
+#: src/HTAlert.c:374
+#, c-format
+msgid " (stalled for %s)"
+msgstr " (yewḥel i %s)"
+
+#: src/HTAlert.c:378
+#, c-format
+msgid ", ETA %s"
+msgstr ", ETA %s"
+
+#: src/HTAlert.c:400
+msgid " (Press 'z' to abort)"
+msgstr " (Sit ɣef 'z' i usefsex)"
+
+#. Meta-note: don't move the following note from its place right
+#. in front of the first gettext().  As it is now, it should
+#. automatically appear in generated lynx.pot files. - kw
+#.
+#. NOTE TO TRANSLATORS:  If you provide a translation for "yes", lynx
+#. * will take the first byte of the translation as a positive response
+#. * to Yes/No questions.  If you provide a translation for "no", lynx
+#. * will take the first byte of the translation as a negative response
+#. * to Yes/No questions.  For both, lynx will also try to show the
+#. * first byte in the prompt as a character, instead of (y) or (n),
+#. * respectively.  This will not work right for multibyte charsets!
+#. * Don't translate "yes" and "no" for CJK character sets (or translate
+#. * them to "yes" and "no").  For a translation using UTF-8, don't
+#. * translate if the translation would begin with anything but a 7-bit
+#. * (US_ASCII) character.  That also means do not translate if the
+#. * translation would begin with anything but a 7-bit character, if
+#. * you use a single-byte character encoding (a charset like ISO-8859-n)
+#. * but anticipate that the message catalog may be used re-encoded in
+#. * UTF-8 form.
+#. * For translations using other character sets, you may also wish to
+#. * leave "yes" and "no" untranslated, if using (y) and (n) is the
+#. * preferred behavior.
+#. * Lynx will also accept y Y n N as responses unless there is a conflict
+#. * with the first letter of the "yes" or "no" translation.
+#.
+#: src/HTAlert.c:438 src/HTAlert.c:486
+msgid "yes"
+msgstr "ih"
+
+#: src/HTAlert.c:441 src/HTAlert.c:487
+msgid "no"
+msgstr "uhu"
+
+#.
+#. * Special-purpose workaround for gettext support (we should do
+#. * this in a more general way) -TD
+#. *
+#. * NOTE TO TRANSLATORS:  If the prompt has been rendered into
+#. * another language, and if yes/no are distinct, assume the
+#. * translator can make an ordered list in parentheses with one
+#. * capital letter for each as we assumed in HTConfirmDefault().
+#. * The list has to be in the same order as in the original message,
+#. * and the four capital letters chosen to not match those in the
+#. * original unless they have the same position.
+#. *
+#. * Example:
+#. * (Y/N/Always/neVer)              - English (original)
+#. * (O/N/Toujours/Jamais)           - French
+#.
+#: src/HTAlert.c:938
+msgid "Y/N/A/V"
+msgstr "Y/N/A/V"
+
+#: src/HTML.c:5769
+msgid "Description:"
+msgstr "Aglam:"
+
+#: src/HTML.c:5774
+msgid "(none)"
+msgstr "(ulac)"
+
+#: src/HTML.c:5778
+msgid "Filepath:"
+msgstr "Abrid n ufaylu:"
+
+#: src/HTML.c:5784
+msgid "(unknown)"
+msgstr "(d arussin)"
+
+#: src/HTML.c:7224
+msgid "Document has only hidden links.  Use the 'l'ist command."
+msgstr "Isemli ɣur-s kan iseɣwan yeffren.  Seqdec anzaḍ n 'l'tebdart."
+
+#: src/HTML.c:7725
+msgid "Source cache error - disk full?"
+msgstr "Tuccḍa n tkatut n uɣbalu - aḍebsi yeččur?"
+
+#: src/HTML.c:7738
+msgid "Source cache error - not enough memory!"
+msgstr "Tuccḍa n tkatut n uɣbalu - ulac ddeqs n tallunt!"
+
+#: src/LYBookmark.c:167
+msgid ""
+"     This file is an HTML representation of the X Mosaic hotlist file.\n"
+"     Outdated or invalid links may be removed by using the\n"
+"     remove bookmark command, it is usually the 'R' key but may have\n"
+"     been remapped by you or your system administrator."
+msgstr ""
+"     Afaylu-a d tagensest n HTML n ufaylu n usenneftaɣ n tebdarin X Mosaic.\n"
+"     Yezmer ad ttwakksen yiseɣwan iqburen neɣ irimeɣta s useqdec n\n"
+"     wanzaḍ n tecraḍ n tukksa, tezga d taqeffalt 'R' maca yezmer\n"
+"     d kečč neɣ anedbal n unagraw ara yalsen asesteb n tqeffat-a."
+
+#: src/LYBookmark.c:380
+#, c-format
+msgid ""
+"     You can delete links by the 'R' key<br>\n"
+"<ol>\n"
+msgstr ""
+"     Tzemreḍ ad tekkseḍ iseɣwan s tqeffalt 'R'<br>\n"
+"<ol>\n"
+
+#: src/LYBookmark.c:383
+msgid ""
+"     You can delete links using the remove bookmark command.  It is usually\n"
+"     the 'R' key but may have been remapped by you or your system\n"
+"     administrator."
+msgstr ""
+"     Tzemreḍ ad tekkseḍ iseɣwan s useqdec n wanzaḍ n tecraḍ n tukksa.  Yezga s\n"
+"     tqeffalt 'R' maca yezmer ad tettwasesteb tikkelt niḍen seg tama-k⋅m neɣ seg tama n\n"
+"     unedbal n unagraw."
+
+#: src/LYBookmark.c:387
+msgid ""
+"     This file also may be edited with a standard text editor to delete\n"
+"     outdated or invalid links, or to change their order."
+msgstr ""
+"     Afaylu-a yezmer daɣen ad yettwaẓrag s umaẓrag n yiḍrisen alugan i tukksa n\n"
+"    yiseɣwan iqburen neɣ irimeɣta, neɣ aẓrag n umizwer-nsen."
+
+#: src/LYBookmark.c:390
+msgid ""
+"Note: if you edit this file manually\n"
+"      you should not change the format within the lines\n"
+"      or add other HTML markup.\n"
+"      Make sure any bookmark link is saved as a single line."
+msgstr ""
+"Tamawt: ma yella tẓergeḍ afaylu-a s ufus\n"
+"      ur ilaq ara ad tesnefleḍ amasal daxel n yizirigen\n"
+"      neɣ ad ternuḍ ticraḍ n HTML.\n"
+"      Ḍmen belli yal aseɣwen n tecraḍ yettwasekles ɣef yiwen yizirig."
+
+#: src/LYBookmark.c:686
+#, c-format
+msgid "File may be recoverable from %s during this session"
+msgstr "Afaylu yezmer ad d-yettwarr seg %s ɣef teɣzi n tɣimit"
+
+#: src/LYCgi.c:161
+#, c-format
+msgid "Do you want to execute \"%s\"?"
+msgstr "Tebɣiḍ ad teslekmeḍ \"%s\"?"
+
+#.
+#. * Neither the path as given nor any components examined by backing up
+#. * were stat()able.  - kw
+#.
+#: src/LYCgi.c:276
+msgid "Unable to access cgi script"
+msgstr "D awezɣi anekcum ɣer usekript cgi"
+
+#: src/LYCgi.c:709 src/LYCgi.c:712
+msgid "Good Advice"
+msgstr "Ismalen igerrzen"
+
+#: src/LYCgi.c:716
+msgid "An excellent http server for VMS is available via"
+msgstr "Aqeddac http igerrzen i VMS, yella s"
+
+#: src/LYCgi.c:723
+msgid "this link"
+msgstr "aseɣwen-a"
+
+#: src/LYCgi.c:727
+msgid "It provides state of the art CGI script support.\n"
+msgstr "Yettmuddu-d addad n tallalt n yisekripten CGI.\n"
+
+#: src/LYClean.c:115
+msgid "Exiting via interrupt:"
+msgstr "Tuffɣa s unegzum:"
+
+#: src/LYCookie.c:2651
+msgid "(from a previous session)"
+msgstr "(seg tɣimit yezrin)"
+
+#: src/LYCookie.c:2712
+msgid "Maximum Gobble Date:"
+msgstr "Azemz n waggay afellay:"
+
+#: src/LYCookie.c:2751
+msgid "Internal"
+msgstr "Adigan"
+
+#: src/LYCookie.c:2752
+msgid "cookie_domain_flag_set error, aborting program"
+msgstr "tuccḍa deg cookie_domain_flag_set, asefsex n wahil"
+
+#: src/LYCurses.c:1136
+msgid "Terminal reinitialisation failed - unknown terminal type?"
+msgstr "Allus n uwennez n yixef, yecceḍ - anaw n yixef d arussin?"
+
+#: src/LYCurses.c:1343
+msgid "Terminal initialisation failed - unknown terminal type?"
+msgstr "Awennez n yixef, yecceḍ - anaw n yixef d arussin?"
+
+#: src/LYCurses.c:1837
+msgid "Terminal ="
+msgstr "Ixef ="
+
+#: src/LYCurses.c:1841
+msgid "You must use a vt100, 200, etc. terminal with this program."
+msgstr "Ilaq ad tesqedceḍ ixef vt100, 200, tgr. s wahil-a."
+
+#: src/LYCurses.c:1890
+msgid "Your Terminal type is unknown!"
+msgstr "Anaw n yixef-ik⋅im, d arussin!"
+
+#: src/LYCurses.c:1891
+msgid "Enter a terminal type:"
+msgstr "Sekcem anaw n yixef:"
+
+#: src/LYCurses.c:1905
+msgid "TERMINAL TYPE IS SET TO"
+msgstr "ANAW N YIXEF YETTUSBADU ƔER"
+
+#: src/LYCurses.c:2464
+#, c-format
+msgid ""
+"\n"
+"A Fatal error has occurred in %s Ver. %s\n"
+msgstr ""
+"\n"
+"Tuccḍa taserrebrabt, tettwaf deg %s Ver. %s\n"
+
+#: src/LYCurses.c:2467
+#, c-format
+msgid ""
+"\n"
+"Please notify your system administrator to confirm a bug, and if\n"
+"confirmed, to notify the lynx-dev list.  Bug reports should have concise\n"
+"descriptions of the command and/or URL which causes the problem, the\n"
+"operating system name with version number, the TCPIP implementation, the\n"
+"TRACEBACK if it can be captured, and any other relevant information.\n"
+msgstr ""
+"\n"
+"Ttxil-k⋅m, azen ilɣa i unedbal-ik⋅im n unagraw i usentem n wabug, syen ma\n"
+"yettwasentem, azen-it ɣer tebdart n lynx-dev.  Ineqqisen n wabug ilaq ilin\n"
+"d aglam awezzlan n wanẓad akked/neɣ n URL i d-yeglan s wugur,\n"
+"isem n unagraw n wammud s wuṭṭun n lqem-ines, uẓẓu TCPIP,\n"
+"TRACEBACK ma yella yettwaf-d, d telɣut niḍen yeqqnen ɣer-s.\n"
+
+#: src/LYEdit.c:272
+#, c-format
+msgid "Error starting editor, %s"
+msgstr "Tuccḍa deg uskar n umeẓrag, %s"
+
+#: src/LYEdit.c:275
+msgid "Editor killed by signal"
+msgstr "Yettwanɣa umaẓrag s tmuli"
+
+#: src/LYEdit.c:280
+#, c-format
+msgid "Editor returned with error status %s"
+msgstr "Yuɣal-d umaẓrag s tuccḍa deg waddad %s"
+
+#: src/LYDownload.c:511
+msgid "Downloaded link:"
+msgstr "Aseɣwen i yettwasadren:"
+
+#: src/LYDownload.c:516
+msgid "Suggested file name:"
+msgstr "Isem n ufaylu i yettwasumren:"
+
+#: src/LYDownload.c:521
+msgid "Standard download options:"
+msgstr "Tixtiṛiyin n usader alugan:"
+
+#: src/LYDownload.c:522
+msgid "Download options:"
+msgstr "Sader tixtiṛiyin:"
+
+#: src/LYDownload.c:538
+msgid "Save to disk"
+msgstr "Sekles deg uḍebsi"
+
+#: src/LYDownload.c:552
+msgid "View temporary file"
+msgstr "Senqed afaylu uɛḍil"
+
+#: src/LYDownload.c:559
+msgid "Save to disk disabled."
+msgstr "Asekles deg uḍebsi, yensa."
+
+#: src/LYDownload.c:563 src/LYPrint.c:1331
+msgid "Local additions:"
+msgstr "Timerniwin tidiganin:"
+
+#: src/LYDownload.c:574 src/LYUpload.c:206
+msgid "No Name Given"
+msgstr "Uac isem i d-yettunefken"
+
+#: src/LYHistory.c:673
+msgid "You selected:"
+msgstr "Tferneḍ:"
+
+#: src/LYHistory.c:697 src/LYHistory.c:926
+msgid "(no address)"
+msgstr "(ulac tansa)"
+
+#: src/LYHistory.c:701
+msgid " (internal)"
+msgstr " (adigan)"
+
+#: src/LYHistory.c:703
+msgid " (was internal)"
+msgstr " ( d adigan)"
+
+#: src/LYHistory.c:801
+msgid " (From History)"
+msgstr " (Seg uzray)"
+
+#: src/LYHistory.c:846
+msgid "You visited (POSTs, bookmark, menu and list files excluded):"
+msgstr "Terziḍ ɣer (POSTs, ticraḍ, umuɣ akked yifuyla n tebdart yettwakksen):"
+
+#: src/LYHistory.c:1148
+msgid "(No messages yet)"
+msgstr "(Ulac iznan akka tura)"
+
+#: src/LYLeaks.c:222
+msgid "Invalid pointer detected."
+msgstr "Yettwaf uswaṛ arameɣtu."
+
+#: src/LYLeaks.c:224 src/LYLeaks.c:262
+msgid "Sequence:"
+msgstr "Tagzemt:"
+
+#: src/LYLeaks.c:227 src/LYLeaks.c:265
+msgid "Pointer:"
+msgstr "Asewwaṛ:"
+
+#: src/LYLeaks.c:236 src/LYLeaks.c:243 src/LYLeaks.c:284
+msgid "FileName:"
+msgstr "Isem n ufaylu:"
+
+#: src/LYLeaks.c:239 src/LYLeaks.c:246 src/LYLeaks.c:287 src/LYLeaks.c:298
+msgid "LineCount:"
+msgstr "Amḍan n yizirigen:"
+
+#: src/LYLeaks.c:260
+msgid "Memory leak detected."
+msgstr "Tettwaf trewla n tkatut."
+
+#: src/LYLeaks.c:268
+msgid "Contains:"
+msgstr "Igber:"
+
+#: src/LYLeaks.c:281
+msgid "ByteSize:"
+msgstr "Teɣzi s yibiten:"
+
+#: src/LYLeaks.c:295
+msgid "realloced:"
+msgstr "ales kerru:"
+
+#: src/LYLeaks.c:316
+msgid "Total memory leakage this run:"
+msgstr "Asemday n trewliwin n tkatut i uselkem-a:"
+
+#: src/LYLeaks.c:320
+msgid "Peak allocation"
+msgstr ""
+
+#: src/LYLeaks.c:322
+msgid "Bytes allocated"
+msgstr "Aḥerri n yibiten"
+
+#: src/LYLeaks.c:324
+msgid "Total mallocs"
+msgstr "Asmad n yiḥerriyen"
+
+#: src/LYLeaks.c:326
+msgid "Total frees"
+msgstr "Asemday n yilelliyen"
+
+#: src/LYList.c:89
+msgid "References in "
+msgstr "Timsisɣal deg "
+
+#: src/LYList.c:92
+msgid "this document:"
+msgstr "isemli-a:"
+
+#: src/LYList.c:98 src/LYList.c:363
+msgid "Visible links:"
+msgstr "Iseɣwan ibanen:"
+
+#: src/LYList.c:202 src/LYList.c:322
+msgid "Hidden links:"
+msgstr "Iseɣwan yeffren:"
+
+#: src/LYList.c:359
+msgid "References"
+msgstr "Timsisɣal"
+
+#: src/LYLocal.c:289
+#, c-format
+msgid "Unable to get status of '%s'."
+msgstr "D awezɣi awway n waddad n '%s'."
+
+#: src/LYLocal.c:354
+msgid "The selected item is not a file or a directory!  Request ignored."
+msgstr "Aferdis i yettwafernen mačči d afaylu neɣ d akaram!  Assuter, yettwanef."
+
+#: src/LYLocal.c:456
+#, c-format
+msgid "Unable to %s due to system error!"
+msgstr "Tamhelt %s ssebba n tuccḍa deg unagraw!"
+
+#: src/LYLocal.c:490
+#, c-format
+msgid "Probable failure to %s due to system error!"
+msgstr "Tuccḍa deg %s ahat d tuccḍa deg unagraw!"
+
+#: src/LYLocal.c:555 src/LYLocal.c:578
+#, c-format
+msgid "remove %s"
+msgstr "kkes %s"
+
+#: src/LYLocal.c:598
+#, c-format
+msgid "touch %s"
+msgstr "%s yewweḍ"
+
+#: src/LYLocal.c:628
+#, c-format
+msgid "move %s to %s"
+msgstr "senkez %s ɣer %s"
+
+#: src/LYLocal.c:676
+msgid "There is already a directory with that name!  Request ignored."
+msgstr "Yella yakan ukaram s yisem-a!  Assuter, yettwanef."
+
+#: src/LYLocal.c:678
+msgid "There is already a file with that name!  Request ignored."
+msgstr "Yella yakan ufaylu s yisem-a!  Assuter, yettwanef."
+
+#: src/LYLocal.c:680
+msgid "The specified name is already in use!  Request ignored."
+msgstr "Isem i yettwafernen yettwaseqdac yakan!  Assuter, yettwanef."
+
+#: src/LYLocal.c:692
+msgid "Destination has different owner!  Request denied."
+msgstr "Tanila ɣur-s bab niḍen!  Yettwagdel ussuter."
+
+#: src/LYLocal.c:695
+msgid "Destination is not a valid directory!  Request denied."
+msgstr "Tanila mačči da akaram ameɣtu!  Yettwagdel ussuter."
+
+#: src/LYLocal.c:711
+msgid "Source and destination are the same location!  Request ignored!"
+msgstr "Aɣbalu akked tnila ɣur-sen yiwen wadig!  Yettwa,ef ussuter!"
+
+#: src/LYLocal.c:735
+msgid "Remove all tagged files and directories?"
+msgstr "Kkes ifuyla akked yikarameni yettwabezmen?"
+
+#: src/LYLocal.c:808
+msgid "Enter new location for tagged items: "
+msgstr "Sekcem adig umaynut i yiferdisen yettwabezmen: "
+
+#: src/LYLocal.c:906
+msgid "Enter new name for directory: "
+msgstr "Sekcem isem amaynut i ukaram: "
+
+#: src/LYLocal.c:908
+msgid "Enter new name for file: "
+msgstr "Sekcem isem amaynut i ufaylu: "
+
+#: src/LYLocal.c:920
+msgid "Illegal character (path-separator) found! Request ignored."
+msgstr "Yettwaf usekkil aruzrif (abrid-anabraz)! Assuter, yettwanef."
+
+#: src/LYLocal.c:970
+msgid "Enter new location for directory: "
+msgstr "Sekcem adig amaynut i ukaram: "
+
+#: src/LYLocal.c:972
+msgid "Enter new location for file: "
+msgstr "Sekcem adig amaynut i ufaylu: "
+
+#: src/LYLocal.c:999
+msgid "Unexpected failure - unable to find trailing path separator"
+msgstr "Tuccḍa ur yettwarǧan ara - d awezɣi tifin n unabraz n ubrid n trewla"
+
+#: src/LYLocal.c:1061
+msgid "Modify name, location, or permission (n, l, or p): "
+msgstr "Senfel isem, adig, neɣ tisirag (n, l, neɣp): "
+
+#: src/LYLocal.c:1063
+msgid "Modify name or location (n or l): "
+msgstr "Senfel isem neɣ tisirag (n neɣ l): "
+
+#.
+#. * Code for changing ownership needed here.
+#.
+#: src/LYLocal.c:1092
+msgid "This feature not yet implemented!"
+msgstr "Tamahilt-a mazal ur tebdid ara!"
+
+#: src/LYLocal.c:1113
+msgid "Enter name of file to create: "
+msgstr "Sekcem isem n ufaylu i tmerna n: "
+
+#: src/LYLocal.c:1116 src/LYLocal.c:1153
+msgid "Illegal redirection \"//\" found! Request ignored."
+msgstr "Allus n tnila n \"//\" aruzrif yettwarmes-d seg uqeddac."
+
+#: src/LYLocal.c:1150
+msgid "Enter name for new directory: "
+msgstr "Sekcem isem i ukaram amaynut: "
+
+#: src/LYLocal.c:1191
+msgid "Create file or directory (f or d): "
+msgstr "Rnu afaylu neɣ akaram (f neɣ d): "
+
+#: src/LYLocal.c:1233
+#, c-format
+msgid "Remove directory '%s'?"
+msgstr "Kkes akaram '%s'?"
+
+#: src/LYLocal.c:1236
+msgid "Remove directory?"
+msgstr "Kkes akaram?"
+
+#: src/LYLocal.c:1241
+#, c-format
+msgid "Remove file '%s'?"
+msgstr "Kkes afaylu '%s'?"
+
+#: src/LYLocal.c:1243
+msgid "Remove file?"
+msgstr "Kkes afaylu?"
+
+#: src/LYLocal.c:1248
+#, c-format
+msgid "Remove symbolic link '%s'?"
+msgstr "Kkes aseɣwen azamal '%s'?"
+
+#: src/LYLocal.c:1250
+msgid "Remove symbolic link?"
+msgstr "Kkes aseɣwen amazal?"
+
+#: src/LYLocal.c:1348
+msgid "Sorry, don't know how to permit non-UNIX files yet."
+msgstr "Nesḥassef, ur neẓri ara amek ara ttwasirgen ifuyla ur nelli UNIX, akka tura."
+
+#: src/LYLocal.c:1377
+msgid "Unable to open permit options file"
+msgstr "D awzɣi alday n yifuyla n textiṛiyin yettwasirgen"
+
+#: src/LYLocal.c:1405
+msgid "Specify permissions below:"
+msgstr "Ssefru tisrag ddaw:"
+
+#: src/LYLocal.c:1406 src/LYShowInfo.c:291
+msgid "Owner:"
+msgstr "Bab-is:"
+
+#: src/LYLocal.c:1422
+msgid "Group"
+msgstr "Agraw"
+
+#: src/LYLocal.c:1438
+msgid "Others:"
+msgstr "Wiyaḍ:"
+
+#: src/LYLocal.c:1456
+msgid "form to permit"
+msgstr "tiferkit i usireg"
+
+#: src/LYLocal.c:1552
+msgid "Invalid mode format."
+msgstr "Amasal n uskar d arameɣtu."
+
+#: src/LYLocal.c:1556
+msgid "Invalid syntax format."
+msgstr "Amasal n tseddast d arameɣtu."
+
+#: src/LYLocal.c:1743
+msgid "Warning!  UUDecoded file will exist in the directory you started Lynx."
+msgstr "Alɣu!  Afaylu UUDcoded ad yili deg ukaram ideg tesnekreḍ Lynx."
+
+#: src/LYLocal.c:1933
+msgid "NULL URL pointer"
+msgstr "Asweṛ n URL NULL"
+
+#: src/LYLocal.c:2015
+#, c-format
+msgid "Executing %s "
+msgstr "Aselkem n %s "
+
+#: src/LYLocal.c:2018
+msgid "Executing system command. This might take a while."
+msgstr "Aselkem n unzaḍ n unagraw. Aya yezmer ad yeṭṭef kra n wakud."
+
+#: src/LYLocal.c:2092
+msgid "Current directory:"
+msgstr "Akaram amiran:"
+
+#: src/LYLocal.c:2095 src/LYLocal.c:2113
+msgid "Current selection:"
+msgstr "Tafrant tamirant:"
+
+#: src/LYLocal.c:2099
+msgid "Nothing currently selected."
+msgstr "Ulac i yettwafernen melmi kan."
+
+#: src/LYLocal.c:2115
+msgid "tagged item:"
+msgstr "aferdis i yettwabezmen:"
+
+#: src/LYLocal.c:2116
+msgid "tagged items:"
+msgstr "iferdisen i d-yettwabedren:"
+
+#: src/LYLocal.c:2216 src/LYLocal.c:2225
+msgid "Illegal filename; request ignored."
+msgstr "Isem n ufaylu d aruzrif; ssuter, yettwanef."
+
+#. directory not writable
+#: src/LYLocal.c:2323 src/LYLocal.c:2382
+msgid "Install in the selected directory not permitted."
+msgstr "Asbeddi deg ukaram i yettwafernen, ur yettwasireg ara."
+
+#: src/LYLocal.c:2378
+msgid "The selected item is not a directory!  Request ignored."
+msgstr "Aferdis i yettwafernen mačči d akaram!  Assuter, yettwanef."
+
+#: src/LYLocal.c:2387
+msgid "Just a moment, ..."
+msgstr "Akka cwiya, ..."
+
+#: src/LYLocal.c:2404
+msgid "Error building install args"
+msgstr "Tuccḍa deg lebni n yifukal n usbeddi"
+
+#: src/LYLocal.c:2419 src/LYLocal.c:2450
+#, c-format
+msgid "Source and target are the same: %s"
+msgstr "Aɣbalu d usaḍas d yiwen: %s"
+
+#: src/LYLocal.c:2426 src/LYLocal.c:2457
+#, c-format
+msgid "Already in target directory: %s"
+msgstr "Yella yakan deg ukaram asaḍas: %s"
+
+#: src/LYLocal.c:2475
+msgid "Installation complete"
+msgstr "Yemmed usbeddi"
+
+#: src/LYLocal.c:2678
+msgid "Temporary URL or list would be too long."
+msgstr "URL uɛḍil neɣ tabdart ad yili ɣezzif aṭas."
+
+#: src/LYMail.c:566
+msgid "Sending"
+msgstr "Tuzna"
+
+#: src/LYMail.c:1050
+#, c-format
+msgid "The link   %s :?: %s \n"
+msgstr "Aseɣwen   %s :?: %s \n"
+
+#: src/LYMail.c:1052
+#, c-format
+msgid "called \"%s\"\n"
+msgstr "yettwasemma \"%s\"\n"
+
+#: src/LYMail.c:1053
+#, c-format
+msgid "in the file \"%s\" called \"%s\"\n"
+msgstr "deg ufaylu \"%s\" yettwasemma \"%s\"\n"
+
+#: src/LYMail.c:1054
+msgid "was requested but was not available."
+msgstr "yettwassuter maca ulac-it."
+
+#: src/LYMail.c:1055
+msgid "Thought you might want to know."
+msgstr "I wayen tebɣiḍ ad teẓreḍ."
+
+#: src/LYMail.c:1057
+msgid "This message was automatically generated by"
+msgstr "Izen-a yettusirew s wudem awurman s"
+
+#: src/LYMail.c:1770
+msgid "No system mailer configured"
+msgstr "Ulac ameskar n unagraw i yettusbadun"
+
+#: src/LYMain.c:1095
+msgid "No Winsock found, sorry."
+msgstr "Ulac Winsock i yettwafen, nesḥassef."
+
+#: src/LYMain.c:1285
+msgid "You MUST define a valid TMP or TEMP area!"
+msgstr "ILAQ ad tesbaduḍ tamnaḍt TMP neɣ TEMP ameɣtu!"
+
+#: src/LYMain.c:1338 src/LYMainLoop.c:5285
+msgid "No such directory"
+msgstr "Ulac kra n ukaram"
+
+#: src/LYMain.c:1532
+#, c-format
+msgid ""
+"\n"
+"Configuration file \"%s\" is not available.\n"
+"\n"
+msgstr ""
+"\n"
+"Afaylu n usesteb \"%s\" ulac-it.\n"
+"\n"
+
+#: src/LYMain.c:1542
+#, c-format
+msgid ""
+"\n"
+"Lynx character sets not declared.\n"
+"\n"
+msgstr ""
+"\n"
+"Tigrumma n yisekkilen Lynx ur d-ttwamudden ara.\n"
+"\n"
+
+#: src/LYMain.c:1698
+#, c-format
+msgid "Ignored %d characters from standard input.\n"
+msgstr "%d n yisekkilen ttwanfen deg unekcum alugan.\n"
+
+#: src/LYMain.c:1700
+#, c-format
+msgid "Use \"-stdin\" or \"-\" to tell how to handle piped input.\n"
+msgstr "Seqdec \"-stdin\" neɣ \"-\" i wakken ad tessegzuḍ asefrek n usuddem n yinekcam.\n"
+
+#: src/LYMain.c:1858
+msgid "Warning:"
+msgstr "Ɣur-k·m:"
+
+#: src/LYMain.c:2426
+msgid "persistent cookies state will be changed in next session only."
+msgstr "addad n yinagan n tuqqna yezgan ad ttwasneflen deg tɣimit kan i d-iteddun."
+
+#: src/LYMain.c:2661 src/LYMain.c:2705
+#, c-format
+msgid "Lynx: ignoring unrecognized charset=%s\n"
+msgstr "Lynx: azgal n tegrumma n yisekkilen \"%s\" tarussint\n"
+
+#: src/LYMain.c:3222
+#, c-format
+msgid "%s Version %s (%s)"
+msgstr "%s Lqem %s (%s)"
+
+#: src/LYMain.c:3263
+#, c-format
+msgid "Built on %s%s.\n"
+msgstr "Yebna ɣef %s%s.\n"
+
+#: src/LYMain.c:3277
+msgid "Copyrights held by the Lynx Developers Group,"
+msgstr "Izerfan n uskar ddaw leɛnaya n ugraw n yineflayen Lynx,"
+
+#: src/LYMain.c:3278
+msgid "the University of Kansas, CERN, and other contributors."
+msgstr "tasdawit n Kansas, CERN akked yimttekkiyen niḍen."
+
+#: src/LYMain.c:3279
+msgid "Distributed under the GNU General Public License (Version 2)."
+msgstr "Yeffeɣ-d s Turagt Tazayazt Tamatut FNU (Lqem 2)."
+
+#: src/LYMain.c:3280
+msgid "See https://lynx.invisible-island.net/ and the online help for more information."
+msgstr "Wali https://lynx.invisible-island.net/ akked tallalt srid i wugar n telɣut."
+
+#: src/LYMain.c:4139
+#, c-format
+msgid "USAGE: %s [options] [file]\n"
+msgstr "ASEQDEC: %s [tixtiṛiyin] 5afaylu]\n"
+
+#: src/LYMain.c:4140
+#, c-format
+msgid "Options are:\n"
+msgstr "Tixtiṛiyin d:\n"
+
+#: src/LYMain.c:4443
+#, c-format
+msgid "%s: Invalid Option: %s\n"
+msgstr "%s: Taxtiṛt d tarameɣtut: %s\n"
+
+#: src/LYMainLoop.c:572
+#, c-format
+msgid "Internal error: Invalid mouse link %d!"
+msgstr "Tuccḍa tagensant: Yir aseɣwen n tɣerdayt %d!"
+
+#: src/LYMainLoop.c:693 src/LYMainLoop.c:5307
+msgid "A URL specified by the user"
+msgstr "URL yettwafren-d sɣur useqdac"
+
+#: src/LYMainLoop.c:1142
+msgid "Enctype multipart/form-data not yet supported!  Cannot submit."
+msgstr "Anaw n usettengel multipart/form-data, ur yettwasefrak ara. D awezɣi tuzna."
+
+#.
+#. * Make a name for this help file.
+#.
+#: src/LYMainLoop.c:3197
+msgid "Help Screen"
+msgstr "Agdil n tallalt"
+
+#: src/LYMainLoop.c:3328
+msgid "System Index"
+msgstr "Amatar n unagraw"
+
+#: src/LYMainLoop.c:3577
+#, c-format
+msgid "Query parameter %d: "
+msgstr "Aɣewwar n tuttra %d: "
+
+#: src/LYMainLoop.c:3806 src/LYMainLoop.c:5583
+msgid "Entry into main screen"
+msgstr "Anekcum deg ugdil agejdan"
+
+#: src/LYMainLoop.c:4064
+msgid "No next document present"
+msgstr "Ulac isemli uḍfir i yellan"
+
+#: src/LYMainLoop.c:4359
+msgid "charset for this document specified explicitly, sorry..."
+msgstr "tagrumma n yisekkilen i yisemli-a ur tettwafren ara s wudem afanay, nesḥassef..."
+
+#: src/LYMainLoop.c:5265
+msgid "cd to:"
+msgstr "cd ɣer:"
+
+#: src/LYMainLoop.c:5288
+msgid "A component of path is not a directory"
+msgstr "Aferdis n ubrid mačči d akaram"
+
+#: src/LYMainLoop.c:5291
+msgid "failed to change directory"
+msgstr "yecceḍ usenfel n ukaram"
+
+#: src/LYMainLoop.c:6517
+msgid "Reparsing document under current settings..."
+msgstr "Akan n yisemli deg yiɣewwaren imiranen..."
+
+#: src/LYMainLoop.c:6811
+#, c-format
+msgid "Fatal error - could not open output file %s\n"
+msgstr "Tuccḍa taserrebrabt - yegguma ad yeldi ufaylu n tuffɣa %s\n"
+
+#: src/LYMainLoop.c:7153
+msgid "TABLE center enable."
+msgstr "Aslemmes n tfelwiyin, yermed."
+
+#: src/LYMainLoop.c:7156
+msgid "TABLE center disable."
+msgstr "Aslemmes n tfelwiyin, yensa."
+
+#: src/LYMainLoop.c:7236
+msgid "Current URL is empty."
+msgstr "URL amiran d ilem."
+
+#: src/LYMainLoop.c:7238 src/LYUtils.c:1909
+msgid "Copy to clipboard failed."
+msgstr "Yecceḍ unɣal ɣer tecfawt."
+
+#: src/LYMainLoop.c:7240
+msgid "Document URL put to clipboard."
+msgstr "Yettwarr URL n yisemli ɣer tecfawt."
+
+#: src/LYMainLoop.c:7242
+msgid "Link URL put to clipboard."
+msgstr "Yettwarr URL n useɣwen ɣer tecfawt."
+
+#: src/LYMainLoop.c:7269
+msgid "No URL in the clipboard."
+msgstr "Ulac URL deg tecfawt."
+
+#: src/LYMainLoop.c:7962 src/LYMainLoop.c:8133
+msgid "-index-"
+msgstr "-amatar-"
+
+#: src/LYMainLoop.c:8071
+msgid "lynx: Can't access startfile"
+msgstr "lynx: ur yezmir ara ad yekcem ɣer yifuyla yesɛan itran"
+
+#: src/LYMainLoop.c:8083
+msgid "lynx: Start file could not be found or is not text/html or text/plain"
+msgstr "lynx: Afaylu n usenkar ur yettwaf ara neɣ mačči d text/html neɣ text/plain"
+
+#: src/LYMainLoop.c:8084
+msgid "      Exiting..."
+msgstr "      Tuffɣa..."
+
+#: src/LYMainLoop.c:8127
+msgid "-more-"
+msgstr "-ugar-"
+
+#. Enable scrolling.
+#: src/LYNews.c:186
+msgid "You will be posting to:"
+msgstr "Ad tazneḍ ɣer:"
+
+#.
+#. * Get the mail address for the From header, offering personal_mail_address
+#. * as default.
+#.
+#: src/LYNews.c:195
+msgid ""
+"\n"
+"\n"
+" Please provide your mail address for the From: header\n"
+msgstr ""
+"\n"
+"\n"
+" Ttxil-k⋅m mudd tansa-k⋅m n yimayl deg uqerru: Seg\n"
+
+#.
+#. * Get the Subject header, offering the current document's title as the
+#. * default if this is a followup rather than a new post.  - FM
+#.
+#: src/LYNews.c:212
+msgid ""
+"\n"
+"\n"
+" Please provide or edit the Subject: header\n"
+msgstr ""
+"\n"
+"\n"
+" Ttxil-k⋅m mudd neɣ ẓreg aqerru: Asentel\n"
+
+#: src/LYNews.c:302
+msgid ""
+"\n"
+"\n"
+" Please provide or edit the Organization: header\n"
+msgstr ""
+"\n"
+"\n"
+" Ttxil-k⋅m mudd neɣ ẓreg aqerru: Takebbanit\n"
+
+#.
+#. * Use the built in line editior.
+#.
+#: src/LYNews.c:359
+msgid ""
+"\n"
+"\n"
+" Please enter your message below."
+msgstr ""
+"\n"
+"\n"
+" Ttxil-k⋅m, sekcem izen-ik⋅im ddaw."
+
+#: src/LYNews.c:405
+msgid "Message has no original text!"
+msgstr "Izen ulac ɣur-s aḍris amezwaru!"
+
+#: src/LYOptions.c:774
+msgid "review/edit B)ookmarks files"
+msgstr "senqed/ẓreg ifuyla n B)tecraḍ"
+
+#: src/LYOptions.c:776
+msgid "B)ookmark file: "
+msgstr "Afaylu n B)tecraḍ: "
+
+#: src/LYOptions.c:2131 src/LYOptions.c:2138
+msgid "ON"
+msgstr "YERMED"
+
+#. verbose_img variable
+#. LYCollapseBRs variable
+#. LYtrimBlankLines variable
+#: src/LYOptions.c:2132 src/LYOptions.c:2137 src/LYOptions.c:2321
+#: src/LYOptions.c:2330 src/LYOptions.c:2339 src/LYOptions.c:2350
+msgid "OFF"
+msgstr "YENSA"
+
+#: src/LYOptions.c:2133
+msgid "NEVER"
+msgstr "URǦIN"
+
+#: src/LYOptions.c:2134
+msgid "ALWAYS"
+msgstr "YAL TIKKELT"
+
+#: src/LYOptions.c:2150 src/LYOptions.c:2313
+msgid "ignore"
+msgstr "zgel"
+
+#: src/LYOptions.c:2151
+msgid "ask user"
+msgstr "steqsi aseqdac"
+
+#: src/LYOptions.c:2152
+msgid "accept all"
+msgstr "qbel kullec"
+
+#: src/LYOptions.c:2164
+msgid "ALWAYS OFF"
+msgstr "YEZGA YENSA"
+
+#: src/LYOptions.c:2165
+msgid "FOR LOCAL FILES ONLY"
+msgstr "I YIFUYLA KAN IDIGANEN"
+
+#: src/LYOptions.c:2167
+msgid "ALWAYS ON"
+msgstr "YEZGA YERMED"
+
+#: src/LYOptions.c:2179
+msgid "Numbers act as arrows"
+msgstr "Imḍanen teggen am tneccabin"
+
+#: src/LYOptions.c:2181
+msgid "Links are numbered"
+msgstr "Iseɣwan ttwassuḍnen"
+
+#: src/LYOptions.c:2184
+msgid "Links and form fields are numbered"
+msgstr "Iseɣwan d wurtan n tferkit ttwassuḍnen"
+
+#: src/LYOptions.c:2187
+msgid "Form fields are numbered"
+msgstr "Urtan n tferkit ttwassuḍnen"
+
+#: src/LYOptions.c:2202
+msgid "Case insensitive"
+msgstr "D aramḥulfu i truẓi"
+
+#: src/LYOptions.c:2203
+msgid "Case sensitive"
+msgstr "D amḥulfu i truẓi"
+
+#: src/LYOptions.c:2237
+msgid "prompt normally"
+msgstr "ad yili yettwassuter"
+
+#: src/LYOptions.c:2238
+msgid "force yes-response"
+msgstr "ḥettem ad tili tririt"
+
+#: src/LYOptions.c:2239
+msgid "force no-response"
+msgstr "ḥettem ulac tiririt"
+
+#: src/LYOptions.c:2249
+msgid "RFC 2109"
+msgstr "RFC 2109"
+
+#: src/LYOptions.c:2250
+msgid "RFC 2965"
+msgstr "RFC 2965"
+
+#: src/LYOptions.c:2251
+msgid "RFC 6265"
+msgstr "RFC 6265"
+
+#: src/LYOptions.c:2268
+msgid "Novice"
+msgstr "D amenṭi"
+
+#: src/LYOptions.c:2269
+msgid "Intermediate"
+msgstr "Agrammas"
+
+#: src/LYOptions.c:2270
+msgid "Advanced"
+msgstr "Alqayan"
+
+#: src/LYOptions.c:2279
+msgid "By First Visit"
+msgstr "S tirzi tamezwarut"
+
+#: src/LYOptions.c:2281
+msgid "By First Visit Reversed"
+msgstr "S tirzi tamezwarut i yettin"
+
+#: src/LYOptions.c:2282
+msgid "As Visit Tree"
+msgstr "D aseklu n tirza"
+
+#: src/LYOptions.c:2283
+msgid "By Last Visit"
+msgstr "S tirzi taneggarut"
+
+#: src/LYOptions.c:2285
+msgid "By Last Visit Reversed"
+msgstr "S tirzi taneggarut i yettin"
+
+#. Old_DTD variable
+#: src/LYOptions.c:2296
+msgid "relaxed (TagSoup mode)"
+msgstr "d alwayan (askar TagSoup)"
+
+#: src/LYOptions.c:2297
+msgid "strict (SortaSGML mode)"
+msgstr "iḥres (askar SortaSGML)"
+
+#: src/LYOptions.c:2304
+msgid "Ignore"
+msgstr "Zgel"
+
+#: src/LYOptions.c:2305
+msgid "Add to trace-file"
+msgstr "Rnu ɣer ufaylu n udraz"
+
+#: src/LYOptions.c:2306
+msgid "Add to LYNXMESSAGES"
+msgstr "Rnu ɣer YIZNAN N LYNX"
+
+#: src/LYOptions.c:2307
+msgid "Warn, point to trace-file"
+msgstr "Ḥader, asweṛ ɣer ufaylu n udraz"
+
+#: src/LYOptions.c:2314
+msgid "as labels"
+msgstr "d tibzimin"
+
+#: src/LYOptions.c:2315
+msgid "as links"
+msgstr "d iseɣwan"
+
+#: src/LYOptions.c:2322
+msgid "show filename"
+msgstr "sken isem n ufaylu"
+
+#: src/LYOptions.c:2331
+msgid "collapse"
+msgstr "fneẓ"
+
+#: src/LYOptions.c:2340
+msgid "trim-lines"
+msgstr "kkes-izirigen-ilmawen"
+
+#: src/LYOptions.c:2351
+msgid "STANDARD"
+msgstr "ALUGAN"
+
+#: src/LYOptions.c:2352
+msgid "ADVANCED"
+msgstr "ALQAYAN"
+
+#: src/LYOptions.c:2374
+msgid "IDNA 2003"
+msgstr "IDNA 2003"
+
+#: src/LYOptions.c:2375
+msgid "IDNA 2008"
+msgstr "IDNA 2008"
+
+#: src/LYOptions.c:2376
+msgid "IDNA TR46"
+msgstr "IDNA TR46"
+
+#: src/LYOptions.c:2377
+msgid "IDNA Compatible"
+msgstr "IDNA yemṣada"
+
+#: src/LYOptions.c:2398
+msgid "Directories first"
+msgstr "Ikaramen d imezwura"
+
+#: src/LYOptions.c:2399
+msgid "Files first"
+msgstr "Ifuyla d imezwura"
+
+#: src/LYOptions.c:2400
+msgid "Mixed style"
+msgstr "Aɣanib ixelḍen"
+
+#: src/LYOptions.c:2408 src/LYOptions.c:2428
+msgid "By Name"
+msgstr "S yisem"
+
+#: src/LYOptions.c:2409 src/LYOptions.c:2429
+msgid "By Type"
+msgstr "S wanaw"
+
+#: src/LYOptions.c:2410 src/LYOptions.c:2430
+msgid "By Size"
+msgstr "S teɣzi"
+
+#: src/LYOptions.c:2411 src/LYOptions.c:2431
+msgid "By Date"
+msgstr "S wazemz"
+
+#: src/LYOptions.c:2412
+msgid "By Mode"
+msgstr "S uskar"
+
+#: src/LYOptions.c:2414
+msgid "By User"
+msgstr "Sɣur useqdac"
+
+#: src/LYOptions.c:2415
+msgid "By Group"
+msgstr "S ugraw"
+
+#: src/LYOptions.c:2440
+msgid "Do not show rate"
+msgstr "Ur d-skan ara afmiḍi"
+
+#: src/LYOptions.c:2441 src/LYOptions.c:2442
+#, c-format
+msgid "Show %s/sec rate"
+msgstr "Sken afmiḍi n %s/tsn"
+
+#: src/LYOptions.c:2444 src/LYOptions.c:2445
+#, c-format
+msgid "Show %s/sec, ETA"
+msgstr "Sken %s/tsn, ETA"
+
+#: src/LYOptions.c:2446 src/LYOptions.c:2447
+#, c-format
+msgid "Show %s/sec (2-digits), ETA"
+msgstr "Sken %s/tsn (2-izwilen), ETA"
+
+#: src/LYOptions.c:2450
+msgid "Show progressbar"
+msgstr "Sken afeggag n usesfer"
+
+#: src/LYOptions.c:2471
+msgid "Accept lynx's internal types"
+msgstr "Qbel anawen igensanen n lynx"
+
+#: src/LYOptions.c:2472
+msgid "Also accept lynx.cfg's types"
+msgstr "Qbel daɣen anawen n lynx.cfg"
+
+#: src/LYOptions.c:2473
+msgid "Also accept user's types"
+msgstr "Qbel daɣen anawen n useqdac"
+
+#: src/LYOptions.c:2474
+msgid "Also accept system's types"
+msgstr "Qbel daɣen anawen n unagraw"
+
+#: src/LYOptions.c:2475
+msgid "Accept all types"
+msgstr "Qbel akk anawen"
+
+#: src/LYOptions.c:2484
+msgid "gzip"
+msgstr "gzip"
+
+#: src/LYOptions.c:2485
+msgid "deflate"
+msgstr "deflate"
+
+#: src/LYOptions.c:2488
+msgid "compress"
+msgstr "compress"
+
+#: src/LYOptions.c:2491
+msgid "bzip2"
+msgstr "bzip2"
+
+#: src/LYOptions.c:2493
+msgid "All"
+msgstr "Akk"
+
+#: src/LYOptions.c:2503
+msgid "HTTP 1.0"
+msgstr "HTTP 1.0"
+
+#: src/LYOptions.c:2504
+msgid "HTTP 1.1"
+msgstr "HTTP 1.1"
+
+#: src/LYOptions.c:2863 src/LYOptions.c:2892
+#, c-format
+msgid "Use %s to invoke the Options menu!"
+msgstr "Seqdec %s i wakken ad tsiwleḍ i wumuɣ n textiṛiyin!"
+
+#: src/LYOptions.c:3789
+msgid "(options marked with (!) will not be saved)"
+msgstr "(tixtiṛiyin yettwacerḍen s (!)"
+
+#: src/LYOptions.c:3797
+msgid "General Preferences"
+msgstr "Ismenyafen imuta"
+
+#. ***************************************************************
+#. User Mode: SELECT
+#: src/LYOptions.c:3801
+msgid "User mode"
+msgstr "Askar n useqdac"
+
+#. Editor: INPUT
+#: src/LYOptions.c:3807
+msgid "Editor"
+msgstr "Amaẓrag"
+
+#. Search Type: SELECT
+#: src/LYOptions.c:3812
+msgid "Type of Search"
+msgstr "Anaw n unadi"
+
+#: src/LYOptions.c:3817
+msgid "Security and Privacy"
+msgstr "Taɣellist akked tbaḍnit"
+
+#. ***************************************************************
+#. Cookies: SELECT
+#: src/LYOptions.c:3821
+msgid "Cookies"
+msgstr "Inagan n tuqqna"
+
+#. Cookie Version: SELECT
+#: src/LYOptions.c:3835
+msgid "Cookie RFC-version"
+msgstr "Lqem RFC n yinagan n tuqqna"
+
+#. Cookie Prompting: SELECT
+#: src/LYOptions.c:3841
+msgid "Invalid-Cookie Prompting"
+msgstr "Adiwenni i yinagan n tuqqna irimeɣta"
+
+#. SSL Prompting: SELECT
+#: src/LYOptions.c:3848
+msgid "SSL Prompting"
+msgstr "Adiwenni SSL"
+
+#: src/LYOptions.c:3853
+msgid "SSL client certificate file"
+msgstr "Afaylu n uselkin n umsaɣ SSL"
+
+#: src/LYOptions.c:3857
+msgid "SSL client key file"
+msgstr "Afaylu n tsarut n umsaɣ SSL"
+
+#: src/LYOptions.c:3863
+msgid "Keyboard Input"
+msgstr "Anekcam n unasiw"
+
+#. ***************************************************************
+#. Keypad Mode: SELECT
+#: src/LYOptions.c:3867
+msgid "Keypad mode"
+msgstr "Askar n keypad"
+
+#. Emacs keys: ON/OFF
+#: src/LYOptions.c:3873
+msgid "Emacs keys"
+msgstr "Tisura n Emacs"
+
+#. VI Keys: ON/OFF
+#: src/LYOptions.c:3879
+msgid "VI keys"
+msgstr "Tisura VI"
+
+#. Line edit style: SELECT
+#. well, at least 2 line edit styles available
+#: src/LYOptions.c:3886
+msgid "Line edit style"
+msgstr "Aɣanib n uẓrag n yizirigen"
+
+#. Keyboard layout: SELECT
+#: src/LYOptions.c:3898
+msgid "Keyboard layout"
+msgstr "Taneɣruft n unasiw"
+
+#.
+#. * Display and Character Set
+#.
+#: src/LYOptions.c:3912
+msgid "Display and Character Set"
+msgstr "Askan d tegrumma n yisekkilen"
+
+#. Use locale-based character set: ON/OFF
+#: src/LYOptions.c:3917
+msgid "Use locale-based character set"
+msgstr "Seqdec tagrumma n yisekkilen tadigant"
+
+#: src/LYOptions.c:3924
+msgid "Use HTML5 charset replacements"
+msgstr "Seqdec isemselsiyen charset HTML5"
+
+#. Display Character Set: SELECT
+#: src/LYOptions.c:3930
+msgid "Display character set"
+msgstr "Sken taggayt n yisekkilen"
+
+#: src/LYOptions.c:3961
+msgid "Assumed document character set"
+msgstr "Taggayt n yisekkilen n yisemli yettwadmun"
+
+#: src/LYOptions.c:3977
+msgid "Internationalized domain names"
+msgstr "Ismawen n taɣulin i yettwagreɣlen"
+
+#.
+#. * Since CJK people hardly mixed with other world
+#. * we split the header to make it more readable:
+#. * "CJK mode" for CJK display charsets, and "Raw 8-bit" for others.
+#.
+#: src/LYOptions.c:3995
+msgid "CJK mode"
+msgstr "Askar CJK"
+
+#: src/LYOptions.c:3997
+msgid "Raw 8-bit"
+msgstr "Izirig 8-ibit"
+
+#. X Display: INPUT
+#: src/LYOptions.c:4005
+msgid "X Display"
+msgstr "X Display"
+
+#.
+#. * Document Appearance
+#.
+#: src/LYOptions.c:4011
+msgid "Document Appearance"
+msgstr "Arwes n yisemli"
+
+#: src/LYOptions.c:4017
+msgid "Show color"
+msgstr "Sken ini"
+
+#: src/LYOptions.c:4043
+msgid "Color style"
+msgstr "Aɣanib n yini"
+
+#: src/LYOptions.c:4053
+msgid "Default colors"
+msgstr "Initen imezwar"
+
+#. Show cursor: ON/OFF
+#: src/LYOptions.c:4061
+msgid "Show cursor"
+msgstr "Sken taḥnaccaḍt"
+
+#. Underline links: ON/OFF
+#: src/LYOptions.c:4067
+msgid "Underline links"
+msgstr "Iseɣwan yettwajerrden"
+
+#. Show scrollbar: ON/OFF
+#: src/LYOptions.c:4074
+msgid "Show scrollbar"
+msgstr "Sken afeggag n udrurem"
+
+#. Select Popups: ON/OFF
+#: src/LYOptions.c:4081
+msgid "Popups for select fields"
+msgstr "Isfuyla udhimen i ufran n wurtan"
+
+#. HTML error recovery: SELECT
+#: src/LYOptions.c:4087
+msgid "HTML error recovery"
+msgstr "Tiririt n tuccḍiwin n HTML"
+
+#. Bad HTML messages: SELECT
+#: src/LYOptions.c:4093
+msgid "Bad HTML messages"
+msgstr "Yir iznan n HTML"
+
+#. Show Images: SELECT
+#: src/LYOptions.c:4099
+msgid "Show images"
+msgstr "Sken tugniwin"
+
+#. Verbose Images: ON/OFF
+#: src/LYOptions.c:4113
+msgid "Verbose images"
+msgstr ""
+
+#. Collapse BR Tags: ON/OFF
+#: src/LYOptions.c:4119
+msgid "Collapse BR tags"
+msgstr "Fneẓ tibzimin BR"
+
+#. Trim blank lines: ON/OFF
+#: src/LYOptions.c:4125
+msgid "Trim blank lines"
+msgstr "Kkes izirigen ilmawen"
+
+#.
+#. * Headers Transferred to Remote Servers
+#.
+#: src/LYOptions.c:4133
+msgid "Headers Transferred to Remote Servers"
+msgstr "Iqerra ttwarren ɣer yiqeddacen inmeggagen"
+
+#. ***************************************************************
+#. Mail Address: INPUT
+#: src/LYOptions.c:4137
+msgid "Personal mail address"
+msgstr "Tansa n yimayl udmawan"
+
+#: src/LYOptions.c:4142
+msgid "Personal name for mail"
+msgstr "Isem udmawan i yimayl"
+
+#: src/LYOptions.c:4149
+msgid "Password for anonymous ftp"
+msgstr "Awal n uɛeddi i ftp udrig"
+
+#. Preferred content type: SELECT
+#: src/LYOptions.c:4155
+msgid "Preferred content type"
+msgstr "Anaw n ugbur i yettwasmenyafen"
+
+#. Preferred media type: SELECT
+#: src/LYOptions.c:4161
+msgid "Preferred media type"
+msgstr "Anaw n umidyat i yettwasmenyafen"
+
+#. Preferred encoding: SELECT
+#: src/LYOptions.c:4167
+msgid "Preferred encoding"
+msgstr "Asettengel i yettwasmenyafen"
+
+#. Preferred Document Character Set: INPUT
+#: src/LYOptions.c:4173
+msgid "Preferred document character set"
+msgstr "Tagrumma n yisekkilen n yisemli i yettwasmenyafen"
+
+#. Preferred Document Language: INPUT
+#: src/LYOptions.c:4178
+msgid "Preferred document language"
+msgstr "Tutlayt n yisemliyen i yettwasmenyafen"
+
+#. HTTP protocol SELECT
+#: src/LYOptions.c:4183
+msgid "HTTP protocol"
+msgstr "Aneggaf HTTP"
+
+#: src/LYOptions.c:4190
+msgid "Send User-Agent header"
+msgstr "Azen aqerru n Useqdac-Ameskar"
+
+#: src/LYOptions.c:4192
+msgid "User-Agent header"
+msgstr "Aqerru n Useqdac-Ameskar"
+
+#.
+#. * Listing and Accessing Files
+#.
+#: src/LYOptions.c:4200
+msgid "Listing and Accessing Files"
+msgstr "Ifuyla n tmesliwt akked unekcum"
+
+#. FTP sort: SELECT
+#: src/LYOptions.c:4205
+msgid "Use Passive FTP"
+msgstr "Seqdec FTP attwaɣ"
+
+#. FTP sort: SELECT
+#: src/LYOptions.c:4211
+msgid "FTP sort criteria"
+msgstr "Isefranen n umizwer FTP"
+
+#. Local Directory Sort: SELECT
+#: src/LYOptions.c:4219
+msgid "Local directory sort criteria"
+msgstr "Isefranen n umizwer n yikaramen idiganen"
+
+#. Local Directory Order: SELECT
+#: src/LYOptions.c:4225
+msgid "Local directory sort order"
+msgstr "Amizwer s ukaram adigan"
+
+#: src/LYOptions.c:4234
+msgid "Show dot files"
+msgstr "Sken ifuyla dot"
+
+#: src/LYOptions.c:4242
+msgid "Execution links"
+msgstr "Selkem iseɣwan"
+
+#: src/LYOptions.c:4260
+msgid "Pause when showing message"
+msgstr "Ḥbes mi ara d-yeken izen"
+
+#. Show transfer rate: SELECT
+#: src/LYOptions.c:4267
+msgid "Show transfer rate"
+msgstr "Sken afmiḍi n uwelleh"
+
+#.
+#. * Special Files and Screens
+#.
+#: src/LYOptions.c:4287
+msgid "Special Files and Screens"
+msgstr "Ifuyla d yigdilen uzzigen"
+
+#: src/LYOptions.c:4292
+msgid "Multi-bookmarks"
+msgstr "Aṭas n tecraḍ n yisebtar"
+
+#: src/LYOptions.c:4300
+msgid "Review/edit Bookmarks files"
+msgstr "Senqed/ẓreg ifuyla n tecraḍ n yisebtar"
+
+#: src/LYOptions.c:4303
+msgid "Goto multi-bookmark menu"
+msgstr "Ddu ɣer wumuɣ n tecraḍ tusgitin"
+
+#: src/LYOptions.c:4305
+msgid "Bookmarks file"
+msgstr "Ifuyla n tecraḍ n yisebtar"
+
+#. Auto Session: ON/OFF
+#: src/LYOptions.c:4312
+msgid "Auto Session"
+msgstr "Tiɣimit tawurmant"
+
+#. Session File Menu: INPUT
+#: src/LYOptions.c:4318
+msgid "Session file"
+msgstr "Afaylu n tɣimit"
+
+#. Visited Pages: SELECT
+#: src/LYOptions.c:4324
+msgid "Visited Pages"
+msgstr "Isebtar wuɣur terziḍ"
+
+#: src/LYOptions.c:4329
+msgid "View the file "
+msgstr "Wali afaylu "
+
+#: src/LYPrint.c:956
+#, c-format
+msgid " Print job complete.\n"
+msgstr " Yemmed umahil n usiggez.\n"
+
+#: src/LYPrint.c:1283
+msgid "Document:"
+msgstr "Isemli:"
+
+#: src/LYPrint.c:1284
+msgid "Number of lines:"
+msgstr "Amḍan n yizirigen:"
+
+#: src/LYPrint.c:1285
+msgid "Number of pages:"
+msgstr "Amḍan n yisebtar:"
+
+#: src/LYPrint.c:1286
+msgid "pages"
+msgstr "isebtar"
+
+#: src/LYPrint.c:1286
+msgid "page"
+msgstr "asebter"
+
+#: src/LYPrint.c:1287
+msgid "(approximately)"
+msgstr "(ad yili)"
+
+#: src/LYPrint.c:1294
+msgid "Some print functions have been disabled!"
+msgstr "Kra n twuriwin n usiggez, nsant!"
+
+#: src/LYPrint.c:1298
+msgid "Standard print options:"
+msgstr "Taxtiṛt n usiggez tiluganin:"
+
+#: src/LYPrint.c:1299
+msgid "Print options:"
+msgstr "Sken tixtiṛiyin:"
+
+#: src/LYPrint.c:1306
+msgid "Save to a local file"
+msgstr "Sekles deg ufaylu adigan"
+
+#: src/LYPrint.c:1308
+msgid "Save to disk disabled"
+msgstr "Sekles deg uḍebsi i yensan"
+
+#: src/LYPrint.c:1315
+msgid "Mail the file"
+msgstr "Azen afaylu s yimayl"
+
+#: src/LYPrint.c:1322
+msgid "Print to the screen"
+msgstr "Sken deg ugdil"
+
+#: src/LYPrint.c:1327
+msgid "Print out on a printer attached to your vt100 terminal"
+msgstr "Siggez s tsaggazt i yeqqnen ɣer yixef vt100"
+
+#: src/LYReadCFG.c:437
+#, c-format
+msgid ""
+"Syntax Error parsing COLOR in configuration file:\n"
+"The line must be of the form:\n"
+"COLOR:INTEGER:FOREGROUND:BACKGROUND\n"
+"\n"
+"Here FOREGROUND and BACKGROUND must be one of:\n"
+"The special strings 'nocolor' or 'default', or\n"
+msgstr ""
+"Tuccḍa deg tseddast lawan n uslaḍ n COLOR deg ufaylu n usesteb:\n"
+"Izirig ilaq ad yili n talɣa:\n"
+"COLOR:INTEGER:FOREGROUND:BACKGROUND\n"
+"\n"
+"Dagi, FOREGROUND akked BACKGROUND ilaq ad yili d yiwen seg:\n"
+"Yizriren uzzigen 'nocolor' neɣ 'default', neɣ\n"
+
+#: src/LYReadCFG.c:450
+msgid "Offending line:"
+msgstr "Izirig anemgal:"
+
+#: src/LYReadCFG.c:764
+#, c-format
+msgid "key remapping of %s to %s for %s failed\n"
+msgstr "tuccḍa deg usenfel n tqeffalt %s ɣer %s i %s\n"
+
+#: src/LYReadCFG.c:771
+#, c-format
+msgid "key remapping of %s to %s failed\n"
+msgstr "tuccḍa deg usenfel n tqeffalt %s ɣer %s\n"
+
+#: src/LYReadCFG.c:792
+#, c-format
+msgid "invalid line-editor selection %s for key %s, selecting all\n"
+msgstr "afran n yizirigen yettwaẓergen %s irimeɣta i tqeffalt %s, afran n kullec\n"
+
+#: src/LYReadCFG.c:817 src/LYReadCFG.c:832
+#, c-format
+msgid "setting of line-editor binding for key %s (0x%x) to 0x%x for %s failed\n"
+msgstr "yecceḍ uɣsar n uɣewwar n umaẓrag n yizirig i tqeffalt %s (0x%x) ɣer 0x%x i %s\n"
+
+#: src/LYReadCFG.c:839
+#, c-format
+msgid "setting of line-editor binding for key %s (0x%x) for %s failed\n"
+msgstr "yecceḍ uɣsar n uɣewwar n umaẓrag n yizirig i tqeffalt %s (0x%x) i %s\n"
+
+#: src/LYReadCFG.c:937
+#, c-format
+msgid "Lynx: cannot start, CERN rules file %s is not available\n"
+msgstr "Lynx: yegguma ad yekker, afaylu n yilugan CERN %s ulac-it\n"
+
+#: src/LYReadCFG.c:938
+msgid "(no name)"
+msgstr "(uac isem)"
+
+#: src/LYReadCFG.c:2086
+#, c-format
+msgid "More than %d nested lynx.cfg includes -- perhaps there is a loop?!?\n"
+msgstr "Ugar n %d n tmerna taseddirigt deg lynx.cfg -- ahat tella tneddict?!?\n"
+
+#: src/LYReadCFG.c:2088
+#, c-format
+msgid "Last attempted include was '%s',\n"
+msgstr "Aneɛruḍ aneggaru n useddu d '%s',\n"
+
+#: src/LYReadCFG.c:2089
+#, c-format
+msgid "included from '%s'.\n"
+msgstr "yedda seg '%s'.\n"
+
+#: src/LYReadCFG.c:2500 src/LYReadCFG.c:2513 src/LYReadCFG.c:2571
+msgid "The following is read from your lynx.cfg file."
+msgstr "Wagi yettwaɣray seg ufaylu lynx.cfg."
+
+#: src/LYReadCFG.c:2501 src/LYReadCFG.c:2514
+msgid "Please read the distribution"
+msgstr "Ttxil-k⋅m ɣeṛ azuzer"
+
+#: src/LYReadCFG.c:2507 src/LYReadCFG.c:2517
+msgid "for more comments."
+msgstr "i wugar n yiwenniten."
+
+#: src/LYReadCFG.c:2553
+msgid "RELOAD THE CHANGES"
+msgstr "SALI ISENFAL"
+
+#: src/LYReadCFG.c:2561
+msgid "Your primary configuration"
+msgstr "Asesteb-ik⋅im amezwaru"
+
+#: src/LYShowInfo.c:116
+msgid "URL:"
+msgstr "URL:"
+
+#: src/LYShowInfo.c:200
+msgid "Directory that you are currently viewing"
+msgstr "Akaram i tesneqdeḍ melmi kan"
+
+#: src/LYShowInfo.c:203
+msgid "Name:"
+msgstr "Isem:"
+
+#: src/LYShowInfo.c:220
+msgid "Directory that you have currently selected"
+msgstr "Akaram i tferneḍ melmi kan"
+
+#: src/LYShowInfo.c:222
+msgid "File that you have currently selected"
+msgstr "Afaylu i tferneḍ melmi kan"
+
+#: src/LYShowInfo.c:225
+msgid "Symbolic link that you have currently selected"
+msgstr "Aseɣwen azamal i tferneḍ melmi kan"
+
+#: src/LYShowInfo.c:228
+msgid "Item that you have currently selected"
+msgstr "Aferdis i tferneḍ melmi kan"
+
+#: src/LYShowInfo.c:230
+msgid "Full name:"
+msgstr "Isem ummid:"
+
+#: src/LYShowInfo.c:243
+msgid "Unable to follow link"
+msgstr "D awezɣi aḍfar n useɣwen"
+
+#: src/LYShowInfo.c:245
+msgid "Points to file:"
+msgstr "Sweṛ ɣer ufaylu:"
+
+#: src/LYShowInfo.c:250
+msgid "Name of owner:"
+msgstr "Isem n umli:"
+
+#: src/LYShowInfo.c:253
+msgid "Group name:"
+msgstr "Isem n ugraw:"
+
+#: src/LYShowInfo.c:255
+msgid "File size:"
+msgstr "Teɣzi n ufaylu:"
+
+#: src/LYShowInfo.c:257
+msgid "(bytes)"
+msgstr "(ibiten)"
+
+#.
+#. * Include date and time information.
+#.
+#: src/LYShowInfo.c:262
+msgid "Creation date:"
+msgstr "Azemz n tmerna:"
+
+#: src/LYShowInfo.c:265
+msgid "Last modified:"
+msgstr "Asenfel aneggaru:"
+
+#: src/LYShowInfo.c:268
+msgid "Last accessed:"
+msgstr "Anekcu aneggaru:"
+
+#: src/LYShowInfo.c:274
+msgid "Access Permissions"
+msgstr "Tisirag n unekcum"
+
+#: src/LYShowInfo.c:309
+msgid "Group:"
+msgstr "Agraw:"
+
+#: src/LYShowInfo.c:329
+msgid "World:"
+msgstr "Amaḍal:"
+
+#: src/LYShowInfo.c:336
+msgid "File that you are currently viewing"
+msgstr "Afaylu i tesneqdeḍ melmi kan"
+
+#: src/LYShowInfo.c:344 src/LYShowInfo.c:444
+msgid "Linkname:"
+msgstr "Isem n wasaɣ:"
+
+#: src/LYShowInfo.c:350 src/LYShowInfo.c:365
+msgid "Charset:"
+msgstr "Tagrumma n yisekkilen:"
+
+#: src/LYShowInfo.c:364
+msgid "(assumed)"
+msgstr "(yettwadmu)"
+
+#: src/LYShowInfo.c:371
+msgid "Server:"
+msgstr "Aqeddac:"
+
+#: src/LYShowInfo.c:374
+msgid "Date:"
+msgstr "Azemz:"
+
+#: src/LYShowInfo.c:377
+msgid "Last Mod:"
+msgstr "Askar aneggaru:"
+
+#: src/LYShowInfo.c:381
+msgid "Expires:"
+msgstr "Yemmut:"
+
+#: src/LYShowInfo.c:384
+msgid "Cache-Control:"
+msgstr "Asenqed n tkatut:"
+
+#: src/LYShowInfo.c:387
+msgid "Content-Length:"
+msgstr "Teɣzi n ugbur:"
+
+#: src/LYShowInfo.c:391
+msgid "Length:"
+msgstr "Tehri:"
+
+#: src/LYShowInfo.c:396
+msgid "Language:"
+msgstr "Tutlayt:"
+
+#: src/LYShowInfo.c:402
+msgid "Post Data:"
+msgstr "Isefka n POST:"
+
+#: src/LYShowInfo.c:405
+msgid "Post Content Type:"
+msgstr "Anaw n ugbur n Post:"
+
+#: src/LYShowInfo.c:408
+msgid "Owner(s):"
+msgstr "Bab:"
+
+#: src/LYShowInfo.c:413
+msgid "size:"
+msgstr "tiddi:"
+
+#: src/LYShowInfo.c:415
+msgid "lines"
+msgstr "izirigen"
+
+#: src/LYShowInfo.c:419
+msgid "forms mode"
+msgstr "askar n tferkiyin"
+
+#: src/LYShowInfo.c:421
+msgid "source"
+msgstr "aɣbalu"
+
+#: src/LYShowInfo.c:422
+msgid "normal"
+msgstr "amagnu"
+
+#: src/LYShowInfo.c:424
+msgid ", safe"
+msgstr ", aɣellsan"
+
+#: src/LYShowInfo.c:426
+msgid ", via internal link"
+msgstr ", d adigan"
+
+#: src/LYShowInfo.c:430
+msgid ", no-cache"
+msgstr ", ulac takatut"
+
+#: src/LYShowInfo.c:432
+msgid ", ISMAP script"
+msgstr ", Asekript ISMAP"
+
+#: src/LYShowInfo.c:434
+msgid ", bookmark file"
+msgstr ", afaylu n tecraḍ"
+
+#: src/LYShowInfo.c:437
+msgid "mode:"
+msgstr "askar:"
+
+#: src/LYShowInfo.c:443
+msgid "Link that you currently have selected"
+msgstr "Aseɣwen i tferneḍ melmi kan"
+
+#: src/LYShowInfo.c:452
+msgid "Method:"
+msgstr "Tarrayt:"
+
+#: src/LYShowInfo.c:456
+msgid "Enctype:"
+msgstr "Asettengel:"
+
+#: src/LYShowInfo.c:462
+msgid "Action:"
+msgstr "Tigawt:"
+
+#: src/LYShowInfo.c:468
+msgid "(Form field)"
+msgstr "(Urti n tferkit)"
+
+#: src/LYShowInfo.c:478
+msgid "No Links on the current page"
+msgstr "Ulac iseɣwan ɣef usebter amiran"
+
+#: src/LYShowInfo.c:483
+msgid "Server Headers:"
+msgstr "Iqerra n uqeddac:"
+
+#: src/LYStyle.c:332
+#, c-format
+msgid ""
+"Syntax Error parsing style in lss file:\n"
+"[%s]\n"
+"The line must be of the form:\n"
+"OBJECT:MONO:COLOR (ie em:bold:brightblue:white)\n"
+"where OBJECT is one of EM,STRONG,B,I,U,BLINK etc.\n"
+"\n"
+msgstr ""
+"Tuccḍa deg tseddast deg ufaylu lss:\n"
+"[%s]\n"
+"Izirig ilaq ad yili s talɣa:\n"
+"OBJECT:MONO:COLOR (ie em:bold:brightblue:white)\n"
+"anida OBJECT d yiwen seg EM,STRONG,B,I,U,BLINK tgr.\n"
+"\n"
+
+#: src/LYStyle.c:941
+#, c-format
+msgid ""
+"\n"
+"Lynx file \"%s\" is not available.\n"
+"\n"
+msgstr ""
+"\n"
+"Afaylu n Lynx \"%s\" ulac-it.\n"
+"\n"
+
+#: src/LYTraversal.c:111
+msgid "here is a list of the history stack so that you may rebuild"
+msgstr "dagi d tabdart n tbursatin n uzray iwumi ilaq ad talseḍ lebni"
+
+#: src/LYUpload.c:77
+msgid "ERROR! - upload command is misconfigured"
+msgstr "TUCCḌA! - anzaḍ n usali yettwasesteb d abruyan"
+
+#: src/LYUpload.c:98
+msgid "Illegal redirection \"../\" found! Request ignored."
+msgstr "Yettwaf wallus n tnila aruzrif n \"../\"! Assuter, yettwanef."
+
+#: src/LYUpload.c:101
+msgid "Illegal character \"/\" found! Request ignored."
+msgstr "Yettwaf usekkil aruzrif \"/\"! Assuter, yettwanef."
+
+#: src/LYUpload.c:104
+msgid "Illegal redirection using \"~\" found! Request ignored."
+msgstr "Yettwaf wallus n tnila aruzrif s useqdec n \"~\"! Assuter, yettwanef."
+
+#: src/LYUpload.c:157
+msgid "Unable to upload file."
+msgstr "D awezɣi asali n ufaylu."
+
+#: src/LYUpload.c:196
+msgid "Upload To:"
+msgstr "Sali ɣer:"
+
+#: src/LYUpload.c:197
+msgid "Upload options:"
+msgstr "Sali tixtiṛiyin:"
+
+#: src/LYUtils.c:1911
+msgid "Download document URL put to clipboard."
+msgstr "URL n yisemli i yettwasadren, yenɣel ɣer tecfawt."
+
+#: src/LYUtils.c:2658
+msgid "Unexpected access protocol for this URL scheme."
+msgstr "Aneggaf n unekcum ur yettwaruǧan ara i uzenziɣ-a n URL."
+
+#: src/LYUtils.c:3571
+msgid "Too many tempfiles"
+msgstr "Aṭas n yifuyla uɛḍilen"
+
+#: src/LYUtils.c:3871
+msgid "unknown restriction"
+msgstr "talast tarussint"
+
+#: src/LYUtils.c:3902
+#, c-format
+msgid "No restrictions set.\n"
+msgstr "Ulac tilas yettwagen.\n"
+
+#: src/LYUtils.c:3905
+#, c-format
+msgid "Restrictions set:\n"
+msgstr "Tilas yettwagen.\n"
+
+#: src/LYUtils.c:5202
+msgid "Cannot find HOME directory"
+msgstr "Yegguma ad yaf akaram AGEJDAN"
+
+#: src/LYrcFile.c:16
+msgid "Normally disabled.  See ENABLE_LYNXRC in lynx.cfg\n"
+msgstr "Ad yili yensa.  Wali ENABLE_LYNXRC deg lynx.cfg\n"
+
+#: src/LYrcFile.c:373
+msgid ""
+"accept_all_cookies allows the user to tell Lynx to automatically\n"
+"accept all cookies if desired.  The default is \"FALSE\" which will\n"
+"prompt for each cookie.  Set accept_all_cookies to \"TRUE\" to accept\n"
+"all cookies.\n"
+msgstr ""
+"accept_all_cookies yettaǧǧa aseqdac ad immel i Lynx ad iqbel s wudem\n"
+"awurman akk inagan n tuqqna ma yebɣa.  Amezwer d \"FALSE\" ara\n"
+"yettwassutren i yal anagi.  Sbadu accept_all_cookies ɣer \"TRUE\" i uqbal\n"
+"n meṛṛa inagan.\n"
+
+#: src/LYrcFile.c:381
+msgid ""
+"anonftp_password allows the user to tell Lynx to use the personal\n"
+"email address as the password for anonymous ftp.  If no value is given,\n"
+"Lynx will use the personal email address.  Set anonftp_password\n"
+"to a different value if you choose.\n"
+msgstr ""
+"anonftp_password yettaǧǧa aseqdac ad yini i Lynx ad isseqdec tansa\n"
+"n yimayl tudmawant d awal n uɛeddi i ftp udrig.  Ma yella ulac azal i d-yettwamudden,\n"
+"Lynx ad isseqdec tansa n yimayl tudmawant.  Sbadu anonftp_password\n"
+"ɣer wazal yemgarraden ma yella tebɣiḍ.\n"
+
+#: src/LYrcFile.c:390
+msgid ""
+"bookmark_file specifies the name and location of the default bookmark\n"
+"file into which the user can paste links for easy access at a later\n"
+"date.\n"
+msgstr ""
+"bookmark_file yesuzzeg isem d wadig n ufaylu n tecreḍt tamezwart\n"
+"ideg yezmer useqdac ad isenteḍ iseɣwan i unekcum afessa sya\n"
+"ɣer sdar.\n"
+
+#: src/LYrcFile.c:395
+msgid ""
+"If case_sensitive_searching is \"on\" then when the user invokes a search\n"
+"using the 's' or '/' keys, the search performed will be case sensitive\n"
+"instead of case INsensitive.  The default is usually \"off\".\n"
+msgstr ""
+"Ma yella taxtiṛt case_sensitive_searching d \"on\", mi ara issenker useqdac anadi\n"
+"s useqdec n tqeffalt 's' neɣ '/' keys, anadi yettwagen yeshel ad yerreẓ\n"
+"deg wadeg n case INsensitive.  Azal amezwar s umata d \"off\".\n"
+
+#: src/LYrcFile.c:400
+msgid ""
+"The character_set definition controls the representation of 8 bit\n"
+"characters for your terminal.  If 8 bit characters do not show up\n"
+"correctly on your screen you may try changing to a different 8 bit\n"
+"set or using the 7 bit character approximations.\n"
+"Current valid characters sets are:\n"
+msgstr ""
+"Tabadut n tegrumma n usenqed n tgensest n yisekkilen n 8 yibiten\n"
+"i yixef-ik⋅im.  Ma yella 8 yibiten n yisekkilen ur d-ttwaskanen ara\n"
+"akken iwata ɣef ugdil-ik⋅im, tzemreḍ ad tɛerḍeḍ ad tesnefleḍ tagrumma\n"
+"n yisekkilen n 8 yibiten neɣ s useqdec n yisekkilen 7 yibiten.\n"
+"Akka tura, tagrummiwin n yisekkilen timeɣta d:\n"
+
+#: src/LYrcFile.c:408
+msgid ""
+"cookie_accept_domains and cookie_reject_domains are comma-delimited\n"
+"lists of domains from which Lynx should automatically accept or reject\n"
+"all cookies.  If a domain is specified in both options, rejection will\n"
+"take precedence.  The accept_all_cookies parameter will override any\n"
+"settings made here.\n"
+msgstr ""
+"cookie_accept_domains akked cookie_reject_domains d tibdarin are comma-delimited\n"
+"n taɣulin yebḍan tefrayin, iseg Lynx yewwi-d ad yeqbel neɣ ad yagi s wudem awurman\n"
+"akk inagan n tuqqna.  Ma yella taɣult d tuzzigt deg snat textiṛiyin, agdal ad yili\n"
+"d amezwaru.  Aɣewwar accept_all_cookies ad isemselsi\n"
+"akk iɣewwaren yettwasbadun dagi.\n"
+
+#: src/LYrcFile.c:416
+msgid ""
+"cookie_file specifies the file from which to read persistent cookies.\n"
+"The default is ~/"
+msgstr ""
+"cookie_file yessefra afaylu iseg ara d-ttwaɣren yinagan n tuqqna yezgan.\n"
+"Amezwar d ~/"
+
+#: src/LYrcFile.c:421
+msgid ""
+"cookie_loose_invalid_domains, cookie_strict_invalid_domains, and\n"
+"cookie_query_invalid_domains are comma-delimited lists of which domains\n"
+"should be subjected to varying degrees of validity checking.  If a\n"
+"domain is set to strict checking, strict conformance to RFC2109 will\n"
+"be applied.  A domain with loose checking will be allowed to set cookies\n"
+"with an invalid path or domain attribute.  All domains will default to\n"
+"querying the user for an invalid path or domain.\n"
+msgstr ""
+
+#: src/LYrcFile.c:435
+msgid ""
+"dir_list_order specifies the directory list order under DIRED_SUPPORT\n"
+"(if implemented).  The default is \"ORDER_BY_NAME\"\n"
+msgstr ""
+"dir_list_order yesuzzeg amizwer n tebdart n yikaramen ddaw DIRED_SUPPORT\n"
+"(ma yella yeẓẓa). S wudem amezwar d \"ORDER_BY_NAME\"\n"
+
+#: src/LYrcFile.c:440
+msgid ""
+"dir_list_styles specifies the directory list style under DIRED_SUPPORT\n"
+"(if implemented).  The default is \"MIXED_STYLE\", which sorts both\n"
+"files and directories together.  \"FILES_FIRST\" lists files first and\n"
+"\"DIRECTORIES_FIRST\" lists directories first.\n"
+msgstr ""
+
+#: src/LYrcFile.c:448
+msgid ""
+"If emacs_keys is to \"on\" then the normal EMACS movement keys:\n"
+"  ^N = down    ^P = up\n"
+"  ^B = left    ^F = right\n"
+"will be enabled.\n"
+msgstr ""
+"Ma emacs_keys yella ɣer « on », tiqeffalin n unkaz EMACS timugna :\n"
+"  <^N> = akessar     <^P> = asawen\n"
+"  <^B> = azelmaḍ  <^F> = ayeffus\n"
+"yermed.\n"
+
+#: src/LYrcFile.c:454
+msgid ""
+"file_editor specifies the editor to be invoked when editing local files\n"
+"or sending mail.  If no editor is specified, then file editing is disabled\n"
+"unless it is activated from the command line, and the built-in line editor\n"
+"will be used for sending mail.\n"
+msgstr ""
+
+#: src/LYrcFile.c:461
+msgid ""
+"The file_sorting_method specifies which value to sort on when viewing\n"
+"file lists such as FTP directories.  The options are:\n"
+"   BY_FILENAME -- sorts on the name of the file\n"
+"   BY_TYPE     -- sorts on the type of the file\n"
+"   BY_SIZE     -- sorts on the size of the file\n"
+"   BY_DATE     -- sorts on the date of the file\n"
+msgstr ""
+
+#: src/LYrcFile.c:492
+msgid ""
+"lineedit_mode specifies the key binding used for inputting strings in\n"
+"prompts and forms.  If lineedit_mode is set to \"Default Binding\" then\n"
+"the following control characters are used for moving and deleting:\n"
+"\n"
+"             Prev  Next       Enter = Accept input\n"
+"   Move char: <-    ->        ^G    = Cancel input\n"
+"   Move word: ^P    ^N        ^U    = Erase line\n"
+" Delete char: ^H    ^R        ^A    = Beginning of line\n"
+" Delete word: ^B    ^F        ^E    = End of line\n"
+"\n"
+"Current lineedit modes are:\n"
+msgstr ""
+
+#: src/LYrcFile.c:510
+msgid ""
+"The following allow you to define sub-bookmark files and descriptions.\n"
+"The format is multi_bookmark<capital_letter>=<filename>,<description>\n"
+"Up to 26 bookmark files (for the English capital letters) are allowed.\n"
+"We start with \"multi_bookmarkB\" since 'A' is the default (see above).\n"
+msgstr ""
+
+#: src/LYrcFile.c:516
+msgid ""
+"personal_mail_address specifies your personal mail address.  The\n"
+"address will be sent during HTTP file transfers for authorization and\n"
+"logging purposes, and for mailed comments.\n"
+"If you do not want this information given out, set the NO_FROM_HEADER\n"
+"to TRUE in lynx.cfg, or use the -nofrom command line switch.  You also\n"
+"could leave this field blank, but then you won't have it included in\n"
+"your mailed comments.\n"
+msgstr ""
+
+#: src/LYrcFile.c:525
+msgid ""
+"personal_mail_name specifies your personal name, for mail.  The\n"
+"name is sent for mailed comments.  Lynx will prompt for this,\n"
+"showing the configured value as a default when sending mail.\n"
+"This is not necessarily the same as a name provided as part of the\n"
+"personal_mail_address.\n"
+"Lynx does not save your changes to that default value as a side-effect\n"
+"of sending email.  To update the default value, you must use the options\n"
+"menu, or modify this file directly.\n"
+msgstr ""
+
+#: src/LYrcFile.c:535
+msgid ""
+"preferred_charset specifies the character set in MIME notation (e.g.,\n"
+"ISO-8859-2, ISO-8859-5) which Lynx will indicate you prefer in requests\n"
+"to http servers using an Accept-Charset header.  The value should NOT\n"
+"include ISO-8859-1 or US-ASCII, since those values are always assumed\n"
+"by default.  May be a comma-separated list.\n"
+"If a file in that character set is available, the server will send it.\n"
+"If no Accept-Charset header is present, the default is that any\n"
+"character set is acceptable.  If an Accept-Charset header is present,\n"
+"and if the server cannot send a response which is acceptable\n"
+"according to the Accept-Charset header, then the server SHOULD send\n"
+"an error response, though the sending of an unacceptable response\n"
+"is also allowed.\n"
+msgstr ""
+
+#: src/LYrcFile.c:553
+msgid ""
+"preferred_language specifies the language in MIME notation (e.g., en,\n"
+"fr, may be a comma-separated list in decreasing preference)\n"
+"which Lynx will indicate you prefer in requests to http servers.\n"
+"If a file in that language is available, the server will send it.\n"
+"Otherwise, the server will send the file in its default language.\n"
+msgstr ""
+
+#: src/LYrcFile.c:564
+msgid ""
+"If run_all_execution_links is set \"on\" then all local execution links\n"
+"will be executed when they are selected.\n"
+"\n"
+"WARNING - This is potentially VERY dangerous.  Since you may view\n"
+"          information that is written by unknown and untrusted sources\n"
+"          there exists the possibility that Trojan horse links could be\n"
+"          written.  Trojan horse links could be written to erase files\n"
+"          or compromise security.  This should only be set to \"on\" if\n"
+"          you are viewing trusted source information.\n"
+msgstr ""
+
+#: src/LYrcFile.c:575
+msgid ""
+"If run_execution_links_on_local_files is set \"on\" then all local\n"
+"execution links that are found in LOCAL files will be executed when they\n"
+"are selected.  This is different from run_all_execution_links in that\n"
+"only files that reside on the local system will have execution link\n"
+"permissions.\n"
+"\n"
+"WARNING - This is potentially dangerous.  Since you may view\n"
+"          information that is written by unknown and untrusted sources\n"
+"          there exists the possibility that Trojan horse links could be\n"
+"          written.  Trojan horse links could be written to erase files\n"
+"          or compromise security.  This should only be set to \"on\" if\n"
+"          you are viewing trusted source information.\n"
+msgstr ""
+
+#: src/LYrcFile.c:593
+msgid ""
+"select_popups specifies whether the OPTIONs in a SELECT block which\n"
+"lacks a MULTIPLE attribute are presented as a vertical list of radio\n"
+"buttons or via a popup menu.  Note that if the MULTIPLE attribute is\n"
+"present in the SELECT start tag, Lynx always will create a vertical list\n"
+"of checkboxes for the OPTIONs.  A value of \"on\" will set popup menus\n"
+"as the default while a value of \"off\" will set use of radio boxes.\n"
+"The default can be overridden via the -popup command line toggle.\n"
+msgstr ""
+
+#: src/LYrcFile.c:604
+msgid ""
+"show_color specifies how to set the color mode at startup.  A value of\n"
+"\"never\" will force color mode off (treat the terminal as monochrome)\n"
+"at startup even if the terminal appears to be color capable.  A value of\n"
+"\"always\" will force color mode on even if the terminal appears to be\n"
+"monochrome, if this is supported by the library used to build lynx.\n"
+"A value of \"default\" will yield the behavior of assuming\n"
+"a monochrome terminal unless color capability is inferred at startup\n"
+"based on the terminal type, or the -color command line switch is used, or\n"
+"the COLORTERM environment variable is set.  The default behavior always is\n"
+"used in anonymous accounts or if the \"option_save\" restriction is set.\n"
+"The effect of the saved value can be overridden via\n"
+"the -color and -nocolor command line switches.\n"
+"The mode set at startup can be changed via the \"show color\" option in\n"
+"the 'o'ptions menu.  If the option settings are saved, the \"on\" and\n"
+"\"off\" \"show color\" settings will be treated as \"default\".\n"
+msgstr ""
+
+#: src/LYrcFile.c:621
+msgid ""
+"show_cursor specifies whether to 'hide' the cursor to the right (and\n"
+"bottom, if possible) of the screen, or to place it to the left of the\n"
+"current link in documents, or current option in select popup windows.\n"
+"Positioning the cursor to the left of the current link or option is\n"
+"helpful for speech or braille interfaces, and when the terminal is\n"
+"one which does not distinguish the current link based on highlighting\n"
+"or color.  A value of \"on\" will set positioning to the left as the\n"
+"default while a value of \"off\" will set 'hiding' of the cursor.\n"
+"The default can be overridden via the -show_cursor command line toggle.\n"
+msgstr ""
+
+#: src/LYrcFile.c:632
+msgid ""
+"show_dotfiles specifies that the directory listing should include\n"
+"\"hidden\" (dot) files/directories.  If set \"on\", this will be\n"
+"honored only if enabled via userdefs.h and/or lynx.cfg, and not\n"
+"restricted via a command line switch.  If display of hidden files\n"
+"is disabled, creation of such files via Lynx also is disabled.\n"
+msgstr ""
+
+#: src/LYrcFile.c:643
+msgid ""
+"If sub_bookmarks is not turned \"off\", and multiple bookmarks have\n"
+"been defined (see below), then all bookmark operations will first\n"
+"prompt the user to select an active sub-bookmark file.  If the default\n"
+"Lynx bookmark_file is defined (see above), it will be used as the\n"
+"default selection.  When this option is set to \"advanced\", and the\n"
+"user mode is advanced, the 'v'iew bookmark command will invoke a\n"
+"statusline prompt instead of the menu seen in novice and intermediate\n"
+"user modes.  When this option is set to \"standard\", the menu will be\n"
+"presented regardless of user mode.\n"
+msgstr ""
+
+#: src/LYrcFile.c:658
+msgid ""
+"user_mode specifies the users level of knowledge with Lynx.  The\n"
+"default is \"NOVICE\" which displays two extra lines of help at the\n"
+"bottom of the screen to aid the user in learning the basic Lynx\n"
+"commands.  Set user_mode to \"INTERMEDIATE\" to turn off the extra info.\n"
+"Use \"ADVANCED\" to see the URL of the currently selected link at the\n"
+"bottom of the screen.\n"
+msgstr ""
+
+#: src/LYrcFile.c:667
+msgid ""
+"If verbose_images is \"on\", lynx will print the name of the image\n"
+"source file in place of [INLINE], [LINK] or [IMAGE]\n"
+"See also VERBOSE_IMAGES in lynx.cfg\n"
+msgstr ""
+"Ma yella verbose_images ɣer \"on\", lynx ad d-isken ismawen n yifuyla\n"
+"iɣbula n tugniwin deg wadeg n [INLINE], [LINK] neɣ [IMAGE]\n"
+"Wali daɣen VERBOSE_IMAGES deg lynx.cfg\n"
+
+#: src/LYrcFile.c:672
+msgid ""
+"If vi_keys is set to \"on\", then the normal VI movement keys:\n"
+"  j = down    k = up\n"
+"  h = left    l = right\n"
+"will be enabled.  These keys are only lower case.\n"
+"Capital 'H', 'J' and 'K will still activate help, jump shortcuts,\n"
+"and the keymap display, respectively.\n"
+msgstr ""
+
+#: src/LYrcFile.c:680
+msgid ""
+"The visited_links setting controls how Lynx organizes the information\n"
+"in the Visited Links Page.\n"
+msgstr ""
+"Taxtiṛt visited_links yessenqad amek Lynx yesuddus talɣut\n"
+"ɣef usebter n yiseɣwan wuɣur tella tirzi.\n"
+
+#: src/LYrcFile.c:924
+msgid ""
+"If keypad_mode is set to \"NUMBERS_AS_ARROWS\", then the numbers on\n"
+"your keypad when the numlock is on will act as arrow keys:\n"
+"            8 = Up Arrow\n"
+"  4 = Left Arrow    6 = Right Arrow\n"
+"            2 = Down Arrow\n"
+"and the corresponding keyboard numbers will act as arrow keys,\n"
+"regardless of whether numlock is on.\n"
+msgstr ""
+
+#: src/LYrcFile.c:933
+msgid ""
+"If keypad_mode is set to \"LINKS_ARE_NUMBERED\", then numbers will\n"
+"appear next to each link and numbers are used to select links.\n"
+msgstr ""
+"Ma yella keypad_mode yettusbadu ɣer \"LINKS_ARE_NUMBERED\", imḍanen ad\n"
+"d-banen ɣer tama n yiseɣwan i wakken ad ttusqedcen i ufran n yiseɣwan.\n"
+
+#: src/LYrcFile.c:937
+msgid ""
+"If keypad_mode is set to \"LINKS_AND_FORM_FIELDS_ARE_NUMBERED\", then\n"
+"numbers will appear next to each link and visible form input field.\n"
+"Numbers are used to select links, or to move the \"current link\" to a\n"
+"form input field or button.  In addition, options in popup menus are\n"
+"indexed so that the user may type an option number to select an option in\n"
+"a popup menu, even if the option isn't visible on the screen.  Reference\n"
+"lists and output from the list command also enumerate form inputs.\n"
+msgstr ""
+
+#: src/LYrcFile.c:946
+msgid ""
+"NOTE: Some fixed format documents may look disfigured when\n"
+"\"LINKS_ARE_NUMBERED\" or \"LINKS_AND_FORM_FIELDS_ARE_NUMBERED\" are\n"
+"enabled.\n"
+msgstr ""
+"TAZMILT: Kra n umsal n yisemliyen yezer ad d-iban war asesteb\n"
+"mi ara \"LINKS_ARE_NUMBERED\" neɣ \"LINKS_AND_FORM_FIELDS_ARE_NUMBERED\"\n"
+"ttwaremden.\n"
+
+#: src/LYrcFile.c:978
+msgid ""
+"Lynx User Defaults File\n"
+"\n"
+msgstr ""
+"Afaylu n yiɣewaren n useqdac s wudem amezwer n Lynx\n"
+"\n"
+
+#: src/LYrcFile.c:987
+msgid ""
+"This file contains options saved from the Lynx Options Screen (normally\n"
+"with the 'o' key).  To save options with that screen, you must select the\n"
+"checkbox:\n"
+msgstr ""
+"Afaylu-a yegber tixtiṛiyin i yettwaskelsen deg ugdil n textiṛiyin n Lynx (yezmer\n"
+"s tqeffalt 'o').  I usekles n textiṛiyin s ugdil-a, ilaq ad tferneḍ\n"
+"tabewwaḍt n ṛṛcem:\n"
+
+#: src/LYrcFile.c:994
+msgid ""
+"You must then save the settings using the link on the line above the\n"
+"checkbox:\n"
+msgstr ""
+"Yewwi-d fell-ak×am ad teskelseḍ iɣewwaren-a s useqdec n useɣwen nnig\n"
+"tbewwaḍt n ṛṛcem:\n"
+
+#: src/LYrcFile.c:1001
+msgid ""
+"You may also use the command-line option \"-forms_options\", which displays\n"
+"the simpler Options Menu instead.  Save options with that using the '>' key.\n"
+"\n"
+msgstr ""
+"Tzemreḍ daɣen ad tesqedceḍ taxtiṛt n yizirig n unzaḍ \"-forms_options\", i yeskanayen\n"
+"umuɣ n textiṛiyin afessas deg ubdil-is. Sekles tixtiṛiyin-a s useqdec n tqeffalt >'.\n"
+"\n"
+
+#: src/LYrcFile.c:1008
+msgid ""
+"This file contains options saved from the Lynx Options Screen (normally\n"
+"with the '>' key).\n"
+"\n"
+msgstr ""
+"Afaylu-a yegber tixtiṛiyin i yettwaskelsen seg ugdil n textiṛiyin Lynx (s wudem amagnu\n"
+"s tqeffalt '>').\n"
+"\n"
+
+#: src/LYrcFile.c:1015
+msgid ""
+"There is normally no need to edit this file manually, since the defaults\n"
+"here can be controlled from the Options Screen, and the next time options\n"
+"are saved from the Options Screen this file will be completely rewritten.\n"
+"You have been warned...\n"
+"\n"
+"If you are looking for the general configuration file - it is normally\n"
+"called \"lynx.cfg\".  It has different content and a different format.\n"
+"It is not this file.\n"
+msgstr ""
+"Ur d-yettwasra ara dɣa uẓrag n ufaylu-a s ufus, imi imezwar\n"
+"dagi zemren ad ttwasneqden seg ugdil n textiṛiyin, rnu ɣer sdat, tixtiṛiyin\n"
+"ad ttwasneflent s wazalen seg ugdil-a.\n"
+"Aqla-k⋅kem teẓriḍ...\n"
+"\n"
+"Ma yella tettnadiḍ afaylu n usesteb amatu - ad yili\n"
+"yettwasemma s yisem \"lynx.cfg\".  Agbur-is d umsal-is mgaraden.\n"
+"Mačči d afaylu-a.\n"
