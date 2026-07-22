@@ -21,6 +21,7 @@
  */
 #include <slang.h>
 #include <font_render.h>
+#include <bookmarks.h>
 
 #include <3ds.h>
 
@@ -392,7 +393,7 @@ void lynx3ds_trigger_swkbd(const char *prefix)
  * or touchscreen). */
 #define HANDLED_KEYS (KEY_DUP | KEY_DDOWN | KEY_DRIGHT | KEY_DLEFT | \
 		      KEY_CPAD_UP | KEY_CPAD_DOWN | KEY_CPAD_RIGHT | KEY_CPAD_LEFT | \
-		      KEY_A | KEY_B | KEY_L | KEY_R | KEY_SELECT)
+		      KEY_A | KEY_B | KEY_L | KEY_R | KEY_SELECT | KEY_Y)
 
 /* Auto-repeat for holding Up/Down (D-Pad or Circle Pad) down, so scrolling
  * through a page doesn't need repeated individual presses. Timings are in
@@ -402,6 +403,12 @@ void lynx3ds_trigger_swkbd(const char *prefix)
 #define REPEAT_INTERVAL 5	/* ~0.08s between repeats once it starts */
 
 #define TOUCH_SCROLL_STEP 6	/* px of drag per queued PGUP/PGDOWN */
+
+#define BOOKMARKS_DIM_AMOUNT 140	/* how far font_dim_screen() darkens the console behind the overlay */
+
+extern void LY3DS_goto_url(const char *url);	/* vendor/lynx/src/LYMainLoop.c */
+
+static void repaint(void);	/* forward decl -- defined below, needed here to redraw after the overlay closes */
 
 /* Poll 3DS hardware input until we have something to deliver, translating
  * it into the byte(s) Lynx's escape-sequence parser understands. */
@@ -434,6 +441,51 @@ static void poll_hardware_input(void)
 	    fflush(stdout);
 	    lynx3ds_present_frame();
 	    _exit(0);		/* bypass our own exit() override -- this quit is real, not a bug to freeze-and-debug */
+	}
+
+	/*
+	 * Bookmarks overlay: while open, this owns all input -- nothing
+	 * below (touch-drag scroll, Lynx key dispatch) should run, so Lynx
+	 * itself stays blocked in SLang_getkey() with the console paused,
+	 * exactly as if no key had been pressed at all.
+	 */
+	if (bookmarks_is_open()) {
+	    if (kDown & (KEY_Y | KEY_B)) {
+		bookmarks_close();
+		touch_active = 0;
+		repaint();	/* console framebuffer was never touched, just dimmed -- redraw to undo that */
+	    } else {
+		char url[512];
+		bookmarks_touch_result_t r;
+
+		if (kHeld & KEY_TOUCH) {
+		    touchPosition touch;
+
+		    hidTouchRead(&touch);
+		    r = bookmarks_handle_touch(1, touch.px, touch.py, url, sizeof(url));
+		} else {
+		    r = bookmarks_handle_touch(0, 0, 0, url, sizeof(url));
+		}
+		if (r == BOOKMARKS_TOUCH_NAVIGATE) {
+		    bookmarks_close();
+		    repaint();
+		    LY3DS_goto_url(url);	/* sets Lynx's own newdoc directly -- no prompt/keystrokes */
+		    keyq_push(0x0c);	/* Ctrl-L (LYK_REFRESH, a documented no-op) -- just advances
+					 * mainloop() back to its loop top, where it notices newdoc
+					 * changed and loads it, exactly as goto-URL would have */
+		    return;
+		}
+	    }
+	    gspWaitForVBlank();
+	    continue;
+	}
+
+	if (kDown & KEY_Y) {
+	    bookmarks_toggle();	/* only reachable while closed (see guard above) -- always opens */
+	    touch_active = 0;
+	    font_dim_screen(BOOKMARKS_DIM_AMOUNT);
+	    gspWaitForVBlank();
+	    continue;
 	}
 
 	/*

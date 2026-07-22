@@ -108,6 +108,22 @@ void font_draw_char(int x, int y, unsigned short color565, unsigned char c)
     }
 }
 
+/* Darkens the whole top screen toward black by `amount` (0 = unchanged,
+ * 255 = fully black) -- used to grey out the console behind the bookmarks
+ * overlay. Reuses apply_alpha565 as a straight per-channel scale-down:
+ * blending a pixel at alpha (255-amount) over black contributes nothing
+ * from black's own channels (all zero), so this is just apply_alpha565()
+ * called on the existing pixel, no separate blend step needed. */
+void font_dim_screen(unsigned char amount)
+{
+    unsigned short *fb = (unsigned short *) gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+    int keep = 255 - amount;
+    int i;
+
+    for (i = 0; i < FONT_SCREEN_W * FONT_SCREEN_H; i++)
+	fb[i] = apply_alpha565(fb[i], keep);
+}
+
 void font_fill_rect(int x0, int y0, int x1, int y1, unsigned short color565)
 {
     unsigned short *fb = (unsigned short *) gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);

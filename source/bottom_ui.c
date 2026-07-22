@@ -12,6 +12,7 @@
  * independent of whatever Lynx/the top screen is doing.
  */
 #include <bottom_ui.h>
+#include <bookmarks.h>
 #include <citro2d.h>
 #include <math.h>
 
@@ -52,7 +53,10 @@ static void bottom_ui_thread_main(void *arg)
 {
     (void) arg;
     while (ready) {
-	bottom_ui_render_once();
+	if (bookmarks_is_open())
+	    bookmarks_render_bottom(bottom_target);
+	else
+	    bottom_ui_render_once();
 	gspWaitForVBlank();
     }
 }

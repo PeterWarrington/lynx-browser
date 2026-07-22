@@ -727,6 +727,43 @@ static void do_check_goto_URL(bstring **user_input,
     }
 }
 
+#ifdef __3DS__
+/*
+ * Called directly from the 3DS bookmarks overlay (source/bookmarks.c) to
+ * navigate to a bookmarked URL, bypassing the interactive goto-URL prompt
+ * and the synthetic "g<url>\r" keystrokes do_check_goto_URL() above is
+ * normally driven by entirely. Mirrors that function's "found a good URL"
+ * branch: bookmarked URLs are always already-absolute addresses Lynx
+ * itself successfully loaded once before (to have been bookmarked), so
+ * the disallowed-scheme table and LYEnsureAbsoluteURL() above aren't
+ * needed here.
+ *
+ * Just updating newdoc is enough to make the load happen: mainloop()'s
+ * own `are_different(&curdoc, &newdoc)` check at the top of its event
+ * loop (the `while (TRUE)` loop further down this file) picks this up on
+ * its own and runs the real getfile()-based load -- but that check only
+ * runs once the loop advances past whatever key it's currently blocked
+ * waiting for, so the caller still needs to deliver one keypress to get
+ * there. LYK_REFRESH (Ctrl-L) is ideal for that: it's already a
+ * documented no-op ("Do nothing (refresh)") elsewhere in this file.
+ */
+void LY3DS_goto_url(const char *url)
+{
+    if (!url || !*url)
+	return;
+
+    set_address(&newdoc, url);
+    newdoc.isHEAD = FALSE;
+    if (are_different(&curdoc, &newdoc)) {
+	StrAllocCopy(newdoc.title, url);
+	LYFreePostData(&newdoc);
+	FREE(newdoc.bookmark);
+	newdoc.safe = FALSE;
+	newdoc.internal_link = FALSE;
+    }
+}
+#endif /* __3DS__ */
+
 /* returns FALSE if user cancelled input or URL was invalid, TRUE otherwise */
 static BOOL do_check_recall(int ch,
 			    bstring **user_input,

@@ -20,5 +20,6 @@ void font_render_init(void);
 int font_char_width(unsigned char c);
 void font_draw_char(int x, int y, unsigned short color565, unsigned char c);
 void font_fill_rect(int x0, int y0, int x1, int y1, unsigned short color565);
+void font_dim_screen(unsigned char amount);
 
 #endif /* LYNX3DS_FONT_RENDER_H */
