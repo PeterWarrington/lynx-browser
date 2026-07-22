@@ -37,7 +37,7 @@ EXCLUDE_C := Xsystem.c mktime.c strstr.c wcwidth.c tidy_tls.c makeuctb.c \
 # default devkitPro icon otherwise.
 #---------------------------------------------------------------------------------
 APP_TITLE       := Lynx 3DS
-APP_DESCRIPTION := A beautiful text-mode web browser.
+APP_DESCRIPTION := Lynx 3DS - beautiful text-mode browser
 APP_AUTHOR      := lilpete.me/lynx3ds
 
 #---------------------------------------------------------------------------------
@@ -199,7 +199,7 @@ cia: all
 	@echo building $(TARGET).cia ...
 	@tools/makerom -f cia -o $(TARGET).cia -rsf cia/template.rsf -target t -exefslogo \
 		-icon cia/build/icon.smdh -banner cia/build/banner.bnr -elf $(TARGET).elf \
-		-romfs cia/build/romfs.bin -major 0 -minor 2 -micro 5
+		-romfs cia/build/romfs.bin -major 2 -minor 0 -micro 0
 
 #---------------------------------------------------------------------------------
 else

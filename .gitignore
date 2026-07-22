@@ -6,3 +6,4 @@ build/
 *.cia
 cia/build/
 tools/
+.DS_Store
